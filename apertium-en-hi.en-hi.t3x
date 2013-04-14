@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<postchunk>
+  <section-def-cats>
+
+    
+    <def-cat n="inf">
+      <cat-item name="inf"/>
+   <!--   <cat-item name="inf_enc"/> -->
+    <!--  <cat-item name="subs_enc"/>-->
+  <!--    <cat-item name="inf_enc_enc"/>-->
+    </def-cat>
+    <def-cat n="inf_2">
+      <cat-item name="inf_inf"/>
+    </def-cat>
+
+
+    <def-cat n="inf_enc">
+      <cat-item name="inf_enc"/>
+      <cat-item name="subs_enc"/>
+    </def-cat>
+
+  <def-cat n="inf_enc_enc">
+      <cat-item name="inf_enc_enc"/>
+      <cat-item name="subs_enc_enc"/>
+    </def-cat>
+
+ <def-cat n="have_enc_pp">
+      <cat-item name="have_enc_pp"/>
+    </def-cat>
+
+ <def-cat n="have_enc_enc_pp">
+      <cat-item name="have_enc_enc_pp"/>
+    </def-cat>
+
+
+    <def-cat n="ger"> <!-- BCN -->
+      <cat-item name="ger"/>
+    </def-cat>
+
+    <def-cat n="ger_enc"> 
+      <cat-item name="ger_enc"/>
+    </def-cat>
+
+<def-cat n="ger_enc_enc"> 
+      <cat-item name="ger_enc_enc"/>
+    </def-cat>
+
+    <def-cat n="be">
+      <cat-item name="be"/>
+    </def-cat>
+
+    <def-cat n="nom">
+      <cat-item name="nom"/>
+    </def-cat>
+
+    <def-cat n="adj">
+      <cat-item name="adj"/>
+    </def-cat>
+
+    <def-cat n="nom_nom">
+      <cat-item name="nom_nom"/>
+    </def-cat>
+
+    <def-cat n="adj_nom">
+      <cat-item name="adj_nom"/>
+    </def-cat>
+
+    <def-cat n="adj_adj_nom">
+      <cat-item name="adj_adj_nom"/>
+    </def-cat>
+
+    <def-cat n="nom_i_nom">
+      <cat-item name="nom_conj_nom"/>
+    </def-cat>
+
+ 
+
+    <def-cat n="pottenirpronom">
+      <cat-item name="verbcj"/>
+      <cat-item name="verbcj_perif"/>
+      <cat-item name="pro_verbcj"/>
+      <cat-item name="pro_verbcj_perif"/>
+      <cat-item name="auxmod_inf"/>
+      <cat-item name="mod_inf"/>
+    <!--  <cat-item name="have_pp"/> ho posarem a part com a prova-->
+   <!--   <cat-item name="be_ger"/> -->
+      <cat-item name="auxmod_mod_inf"/>
+      <cat-item name="auxmod_have_pp"/>
+      <cat-item name="mod_inf_perif"/>
+      <cat-item name="pro_be_ger"/>
+      <cat-item name="pro_auxmod_inf"/>
+      <cat-item name="pro_mod_inf"/>
+      <cat-item name="pro_have_pp"/>
+      <cat-item name="pro_do_inf"/> 
+      <cat-item name="pro_mod_inf_perif"/>
+      <cat-item name="pro_auxmod_mod_inf"/>
+      <cat-item name="pro_auxmod_have_pp"/>
+    </def-cat>   
+
+<def-cat n="pottenirenclitic"><!--MG: canviar tot això pel nou mecanisme, sense mlu en el t1x, i aquí fabricar les mlu -->
+      <cat-item name="verbcj_inf_perif"/>
+      <cat-item name="verbcj_inf"/>
+      <cat-item name="auxmod_inf_inf"/>
+      <cat-item name="have_pp_inf"/>
+      <cat-item name="be_inf_inf"/>
+</def-cat>
+    <def-cat n="nom_genitiu_nom">
+<cat-item name="nom_genitiu_nom"/>
+</def-cat>
+    <def-cat n="det_nom_genitiu_nom">
+<cat-item name="det_nom_genitiu_nom"/>
+</def-cat>
+    <def-cat n="nom_genitiu_adj_nom">
+<cat-item name="nom_genitiu_adj_nom"/>
+</def-cat>
+    <def-cat n="det_nom_genitiu_det_nom">
+<cat-item name="det_nom_genitiu_det_nom"/>
+</def-cat>
+    <def-cat n="det_nom_genitiu_adj_nom">
+<cat-item name="det_nom_genitiu_adj_nom"/>
+</def-cat>
+    <def-cat n="det_nom_genitiu_num_nom">
+<cat-item name="det_nom_genitiu_num_nom"/>
+</def-cat>
+    <def-cat n="adj_nom_genitiu_nom">
+<cat-item name="adj_nom_genitiu_nom"/>
+</def-cat>
+    <def-cat n="nom_genitiu_nom_nom">
+<cat-item name="nom_genitiu_nom_nom"/>
+</def-cat>
+    <def-cat n="nom_genitiu_nom_nom_nom">
+<cat-item name="nom_genitiu_nom_nom_nom"/>
+</def-cat>
+    <def-cat n="det_adj_nom_genitiu_nom">
+<cat-item name="det_adj_nom_genitiu_nom"/>
+</def-cat>
+  <def-cat n="have_pp">
+      <cat-item name="have_pp"/>
+    </def-cat>
+
+ <def-cat n="be_ger">
+      <cat-item name="be_ger"/>
+    </def-cat>
+<def-cat n="be_ger_enc">
+      <cat-item name="be_ger_enc"/>
+    </def-cat>
+
+<def-cat n="be_ger_inf">
+      <cat-item name="be_ger_inf"/>
+      <cat-item name="auxmod_inf_inf"/>
+      <cat-item name="have_pp_inf"/>
+    </def-cat>
+
+    <def-cat n="verbcj_inf">
+      <cat-item name="verbcj_inf"/>
+    </def-cat>
+    
+    <def-cat n="verbcj_inf_enc">
+      <cat-item name="verbcj_inf_enc"/>
+    </def-cat>
+
+  <def-cat n="auxmod_have_pp_inf">
+      <cat-item name="auxmod_have_pp_inf"/>
+    </def-cat>
+
+    <def-cat n="pro_vblike">
+      <cat-item name="pro_vblike"/>
+    </def-cat>
+    <def-cat n="pro_vblike2">
+      <cat-item name="pro_vblike2"/>
+    </def-cat>
+    <def-cat n="pro_vblike3">
+      <cat-item name="pro_vblike3"/>
+    </def-cat>
+
+    <def-cat n="hi">
+      <cat-item name="hi"/>
+    </def-cat>
+
+  </section-def-cats>
+
+  <section-def-attrs>
+
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="case">
+      <attr-item tags="o"/>
+      <attr-item tags="d"/>
+    </def-attr>
+
+    <def-attr n="tipus_verb">
+      <attr-item tags="SV.pron"/>
+      <attr-item tags="SV"/>
+    </def-attr>
+    
+    <def-attr n="temps">
+      <attr-item tags="cni"/>
+      <attr-item tags="fti"/>  
+      <attr-item tags="ifi"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="subs"/>
+      <attr-item tags="ifip"/>
+    </def-attr>
+
+    <def-attr n="a_SN">
+      <attr-item tags="DET"/>
+      <attr-item tags="UNDET"/>
+      <attr-item tags="NUM"/>
+      <attr-item tags="PDET"/><!--'Per determinar', per a SN UNDET que han de passar a determinats, transformació que farà el postchunk detectant els PDET. -->
+    </def-attr>
+
+
+    <def-attr n="a_preadv"><!--BCN (per generar bé els adj_nom quan hi ha comparatius/superlatius-->
+      <attr-item tags="preadv"/>	  
+    </def-attr>
+
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>	  
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="HAVER"/>
+    </def-attr>
+
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="np"/> 
+    </def-attr>
+
+    <def-attr n="a_np">
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.al"/> 
+    </def-attr>
+
+    <def-attr n="a_prnpro">
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+    </def-attr>
+
+     <def-attr n="a_prnenc">
+      <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.enc.ref"/>
+    </def-attr>
+
+<def-attr n="a_prn">
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+      <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.enc.ref"/>
+    </def-attr>
+
+  <def-attr n="a_ref">
+      <attr-item tags="ref"/>
+    </def-attr> 
+
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="paraula"/>
+    <def-var n="genero"/>
+    <def-var n="numero"/>
+    <def-var n="lemvar"/>
+  </section-def-vars>
+
+
+  <section-def-macros>
+
+    <def-macro n="prasargkA" npar="2">
+        <choose>
+         <when>
+          <test>
+           <equal>
+            <clip pos="2" part="vibhakthi"/>
+            <lit v=""/>
+           </equal>
+          </test>
+        <let>
+             <clip pos="1" part="case"/>
+             <lit-tag v="d"/>
+        </let>
+        </when>
+        <otherwise>
+         <let>
+             <clip pos="1" part="case"/>
+             <lit-tag v="o"/>
+         </let>
+        </otherwise>
+        </choose>
+
+      <choose>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="nbr"/>
+             <lit-tag v="sg"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="kA"/>
+        </let>
+      </when>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="nbr"/>
+             <lit-tag v="pl"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="ke"/>
+        </let>
+      </when>
+         <when>
+          <test>
+	<and>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="case"/>
+             <lit-tag v="o"/>
+            </equal>
+	</and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="ke"/>
+        </let>
+      </when>
+         <when>
+          <test>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="f"/>
+            </equal>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="kI"/>
+        </let>
+      </when>
+     </choose>
+    </def-macro>
+		 
+	    
+
+  </section-def-macros>
+
+  <section-rules>
+
+
+<rule comment="CHUNK: nom_genitiu_nom">
+<pattern>
+<pattern-item n="nom_genitiu_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="2"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_nom"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+            <clip pos="1" part="case"/>   
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_nom"/>
+            <clip pos="3" part="gen"/>
+            <clip pos="3" part="nbr"/>
+            <clip pos="3" part="case"/>  
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: det_nom_genitiu_nom">
+<pattern>
+<pattern-item n="det_nom_genitiu_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="3"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="2" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="4" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_nom"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="case"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="a_nom"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: nom_genitiu_adj_nom">
+<pattern>
+<pattern-item n="nom_genitiu_adj_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="2"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_nom"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+            <clip pos="1" part="case"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_adj"/>
+            <clip pos="3" part="gen"/>
+            <clip pos="3" part="nbr"/>
+            <clip pos="3" part="case"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="a_nom"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: det_nom_genitiu_det_nom">
+<pattern>
+<pattern-item n="det_nom_genitiu_det_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="3"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="2" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_nom"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="case"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+          </lu>
+          <b pos="4"/>
+          <lu>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="a_nom"/>
+            <clip pos="5" part="gen"/>
+            <clip pos="5" part="nbr"/>
+            <clip pos="5" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: det_nom_genitiu_adj_nom">
+<pattern>
+<pattern-item n="det_nom_genitiu_adj_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="3"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="2" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_nom"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="case"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="a_adj"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="case"/>
+          </lu>
+          <b pos="4"/>
+          <lu>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="a_nom"/>
+            <clip pos="5" part="gen"/>
+            <clip pos="5" part="nbr"/>
+            <clip pos="5" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: det_nom_genitiu_num_nom">
+<pattern>
+<pattern-item n="det_nom_genitiu_num_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="3"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="2" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_nom"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="case"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="nbr"/>
+          </lu>
+          <b pos="4"/>
+          <lu>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="a_nom"/>
+            <clip pos="5" part="gen"/>
+            <clip pos="5" part="nbr"/>
+            <clip pos="5" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: adj_nom_genitiu_nom">
+<pattern>
+<pattern-item n="adj_nom_genitiu_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="3"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="2" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="4" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_adj"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+            <clip pos="1" part="case"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_nom"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="case"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="a_nom"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: nom_genitiu_nom_nom">
+<pattern>
+<pattern-item n="nom_genitiu_nom_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="2"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_nom"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+            <clip pos="1" part="case"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_nom"/>
+            <clip pos="3" part="gen"/>
+            <clip pos="3" part="nbr"/>
+            <clip pos="3" part="case"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="a_nom"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: nom_genitiu_nom_nom_nom">
+<pattern>
+<pattern-item n="nom_genitiu_nom_nom_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="2"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_nom"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+            <clip pos="1" part="case"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_nom"/>
+            <clip pos="3" part="gen"/>
+            <clip pos="3" part="nbr"/>
+            <clip pos="3" part="case"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="a_nom"/>
+            <clip pos="4" part="gen"/>
+            <clip pos="4" part="nbr"/>
+            <clip pos="4" part="case"/>
+          </lu>
+          <b pos="4"/>
+          <lu>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="a_nom"/>
+            <clip pos="5" part="gen"/>
+            <clip pos="5" part="nbr"/>
+            <clip pos="5" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="CHUNK: det_adj_nom_genitiu_nom">
+<pattern>
+<pattern-item n="det_adj_nom_genitiu_nom"/>
+      </pattern>
+      <action>
+        <call-macro n="prasargkA">
+          <with-param pos="3"/>
+          <with-param pos="0"/>
+        </call-macro>
+<choose>
+<when>
+<test>
+<not>
+<equal>
+<clip pos="0" part="vibhakthi"/>
+<lit v=""/>
+</equal>
+</not>
+</test>
+<let>
+          <clip pos="3" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+        <let>
+          <clip pos="5" part="case"/>
+          <lit-tag v="o"/>
+</let>
+</when>
+</choose>
+        <out>
+          <lu>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_adj"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="case"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_nom"/>
+            <clip pos="3" part="gen"/>
+            <clip pos="3" part="nbr"/>
+            <clip pos="3" part="case"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <var n="lemvar"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="a_nom"/>
+            <clip pos="5" part="gen"/>
+            <clip pos="5" part="nbr"/>
+            <clip pos="5" part="case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+  </section-rules>
+</postchunk>

@@ -1,0 +1,18 @@
+TRANSLATOR
+
+These are the linguistic data for the Apertium English-Hindi machine translator. 
+You need apertium-3.1 and lttoolbox-3.1.1 to use this translator.
+
+To compile the linguistical data simply do:
+
+$ ./configure
+
+to generate a Makefile file and then
+
+$ make
+
+inside this directory.
+
+and
+
+$ sudo make install

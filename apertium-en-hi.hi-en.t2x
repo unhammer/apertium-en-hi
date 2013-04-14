@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<interchunk>
+  <section-def-cats>
+
+    <def-cat n="noun">
+      <cat-item tags="NP.*"/>
+       <cat-item tags="NP"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="VP.*"/> 
+       <cat-item tags="VP"/>   
+    </def-cat>
+    <def-cat n="preposition">
+       <cat-item tags="PP"/>
+      <cat-item tags="PP.*"/>    
+    </def-cat>
+    <def-cat n="of_prep">
+       <cat-item tags="PP_of"/>
+    </def-cat>
+    <def-cat n="adverb">
+       <cat-item tags="ADVP"/>
+      <cat-item tags="ADVP.*"/>
+    </def-cat>
+    <def-cat n="adjective">
+       <cat-item tags="ADJP"/>
+      <cat-item tags="ADJP.*"/>
+    </def-cat>
+    <def-cat n="conjunction">
+       <cat-item tags="CNJ"/>
+      <cat-item tags="CNJ.*"/>
+    </def-cat>
+
+    <def-cat n="SN">
+      <cat-item tags="SN.*"/>
+      <cat-item lemma="relnom" tags="REL.*"/>
+    </def-cat>
+
+     <def-cat n="SNnorel">
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    
+    <def-cat n="SNnopro"><!-- BCN-->
+      <cat-item tags="SN.DET.*"/>
+      <cat-item tags="SN.UNDET.*"/>
+    </def-cat>
+    
+    <def-cat n="negacio"><!-- BCN-->
+      <cat-item tags="SN.DET.*.*.negacio"/>
+    </def-cat>
+    
+    <def-cat n="pr">
+      <cat-item tags="PREP"/>
+    </def-cat>
+    
+    <def-cat n="and">
+      <cat-item lemma="cnj" tags="cnjcoo"/>
+    </def-cat>
+    
+
+    <def-cat n="SN_nopron">
+      <cat-item tags="SN.DET.*"/>
+      <cat-item tags="SN.UNDET.*"/>
+      <cat-item tags="SN.NUM.*"/>
+    </def-cat>
+
+    <def-cat n="SNundet">
+      <cat-item tags="SN.UNDET.*"/>
+    </def-cat>
+
+    <def-cat n="SV"><!--Verb conjugat, i tb infinitiu per quan el tagger s'equivoca. -->
+      <cat-item lemma="verbcj" tags="SV.*"/>
+      <cat-item tags="Vcop.*"/>
+      <cat-item lemma="mod" tags="SV.*"/><!--MG: I have to <sent> : no deixar-ho penjat (haig de 'fer-ho'). En canvi : 'I have to <desconeguda>: sí que és 'haig de'. -->
+      <cat-item lemma="auxmod_inf" tags="SV.*"/>
+      <cat-item lemma="auxmod_inf_inf" tags="SV.*"/><!--BCN-->
+      <cat-item lemma="be_ger_inf" tags="SV.*"/> <!--BCN-->
+      <cat-item lemma="verbcj_inf" tags="SV.*"/>
+      <cat-item lemma="verbcj_inf_perif" tags="SV.*"/>
+      <cat-item lemma="verbcj_inf_enc" tags="SV.*"/>
+      <cat-item lemma="auxmod_mod_inf" tags="SV.*"/>
+      <cat-item lemma="do_inf" tags="SV.*"/>
+      <cat-item lemma="mod_inf" tags="SV.*"/>
+      <cat-item lemma="mod_perif" tags="SV.*"/>
+      <cat-item lemma="mod_inf_perif" tags="SV.*"/>
+      <cat-item lemma="aux_mod" tags="SV.*"/><!--Aquests van davant desconegudes o sent (I will have to.) -->
+      <cat-item lemma="have_pp" tags="SV.*"/>
+      <cat-item lemma="have_pp_inf" tags="SV.*"/><!-- BCN-->
+      <cat-item lemma="auxmod_have_pp" tags="SV.*"/>
+      <cat-item lemma="pro_auxmod_have_pp" tags="SV.*"/>
+      <cat-item lemma="auxmod_have_pp_inf" tags="SV.*"/>
+      <cat-item lemma="be_ger" tags="SV.*"/>
+      <cat-item lemma="be_ger_enc" tags="SV.*"/>
+      <cat-item tags="SV.vblex.inf.*"/>
+      <cat-item tags="SV.pron.inf.*"/><!--afegit 16-01-2008 -->
+      <cat-item tags="SV.vbmod.inf.*"/>
+      <cat-item lemma="verbcj_perif" tags="SV.*"/>
+      <cat-item lemma="pro_verbcj" tags="SV.*"/>
+      <cat-item lemma="pro_verbcj_perif" tags="SV.*"/>
+      <cat-item lemma="pro_auxmod_inf" tags="SV.*"/>
+      <cat-item lemma="pro_mod_inf" tags="SV.*"/>
+      <cat-item lemma="pro_mod_inf_perif" tags="SV.*"/>
+      <cat-item lemma="pro_auxmod_mod_inf" tags="SV.*"/>
+      <cat-item lemma="pro_have_pp" tags="SV.*"/>
+      <cat-item lemma="pro_be_ger" tags="SV.*"/>
+      <cat-item lemma="pro_do_inf" tags="SV.*"/>
+      <cat-item tags="SV.reporting.inf.*"/>
+      <cat-item tags="SV.reporting.pri.*"/>
+      <cat-item tags="SV.reporting.cni.*"/>
+      <cat-item tags="SV.reporting.ifip.*"/>
+      <cat-item tags="SV.reporting.fti*"/>
+      <cat-item tags="SV.reporting.pii*"/>
+      
+    </def-cat>
+    
+    <def-cat n="SVGER"><!-- BCN. Per ara no entren els compostos amb have (having won)-->
+      <cat-item lemma="ger" tags="SV.*"/>
+      <cat-item lemma="ger_enc" tags="SV.*"/>
+      <cat-item lemma="ger_enc_enc" tags="SV.*"/>
+    </def-cat>
+    
+  
+    
+    <def-cat n="vblike">
+      <cat-item tags="SV.like.*"/>
+    </def-cat>
+    
+    <def-cat n="vbreporting"><!-- BCN-->
+      <cat-item tags="SV.reporting.*"/>
+    </def-cat>
+    
+    <def-cat n="there">
+      <cat-item lemma="there" tags="adv"/>
+    </def-cat>
+
+    <def-cat n="thereis">
+      <cat-item lemma="be" tags="Vcop.*"/>
+      <cat-item lemma="verbcj" tags="SV.vbser.*"/>
+      <cat-item lemma="auxmod_inf" tags="SV.vbser.*"/>
+      <cat-item lemma="auxmod_mod_inf" tags="SV.vbser.*"/>
+      <cat-item lemma="auxmod_have_pp" tags="SV.vbser.*"/>
+      <cat-item lemma="mod_inf" tags="SV.vbser.*"/>
+      <cat-item lemma="mod_inf_perif" tags="SV.vbser.*"/>
+      <cat-item lemma="have_pp" tags="SV.vbser.*"/>
+      <cat-item lemma="verbcj_perif" tags="SV.vbser.*"/> 
+    </def-cat>
+
+
+    <def-cat n="pro_vblike">
+      <cat-item lemma="pro_verbcj" tags="SV.like.*"/>
+      <cat-item lemma="pro_verbcj_perif" tags="SV.like.*"/>
+      <cat-item lemma="pro_auxmod_inf" tags="SV.like.*"/>
+      <cat-item lemma="pro_mod_inf" tags="SV.like.*"/>
+      <cat-item lemma="pro_mod_inf_perif" tags="SV.like.*"/>
+      <cat-item lemma="pro_auxmod_mod_inf" tags="SV.like.*"/>
+      <cat-item lemma="pro_have_pp" tags="SV.like.*"/>
+      <cat-item lemma="pro_be_ger" tags="SV.like.*"/>
+      <cat-item lemma="pro_do_inf" tags="SV.like.*"/>
+    </def-cat>
+
+    <def-cat n="ADV">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+    </def-cat>
+
+   
+    <def-cat n="SA">
+      <cat-item tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="pp">
+      <cat-item lemma="pp"  tags="SA.*"/>
+      <cat-item lemma="adj"  tags="SA.*"/><!-- BCN per que agafi bé resolutions adopted -->
+    </def-cat>
+
+
+    <def-cat n="adj">
+      <cat-item lemma="adj"  tags="SA.*"/>
+      <cat-item lemma="np_pp"  tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="DET">
+      <cat-item tags="DET.*"/>
+    </def-cat>
+
+   
+    <def-cat n="RELAN">
+      <cat-item tags="REL.an.*"/>
+      <!--<cat-item tags="SN.an.*"/>-->
+    </def-cat>
+    
+    <def-cat n="NUM">
+      <cat-item tags="NUM.*"/>
+    </def-cat>
+
+    <def-cat n="punt">
+      <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="cnjcoo"> 
+      <cat-item tags="cnjcoo"/>
+    </def-cat>
+
+  </section-def-cats>
+
+  <section-def-attrs>
+
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="case">
+      <attr-item tags="d"/>
+      <attr-item tags="o"/>
+      <attr-item tags="CD"/>
+    </def-attr>
+
+    <def-attr n="subj_vibhakthi">
+      <attr-item tags="parsarg:ko"/>
+    </def-attr>
+
+
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="ifip"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="subs"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="prs"/>
+      
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>	  
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="HAVER"/>
+    </def-attr>
+    
+    <def-attr n="a_SN">
+      <attr-item tags="DET"/>
+      <attr-item tags="UNDET"/>
+      <attr-item tags="NUM"/>
+      <attr-item tags="PDET"/><!--'Per determinar', per a SN UNDET que han de passar a determinats, transformació que farà el postchunk detectant els PDET. -->
+    </def-attr>
+
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="uno"/>
+    <def-var n="nbrvar"/>
+    <def-var n="genvar"/>
+    <def-var n="vibhakthi"/>
+    <def-var n="persvar"/>
+    <def-var n="lemvar"/>
+  </section-def-vars>
+
+  <section-def-macros>
+
+    <def-macro n="vibhakthi_init" npar="1">
+      <choose>
+	<when>
+	  <test>
+	      <equal>
+		<clip pos="1" part="subj_vibhakthi"/>
+		<lit-tag v="parsarg:ko"/>
+	      </equal>
+	  </test>
+		<let>
+		 <var n ="vibhakthi"/>
+                 <lit v="ko"/>
+		</let>
+	</when>     	    
+      </choose>
+    </def-macro>
+
+
+  </section-def-macros>
+
+  <section-rules>
+    
+
+    <!--REGLES LÈXIQUES: definides en primer lloc perquè si no es posen per altres regles -->
+
+<rule comment="REGLA: NP (Eg:apple)">
+      <pattern>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+<!--          <var n="vibhakthi"/>-->
+         </chunk>
+        </out>
+        <let>
+          <var n="nbrvar"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <var n="persvar"/>
+          <clip pos="1" part="pers"/>
+        </let>
+        <let>
+          <var n="genvar"/>
+          <clip pos="1" part="gen"/>
+        </let>
+      </action>
+</rule>
+
+<rule comment="REGLA: VP (Eg: ate)">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+<!--        <let>
+          <clip pos="1" part="gen"/>
+          <var n="genvar"/>
+        </let>
+        <let>
+          <clip pos="1" part="nbr"/>
+          <var n="nbrvar"/>
+        </let>
+        <let>
+          <var n="vibhakthi"/>
+          <clip pos="1" part="subj_vibhakthi"/>
+        </let>      -->
+        <out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+
+<rule comment="REGLA: VP NP (Eg:man ate apple)">
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+<when>
+    <test>
+	<and>
+     <equal>
+        <var n="genvar"/>
+        <lit v=""/>
+     </equal>
+     <equal>
+        <var n="nbrvar"/>
+        <lit v=""/>
+     </equal>
+	</and>
+    </test>
+        <out>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="1" part="gen"/>
+          <var n="genvar"/>
+        </let>
+        <let>
+          <clip pos="1" part="nbr"/>
+          <var n="nbrvar"/>
+        </let>
+        <let>
+          <var n="genvar"/>
+          <clip pos="2" part="gen"/>
+        </let>
+        <let>
+          <var n="nbrvar"/>
+          <clip pos="2" part="nbr"/>
+        </let>
+        <out>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+         <b pos="1"/> 
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+	</otherwise>
+	</choose>
+      </action>
+</rule>
+
+<rule comment="REGLA: NP VP (Eg:the man ate)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="2" part="subj_vibhakthi"/>
+<lit v=""/>
+</equal>
+</test>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+<out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+</out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+        <let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="1" part="lem"/>
+<lit v="pronoun"/>
+</equal>
+</test>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <call-macro n="vibhakthi_init">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+        <lit v="{^"/>
+        <var n="vibhakthi"/>
+        <lit v="$}"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+      </action>
+</rule>
+
+<rule comment="REGLA: NP VP ADVP(Eg:the man ate soon)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="adverb"/>
+      </pattern>
+      <action>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="2" part="subj_vibhakthi"/>
+<lit v=""/>
+</equal>
+</test>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+<out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+         <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+         <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+</out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+        <let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="1" part="lem"/>
+<lit v="pronoun"/>
+</equal>
+</test>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+         <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <call-macro n="vibhakthi_init">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+        <lit v="{^"/>
+        <var n="vibhakthi"/>
+        <lit v="$}"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+      </action>
+</rule>
+
+
+<rule comment="REGLA: NP VP NP (Eg:man ate apple)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="2" part="subj_vibhakthi"/>
+<lit v=""/>
+</equal>
+</test>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+<out> 
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+</out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="3" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="3" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="3" part="pers"/>
+        </let>
+        <let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="1" part="lem"/>
+<lit v="pronoun"/>
+</equal>
+</test>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <call-macro n="vibhakthi_init">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+	  <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+	<lit v="{^"/>
+	<var n="vibhakthi"/>
+        <lit v="$}"/>
+         </chunk>
+	<b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+	 <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+      </action>
+</rule>
+
+<rule comment="REGLA: PP NP (Eg: )">
+      <pattern>
+        <pattern-item n="preposition"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <out>
+         <chunk>
+          <clip pos="2" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule> 
+<rule comment="REGLA: NP OF NP (Eg: )">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="of_prep"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="nbr"/>
+             <lit-tag v="sg"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^kA$}"/>
+        </let>
+	</when>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="nbr"/>
+             <lit-tag v="pl"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^ke$}"/>
+        </let>
+      </when>
+         <when>
+          <test>
+	<and>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="1" part="case"/>
+             <lit-tag v="o"/>
+            </equal>
+	</and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^ke$}"/>
+        </let>
+      </when>
+         <when>
+          <test>
+            <equal>
+             <clip pos="1" part="gen"/>
+             <lit-tag v="f"/>
+            </equal>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^kI$}"/>
+        </let>
+      </when>
+</choose>
+        <out>
+         <chunk>
+          <clip pos="3" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="2" part="lem"/>
+            <var n="lemvar"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+
+<rule comment="REGLA: NP VP NP OF NP (Eg:I heard the sound of rain )">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+        <pattern-item n="of_prep"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="3" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="3" part="nbr"/>
+             <lit-tag v="sg"/>
+            </equal>
+            <equal>
+             <clip pos="3" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^kA$}"/>
+        </let>
+        </when>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="3" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="3" part="nbr"/>
+             <lit-tag v="pl"/>
+            </equal>
+            <equal>
+             <clip pos="3" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^ke$}"/>
+        </let>
+      </when>
+         <when>
+          <test>
+        <and>
+            <equal>
+             <clip pos="3" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="3" part="case"/>
+             <lit-tag v="o"/>
+            </equal>
+        </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^ke$}"/>
+        </let>
+      </when>
+         <when>
+          <test>
+            <equal>
+             <clip pos="3" part="gen"/>
+             <lit-tag v="f"/>
+            </equal>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^kI$}"/>
+        </let>
+      </when>
+</choose>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="2" part="subj_vibhakthi"/>
+<lit v=""/>
+</equal>
+</test>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+<out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="5" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="4" part="lem"/>
+            <var n="lemvar"/>
+        </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+</out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="3" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="3" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="3" part="pers"/>
+        </let>
+        <let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="1" part="lem"/>
+<lit v="pronoun"/>
+</equal>
+</test>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="5" part="whole"/>
+        </chunk>
+         <b/>
+        <chunk>
+          <clip pos="4" part="lem"/>
+            <var n="lemvar"/>
+        </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <call-macro n="vibhakthi_init">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+        <lit v="{^"/>
+        <var n="vibhakthi"/>
+        <lit v="$}"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="5" part="whole"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <clip pos="4" part="lem"/>
+            <var n="lemvar"/>
+        </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+</action>
+</rule>
+
+
+<rule comment="REGLA: NP VP NP PP NP (Eg:I heard the sound of rain )">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+        <pattern-item n="preposition"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="2" part="subj_vibhakthi"/>
+<lit v=""/>
+</equal>
+</test>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+<out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="5" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="4" part="whole"/>
+        </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+</out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="3" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="3" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="3" part="pers"/>
+        </let>
+        <let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="1" part="lem"/>
+<lit v="pronoun"/>
+</equal>
+</test>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="5" part="whole"/>
+        </chunk>
+         <b/>
+        <chunk>
+          <clip pos="4" part="whole"/>
+        </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <call-macro n="vibhakthi_init">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+        <lit v="{^"/>
+        <var n="vibhakthi"/>
+        <lit v="$}"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="5" part="whole"/>
+        </chunk>
+        <b/>
+        <chunk>
+          <clip pos="4" part="whole"/>
+        </chunk>
+        <b/>
+         <chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        <b/>
+         <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+</action>
+</rule>
+
+
+
+<rule comment="REGLA: VP NP OF NP (Eg: slipped into the lanes of Calcutta )">
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+        <pattern-item n="of_prep"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="2" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="2" part="nbr"/>
+             <lit-tag v="sg"/>
+            </equal>
+            <equal>
+             <clip pos="2" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^kA$}"/>
+        </let>
+	</when>
+         <when>
+          <test>
+           <and>
+            <equal>
+             <clip pos="2" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="2" part="nbr"/>
+             <lit-tag v="pl"/>
+            </equal>
+            <equal>
+             <clip pos="2" part="case"/>
+             <lit-tag v="d"/>
+            </equal>
+          </and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^ke$}"/>
+        </let>
+      </when>
+         <when>
+          <test>
+	<and>
+            <equal>
+             <clip pos="2" part="gen"/>
+             <lit-tag v="m"/>
+            </equal>
+            <equal>
+             <clip pos="2" part="case"/>
+             <lit-tag v="o"/>
+            </equal>
+	</and>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^ke$}"/>
+        </let>
+      </when>
+         <when>
+          <test>
+            <equal>
+             <clip pos="2" part="gen"/>
+             <lit-tag v="f"/>
+            </equal>
+         </test>
+        <let>
+            <var n="lemvar"/>
+                <lit v="{^kI$}"/>
+        </let>
+      </when>
+</choose>
+        <out>
+         <chunk>
+          <clip pos="4" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="3" part="lem"/>
+            <var n="lemvar"/>
+	</chunk>
+         <b pos="2"/>
+	<chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+	</out>
+      </action>
+</rule>
+
+
+<rule comment="REGLA: PP VP (Eg: )">
+      <pattern>
+        <pattern-item n="preposition"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="2" part="gen"/>
+          <var n="genvar"/>
+        </let>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <var n="nbrvar"/>
+        </let>
+
+        <out>
+         <chunk>
+          <clip pos="2" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+
+<rule comment="REGLA: NP ADVP VP NP (Eg:they also bought a new house)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="adverb"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="2" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="4" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="3" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+<rule comment="REGLA: NP VP NP ADVP(Eg:they fetched a good price too)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="noun"/>
+        <pattern-item n="adverb"/>
+      </pattern>
+      <action>
+        <out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="4" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="3" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+<rule comment="REGLA: VP ADVP(Eg: ran out)">
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="adverb"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" part="gen"/>
+          <var n="genvar"/>
+        </let>
+        <let>
+          <clip pos="1" part="nbr"/>
+          <var n="nbrvar"/>
+        </let>
+        <out>
+         <chunk>
+          <clip pos="2" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+<rule comment="REGLA: NP VP PP NP(Eg: he looked through the glass)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="preposition"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="2" part="subj_vibhakthi"/>
+<lit v=""/>
+</equal>
+</test>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="1" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="1" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="1" part="pers"/>
+        </let>
+
+        <out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+        </chunk>
+	 <b pos="1"/>
+	<chunk>
+          <clip pos="4" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="3" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <let>
+          <clip pos="2" part="nbr"/>
+          <clip pos="3" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="2" part="gen"/>
+          <clip pos="3" part="gen"/>
+        </let>
+        <let>
+          <clip pos="2" part="pers"/>
+          <clip pos="3" part="pers"/>
+        </let>
+        <let>
+          <clip pos="1" part="case"/>
+          <lit-tag v="o"/>
+        </let>
+<choose>
+<when>
+<test>
+<equal>
+<clip pos="1" part="lem"/>
+<lit v="pronoun"/>
+</equal>
+</test>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="4" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="3" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</when>
+<otherwise>
+        <call-macro n="vibhakthi_init">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+         <chunk>
+          <clip pos="1" part="lem"/>
+          <clip pos="1" part="tags"/>
+          <clip pos="2" part="subj_vibhakthi"/>
+          <clip pos="1" part="chcontent"/>
+         </chunk>
+        <b/>
+         <chunk>
+        <lit v="{^"/>
+        <var n="vibhakthi"/>
+        <lit v="$}"/>
+         </chunk>
+        <b/>
+        <chunk>
+          <clip pos="4" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="3" part="whole"/>
+        </chunk>
+         <b pos="1"/>
+        <chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+      </action>
+</rule>
+
+<rule comment="REGLA: VP ADJP(Eg: the sky was dark)">
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="adjective"/>
+      </pattern>
+      <action>
+        <out>
+	<chunk>
+          <clip pos="2" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="1" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+<rule comment="REGLA: NP VP ADVP VP(Eg: it was about to rain)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="adverb"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <out>
+         <chunk>
+          <clip pos="1" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="4" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="3" part="whole"/>
+	</chunk>
+         <b pos="1"/>
+	<chunk>
+          <clip pos="2" part="whole"/>
+         </chunk>
+        </out>
+      </action>
+</rule>
+ </section-rules>
+</interchunk>
+ 

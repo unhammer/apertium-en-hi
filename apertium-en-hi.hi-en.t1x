@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<transfer default="chunk">
+  <section-def-cats>
+        <def-cat n="verb">
+                <cat-item tags="vblex.*"/>
+                <cat-item tags="vbser.*"/>
+                <cat-item tags="vbhaver.*"/>
+               <!-- <cat-item tags="vbmod.*"/>-->
+        </def-cat>
+	<def-cat n="pronoun">
+		<cat-item tags="prn.*"/>
+	</def-cat>
+    <def-cat n="unknown">
+      <cat-item tags=""/>
+    </def-cat>
+    <def-cat n="to">
+      <cat-item lemma="to" tags="pr"/>
+    </def-cat>
+	<def-cat n="could">
+      <cat-item lemma="could" tags="vblex.pres"/>
+    </def-cat>
+	
+	 <def-cat n="use">
+      <cat-item lemma="use" tags="vblex.inf"/>
+	<cat-item lemma="use" tags="vblex.pp"/>
+	<cat-item lemma="use" tags="vblex.past"/>
+    </def-cat>
+	 <def-cat n="need">
+      <cat-item lemma="need" tags="vblex.pres"/>
+	 <cat-item lemma="need" tags="vblex.inf"/>
+    </def-cat>
+ <def-cat n="did">
+      <cat-item lemma="do" tags="vbdo.past"/>
+    </def-cat>
+<!--<def-cat n="does">
+      <cat-item lemma="do" tags="vbdo.pri.*"/>
+    </def-cat>-->
+
+<def-cat n="should"> 
+      <cat-item lemma="should" tags="vaux.inf"/> 
+    </def-cat>
+
+<def-cat n="might">
+      <cat-item lemma="might" tags="vaux.*"/>
+    </def-cat>
+<def-cat n="must"> 
+      <cat-item lemma="must" tags="vaux.inf"/>
+	  <cat-item lemma="must" tags="vblex.pres"/> 
+    </def-cat>
+	<def-cat n="just"> 
+      <cat-item lemma="just" tags="adv"/> 
+    </def-cat>
+
+	<def-cat n="help">
+      <cat-item lemma="help" tags="vblex.inf"/>
+    </def-cat>
+
+	<def-cat n="does">
+      <cat-item lemma="do" tags="vbdo.pri.*"/>
+    </def-cat>
+    <def-cat n="born">
+      <!--BCN-->
+      <cat-item lemma="born" tags="vblex.pri"/>
+    </def-cat>
+    <def-cat n="can">
+      <!--BCN-->
+      <cat-item lemma="can" tags="vaux.pres"/>
+      <cat-item lemma="can" tags="vaux.past"/>
+       </def-cat>
+	<def-cat n="not">
+      <!--BCN-->
+      <cat-item lemma="not" tags="adv"/>
+    </def-cat>
+     <def-cat n="never">
+      <cat-item lemma="never" tags="adv"/>
+    </def-cat>
+   <def-cat n="against">
+      <cat-item lemma="against" tags="pr"/>
+    </def-cat>
+   <!--<def-cat n="being">
+      <cat-item lemma="be" tags="vbser.pres"/>
+    </def-cat>-->
+
+   <def-cat n="get">
+      <!--BCN-->
+      <cat-item lemma="get" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="enough">
+      <!--BCN-->
+      <cat-item lemma="enough" tags="adv"/>
+    </def-cat>
+    <def-cat n="detquant">
+      <!--BCN-->
+      <cat-item tags="det.qnt.*"/>
+    </def-cat>
+    <def-cat n="all">
+      <!--BCN-->
+      <cat-item lemma="all" tags="predet.sp"/>
+    </def-cat>
+    <def-cat n="nomplural">
+      <!--BCN-->
+      <cat-item tags="n.pl"/>
+    </def-cat>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="nomcomu">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="nompropi">
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="nploc">
+      <cat-item tags="np.loc.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.comp"/>
+      <cat-item tags="adj.sup"/>
+      <cat-item tags="adj.pos"/>
+      <cat-item tags="adj.sint"/>
+      <cat-item tags="adj.sint.*"/>
+    </def-cat>
+    <def-cat n="adj2">
+      <!--revisar regles amb 'adj' i 'adj2' -->
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.sint"/>
+      <cat-item tags="adj.sint.*"/>
+      <cat-item tags="adj.comp"/>
+      <cat-item tags="adj.sup"/>
+    </def-cat>
+    <def-cat n="present">
+
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vbdo.pres"/>
+    </def-cat>
+   
+ <def-cat n="be_present">
+      <cat-item tags="vbser.pri.*"/>
+      <cat-item tags="vbser.pri"/>
+    </def-cat>
+    
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
+    </def-cat>
+    <def-cat n="det">
+      <!--Determinants i predeterminants, van anteposats en català -->
+      <cat-item tags="det.dem.*"/>
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.def.*"/>
+      <cat-item tags="det.pos.*"/>
+      <cat-item tags="det.qnt.*"/>
+      <cat-item tags="det.itg.*"/>
+      <cat-item tags="det.ord.*"/>
+      <cat-item tags="predet.*"/>
+    </def-cat>
+    <def-cat n="det2">
+      <!--Poden anar precedits d'un altre determinant i anar després d'un genitiu saxó -->
+      <cat-item tags="det.qnt.*"/>
+      <cat-item tags="det.ord.*"/>
+    </def-cat>
+    <def-cat n="detitg">
+       <cat-item tags="det.itg.*"/>
+    </def-cat>
+    <def-cat n="prep_of">
+      <cat-item lemma="of" tags="pr_of"/>
+    </def-cat>
+
+    <def-cat n="prep">
+      <cat-item tags="pr"/>
+    </def-cat> 
+    <def-cat n="prep_cnjadv">
+      <cat-item tags="pr"/>
+      <cat-item lemma="before" tags="cnjadv"/>
+      <!--MG: solució provisional, caldria que el tagger triés <pr> o que el t2x fes alguna cosa amb acnjadv + frase en gerundi o + frase conjugada. -->
+      <cat-item lemma="after" tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="probj">
+      <cat-item tags="prn.obj.*"/>
+    </def-cat>
+   <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*"/>
+    </def-cat>
+    <def-cat n="prnsubj">
+      <cat-item tags="prn.subj.*"/>
+    </def-cat>
+    <def-cat n="verbcj">
+      <!--	  <cat-item tags="vblex.inf"/>-->
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vblex.past.*"/>
+      <!--Per a la forma 'was' en el verb lèxic -->
+      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vblex.sep.pres"/>
+      <cat-item tags="vblex.sep.past"/>
+      <cat-item tags="vblex.sep.past.*"/>
+      <cat-item tags="vblex.sep.pri.*"/>
+      <!--	  <cat-item tags="vbser.inf"/> -->
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vbser.pri.*"/>
+      <!--	  <cat-item tags="vbhaver.inf"/> -->
+      <cat-item tags="vbhaver.pres"/>
+      <!--afegit 29/08, per quan es cola per aquesta regla un vbhaver mal desambiguat -->
+      <cat-item tags="vbhaver.past"/>
+      <cat-item tags="vbhaver.pri.*"/>
+      <cat-item lemma="can" tags="vaux.*"/>
+      <!--perquè quan vagi sol entri per aquesta regla (I can, workers can) -->
+      <!-- <cat-item tags="vbhaver.*"/> -->
+    </def-cat>
+    <def-cat n="verbcjnoser">
+      <!-- BCN -->
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vblex.sep.pres"/>
+      <cat-item tags="vblex.sep.past"/>
+      <cat-item tags="vblex.sep.past.*"/>
+      <cat-item tags="vblex.sep.pri.*"/>
+    </def-cat>
+    <def-cat n="controlverb">
+      <cat-item lemma="desire" tags="vblex.inf"/>
+      <cat-item lemma="need" tags="vblex.inf"/>
+      <cat-item lemma="wish" tags="vblex.inf"/>
+      <cat-item lemma="hope" tags="vblex.inf"/>
+      <cat-item lemma="choose" tags="vblex.inf"/>
+      <cat-item lemma="expect" tags="vblex.inf"/>
+      <cat-item lemma="pretend" tags="vblex.inf"/>
+      <cat-item lemma="prefer" tags="vblex.inf"/>
+      <cat-item lemma="promise" tags="vblex.inf"/>
+      <cat-item lemma="recommend" tags="vblex.inf"/>
+      <cat-item lemma="decide" tags="vblex.inf"/>
+      <cat-item lemma="manage" tags="vblex.inf"/>
+      <cat-item lemma="refuse" tags="vblex.inf"/>
+      <cat-item lemma="agree" tags="vblex.inf"/>
+      <cat-item lemma="avoid" tags="vblex.inf"/>
+      <cat-item lemma="enjoy" tags="vblex.inf"/>
+      <cat-item lemma="hate" tags="vblex.inf"/>
+      <cat-item lemma="intend" tags="vblex.inf"/>
+      <cat-item lemma="plan" tags="vblex.inf"/>
+      <cat-item lemma="continue" tags="vblex.inf"/>
+      <cat-item lemma="resolve" tags="vblex.inf"/>
+      <cat-item lemma="try" tags="vblex.inf"/>
+      <cat-item lemma="desire" tags="vblex.pres"/>
+      <cat-item lemma="need" tags="vblex.pres"/>
+      <cat-item lemma="wish" tags="vblex.pres"/>
+      <cat-item lemma="hope" tags="vblex.pres"/>
+      <cat-item lemma="choose" tags="vblex.pres"/>
+      <cat-item lemma="expect" tags="vblex.pres"/>
+      <cat-item lemma="pretend" tags="vblex.pres"/>
+      <cat-item lemma="prefer" tags="vblex.pres"/>
+      <cat-item lemma="promise" tags="vblex.pres"/>
+      <cat-item lemma="recommend" tags="vblex.pres"/>
+      <cat-item lemma="decide" tags="vblex.pres"/>
+      <cat-item lemma="manage" tags="vblex.pres"/>
+      <cat-item lemma="refuse" tags="vblex.pres"/>
+      <cat-item lemma="agree" tags="vblex.pres"/>
+      <cat-item lemma="avoid" tags="vblex.pres"/>
+      <cat-item lemma="enjoy" tags="vblex.pres"/>
+      <cat-item lemma="hate" tags="vblex.pres"/>
+      <cat-item lemma="intend" tags="vblex.pres"/>
+      <cat-item lemma="plan" tags="vblex.pres"/>
+      <cat-item lemma="continue" tags="vblex.pres"/>
+      <cat-item lemma="resolve" tags="vblex.pres"/>
+      <cat-item lemma="try" tags="vblex.pres"/>
+      <cat-item lemma="desire" tags="vblex.past"/>
+      <cat-item lemma="need" tags="vblex.past"/>
+      <cat-item lemma="wish" tags="vblex.past"/>
+      <cat-item lemma="hope" tags="vblex.past"/>
+      <cat-item lemma="choose" tags="vblex.past"/>
+      <cat-item lemma="expect" tags="vblex.past"/>
+      <cat-item lemma="pretend" tags="vblex.past"/>
+      <cat-item lemma="prefer" tags="vblex.past"/>
+      <cat-item lemma="promise" tags="vblex.past"/>
+      <cat-item lemma="recommend" tags="vblex.past"/>
+      <cat-item lemma="decide" tags="vblex.past"/>
+      <cat-item lemma="manage" tags="vblex.past"/>
+      <cat-item lemma="refuse" tags="vblex.past"/>
+      <cat-item lemma="agree" tags="vblex.past"/>
+      <cat-item lemma="avoid" tags="vblex.past"/>
+      <cat-item lemma="enjoy" tags="vblex.past"/>
+      <cat-item lemma="hate" tags="vblex.past"/>
+      <cat-item lemma="intend" tags="vblex.past"/>
+      <cat-item lemma="plan" tags="vblex.past"/>
+      <cat-item lemma="continue" tags="vblex.past"/>
+      <cat-item lemma="resolve" tags="vblex.past"/>
+      <cat-item lemma="try" tags="vblex.past"/>
+      <cat-item lemma="desire" tags="vblex.pri.*"/>
+      <cat-item lemma="need" tags="vblex.pri.*"/>
+      <cat-item lemma="wish" tags="vblex.pri.*"/>
+      <cat-item lemma="hope" tags="vblex.pri.*"/>
+      <cat-item lemma="choose" tags="vblex.pri.*"/>
+      <cat-item lemma="expect" tags="vblex.pri.*"/>
+      <cat-item lemma="pretend" tags="vblex.pri.*"/>
+      <cat-item lemma="prefer" tags="vblex.pri.*"/>
+      <cat-item lemma="promise" tags="vblex.pri.*"/>
+      <cat-item lemma="recommend" tags="vblex.pri.*"/>
+      <cat-item lemma="decide" tags="vblex.pri.*"/>
+      <cat-item lemma="manage" tags="vblex.pri.*"/>
+      <cat-item lemma="refuse" tags="vblex.pri.*"/>
+      <cat-item lemma="agree" tags="vblex.pri.*"/>
+      <cat-item lemma="avoid" tags="vblex.pri.*"/>
+      <cat-item lemma="enjoy" tags="vblex.pri.*"/>
+      <cat-item lemma="hate" tags="vblex.pri.*"/>
+      <cat-item lemma="intend" tags="vblex.pri.*"/>
+      <cat-item lemma="plan" tags="vblex.pri.*"/>
+      <cat-item lemma="continue" tags="vblex.pri.*"/>
+      <cat-item lemma="resolve" tags="vblex.pri.*"/>
+      <cat-item lemma="try" tags="vblex.pri.*"/>
+      <cat-item lemma="desire" tags="vblex.ger"/>
+      <cat-item lemma="need" tags="vblex.ger"/>
+      <cat-item lemma="wish" tags="vblex.ger"/>
+      <cat-item lemma="hope" tags="vblex.ger"/>
+      <cat-item lemma="choose" tags="vblex.ger"/>
+      <cat-item lemma="expect" tags="vblex.ger"/>
+      <cat-item lemma="pretend" tags="vblex.ger"/>
+      <cat-item lemma="prefer" tags="vblex.ger"/>
+      <cat-item lemma="promise" tags="vblex.ger"/>
+      <cat-item lemma="recommend" tags="vblex.ger"/>
+      <cat-item lemma="decide" tags="vblex.ger"/>
+      <cat-item lemma="manage" tags="vblex.ger"/>
+      <cat-item lemma="refuse" tags="vblex.ger"/>
+      <cat-item lemma="agree" tags="vblex.ger"/>
+      <cat-item lemma="avoid" tags="vblex.ger"/>
+      <cat-item lemma="enjoy" tags="vblex.ger"/>
+      <cat-item lemma="hate" tags="vblex.ger"/>
+      <cat-item lemma="intend" tags="vblex.ger"/>
+      <cat-item lemma="plan" tags="vblex.ger"/>
+      <cat-item lemma="continue" tags="vblex.ger"/>
+      <cat-item lemma="resolve" tags="vblex.ger"/>
+      <cat-item lemma="try" tags="vblex.ger"/>
+    </def-cat>
+     <def-cat n="been">  
+      <cat-item lemma="be" tags="vblex.pp"/>
+    </def-cat>
+
+    <def-cat n="controlverbger">
+      <!-- BCN -->
+      <cat-item lemma="desire" tags="vblex.ger"/>
+      <cat-item lemma="need" tags="vblex.ger"/>
+      <cat-item lemma="wish" tags="vblex.ger"/>
+      <cat-item lemma="hope" tags="vblex.ger"/>
+      <cat-item lemma="choose" tags="vblex.ger"/>
+      <cat-item lemma="expect" tags="vblex.ger"/>
+      <cat-item lemma="pretend" tags="vblex.ger"/>
+      <cat-item lemma="prefer" tags="vblex.ger"/>
+      <cat-item lemma="promise" tags="vblex.ger"/>
+      <cat-item lemma="recommend" tags="vblex.ger"/>
+      <cat-item lemma="decide" tags="vblex.ger"/>
+      <cat-item lemma="manage" tags="vblex.ger"/>
+      <cat-item lemma="refuse" tags="vblex.ger"/>
+      <cat-item lemma="agree" tags="vblex.ger"/>
+      <cat-item lemma="avoid" tags="vblex.ger"/>
+      <cat-item lemma="enjoy" tags="vblex.ger"/>
+      <cat-item lemma="hate" tags="vblex.ger"/>
+      <cat-item lemma="intend" tags="vblex.ger"/>
+      <cat-item lemma="plan" tags="vblex.ger"/>
+      <cat-item lemma="continue" tags="vblex.ger"/>
+      <cat-item lemma="resolve" tags="vblex.ger"/>
+      <cat-item lemma="try" tags="vblex.ger"/>
+    </def-cat>
+    <def-cat n="controlverbpp">
+      <!-- BCN -->
+      <cat-item lemma="desire" tags="vblex.pp"/>
+      <cat-item lemma="need" tags="vblex.pp"/>
+      <cat-item lemma="wish" tags="vblex.pp"/>
+      <cat-item lemma="hope" tags="vblex.pp"/>
+      <cat-item lemma="choose" tags="vblex.pp"/>
+      <cat-item lemma="expect" tags="vblex.pp"/>
+      <cat-item lemma="pretend" tags="vblex.pp"/>
+      <cat-item lemma="prefer" tags="vblex.pp"/>
+      <cat-item lemma="promise" tags="vblex.pp"/>
+      <cat-item lemma="recommend" tags="vblex.pp"/>
+      <cat-item lemma="decide" tags="vblex.pp"/>
+      <cat-item lemma="manage" tags="vblex.pp"/>
+      <cat-item lemma="refuse" tags="vblex.pp"/>
+      <cat-item lemma="agree" tags="vblex.pp"/>
+      <cat-item lemma="avoid" tags="vblex.pp"/>
+      <cat-item lemma="enjoy" tags="vblex.pp"/>
+      <cat-item lemma="hate" tags="vblex.pp"/>
+      <cat-item lemma="intend" tags="vblex.pp"/>
+      <cat-item lemma="plan" tags="vblex.pp"/>
+      <cat-item lemma="continue" tags="vblex.pp"/>
+      <cat-item lemma="resolve" tags="vblex.pp"/>
+      <cat-item lemma="try" tags="vblex.pp"/>
+    </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vblex.sep.inf"/>
+      <cat-item tags="vbser.inf"/>
+     <cat-item tags="vbmod.inf"/>
+      <cat-item tags="vaux.inf"/>
+    </def-cat>
+    <def-cat n="vblexpri">
+      <cat-item tags="vblex.pri.p3.sg"/>
+    </def-cat>
+    <def-cat n="infpres">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vblex.pres"/>
+      <!--De moment detectem tb aquest a l'espera de veure si el tagger els distingeix. Canviar-ho més endavant si de cas. -->
+      <cat-item tags="vblex.sep.inf"/>
+      <cat-item tags="vblex.sep.pres"/>
+      <cat-item tags="vbser.inf"/>
+      <!--afegit 4/08 -->
+      <cat-item tags="vbser.pres"/>
+      <!--afegit 4/08 -->
+    </def-cat>
+    <def-cat n="modinf">
+      <!-- <cat-item tags="vbmod.inf"/>-->
+      <cat-item tags="vbmod.pres"/>
+      <cat-item tags="vbmod.past"/> 
+      <cat-item tags="vbmod.pri.*"/> 
+      <cat-item tags="vbmod.pp"/>
+<cat-item tags="vbmod.inf"/>     
+</def-cat>
+    <!--<def-cat n="mod">
+Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com els auxiliars) i es conjuguen (will have to, will be able to). A diferència, els auxiliars no poden portar altres aux davant (*I will can, I do not can). Per això els poso en categories diferents, perquè funcionen diferent amb negacions, adverbis intercalats, preguntes, etc. 
+     <cat-item tags="vbmod.*"/>
+    </def-cat>-->
+    <def-cat n="ger">
+      <cat-item tags="vblex.ger"/>
+      <cat-item tags="reporting.ger"/>
+      <cat-item tags="vblex.sep.ger"/>
+      <cat-item tags="vbser.ger"/>
+    </def-cat>
+    <def-cat n="haveger">
+      <cat-item tags="vbhaver.ger"/>
+    </def-cat>
+ <def-cat n="will">
+      <cat-item lemma="will" tags="vaux.*"/>
+</def-cat>
+ <def-cat n="keep">
+      <cat-item lemma="keep# on" tags="vblex.pres"/>
+      <cat-item lemma="keep# on" tags="vblex.pri.*"/>
+      <cat-item lemma="keep# on" tags="vblex.past"/>
+	 </def-cat>
+
+    <def-cat n="auxverb">
+      <cat-item lemma="will" tags="vaux.*"/>
+      <cat-item lemma="would" tags="vaux.*"/>
+      <cat-item lemma="shall" tags="vaux.*"/>
+      <cat-item lemma="can" tags="vaux.*"/>
+      <cat-item lemma="must" tags="vaux.*"/>
+      <cat-item lemma="should" tags="vaux.*"/>
+      <cat-item lemma="may" tags="vaux.*"/>
+      <cat-item lemma="might" tags="vaux.*"/>
+    </def-cat>
+	 <def-cat n="aux_verb">
+      <cat-item lemma="must" tags="vaux.*"/>
+      <cat-item lemma="may" tags="vaux.*"/>
+      <cat-item lemma="might" tags="vaux.*"/>
+    </def-cat>
+ <def-cat n="like">
+      <cat-item lemma="like" tags="vblex.past"/>
+      <cat-item lemma="like" tags="vblex.inf.*"/>
+        <cat-item lemma="like" tags="vblex.pri.*"/>
+         <cat-item lemma="like" tags="vblex.pres"/>
+      </def-cat>
+
+    <def-cat n="do">
+      <cat-item lemma="do" tags="vbdo.pres"/>
+      <cat-item lemma="do" tags="vbdo.pri"/>
+	<cat-item lemma="do" tags="vbdo.pri.*"/>
+         <cat-item lemma="do" tags="vbdo.past"/>
+      </def-cat>
+
+	 <def-cat n="having">
+      <cat-item lemma="have" tags="vbhaver.inf"/>
+	<cat-item lemma="have" tags="vbhaver.ger"/>
+      </def-cat>
+<def-cat n="vbhavergot">
+      <cat-item lemma="have# got" tags="vblex.pres"/>
+        <cat-item lemma="have# got" tags="vblex.pri.*"/>
+         <cat-item lemma="have# got" tags="vblex.past"/>
+</def-cat>
+
+     <def-cat n="vbhavervblex">
+      <cat-item lemma="have" tags="vblex.pres.*"/>
+        <cat-item lemma="have" tags="vblex.pri.*"/>
+         <cat-item lemma="have" tags="vblex.past.*"/>
+	   <cat-item lemma="have" tags="vblex.inf"/>
+	<cat-item lemma="have" tags="vbhaver.pres"/>
+        <cat-item lemma="have" tags="vbhaver.pri.*"/>
+         <cat-item lemma="have" tags="vbhaver.past"/>
+	<cat-item lemma="have" tags="vbhaver.inf"/>
+
+          </def-cat>
+
+<!--<def-cat n="vbdo">
+      <cat-item lemma="do" tags="vbdo.pres"/>
+      <cat-item lemma="do" tags="vblex.pri.*"/>
+      <cat-item lemma="do" tags="vblex.pres"/>
+      <cat-item lemma="do" tags="vblex.past"/>
+      <cat-item lemma="do" tags="vblex.inf"/>
+    </def-cat>-->
+    <def-cat n="apos">
+      <cat-item tags="apos"/>
+    </def-cat>
+    <def-cat n="coma">
+      <cat-item tags="cm"/>
+    </def-cat>
+    <def-cat n="have_aux">
+      <cat-item tags="vbhaver.*"/>
+    </def-cat>
+    <def-cat n="have_aux_inf">
+      <cat-item tags="vbhaver.inf"/>
+      <cat-item tags="vbhaver.pres"/>
+    </def-cat>
+    <def-cat n="ppadj">
+      <!--Participis que poden actuar com a adjectius (el verb 'ser' va aquí?) -->
+      <cat-item tags="vblex.pp"/>
+      <cat-item tags="vblex.sep.pp"/>
+      <cat-item tags="vbser.pp"/>
+    </def-cat>
+    <def-cat n="pp">
+      <cat-item tags="vblex.pp"/>
+      <cat-item tags="vblex.sep.pp"/>
+      <cat-item tags="vbser.pp"/>
+<cat-item tags="vblex.pp.*"/>
+     <!-- <cat-item tags="vbmod.pp"/>-->
+    </def-cat>
+    <def-cat n="past">
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vbdo.past"/>
+    </def-cat>
+	<!--<def-cat n="pp">
+      <cat-item tags="vblex.pp"/>
+      <cat-item tags="vblex.pp.*"/>
+    </def-cat>-->
+    <def-cat n="be_past">
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbser.past.*"/>
+    </def-cat>
+    <def-cat n="pprs">
+      <cat-item tags="vblex.pprs"/>
+      <cat-item tags="vblex.sep.pprs"/>
+      <cat-item tags="vbhaver.pprs"/>
+      <cat-item tags="vbser.pprs"/>
+      <!--<cat-item tags="vbmod.pprs"/>-->
+    </def-cat>
+    <def-cat n="subs">
+      <cat-item tags="vblex.subs"/>
+      <cat-item tags="vblex.sep.subs"/>
+      <cat-item tags="vbhaver.subs"/>
+      <cat-item tags="vbser.subs"/>
+      <!--<cat-item tags="vbmod.subs"/>-->
+    </def-cat>
+    <def-cat n="adv_preadv">
+      <cat-item tags="preadv"/>
+      <cat-item tags="adv"/>
+    </def-cat>
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+    </def-cat>
+    <def-cat n="adv_not">
+      <!--BCN-->
+      <cat-item lemma="not" tags="adv"/>
+      <cat-item lemma="never" tags="adv"/>
+    </def-cat>
+    <def-cat n="ago">
+      <cat-item lemma="ago" tags="adv"/>
+    </def-cat>
+    <def-cat n="preadv">
+      <cat-item tags="preadv"/>
+    </def-cat>
+    <def-cat n="advitg">
+      <cat-item tags="adv.itg"/>
+    </def-cat>
+    <def-cat n="cnj">
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+      <cat-item lemma="and" tags="cnjcoo"/>
+      <cat-item lemma="or" tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="such_a">
+      <cat-item lemma="such a" tags="det.ind.sg"/>
+    </def-cat>
+    <def-cat n="yearmonth">
+      <cat-item lemma="year" tags="n.sg"/>
+      <cat-item lemma="year" tags="n.pl"/>
+      <cat-item lemma="month" tags="n.sg"/>
+      <cat-item lemma="month" tags="n.pl"/>
+    </def-cat>
+    <def-cat n="old">
+      <cat-item lemma="old" tags="adj.sint"/>
+    </def-cat>
+    <def-cat n="there">
+      <cat-item lemma="there" tags="adv"/>
+    </def-cat>
+    <def-cat n="genitiu">
+      <cat-item tags="gen"/>
+    </def-cat>
+    <def-cat n="by">
+      <cat-item lemma="by" tags="pr"/>
+    </def-cat>
+ <def-cat n="have">
+      <cat-item lemma="have" tags="vbhaver.inf"/>
+    </def-cat>
+    <def-cat n="be">
+      <cat-item lemma="be" tags="vbser.*"/>
+      <cat-item lemma="be" tags="vblex.pp"/>
+     </def-cat>
+	<def-cat n="beborn">
+      <cat-item lemma="be# born" tags="vbser.*"/>
+      <cat-item lemma="be# born" tags="vblex.*"/>
+     </def-cat>
+
+    <def-cat n="beger">
+      <cat-item lemma="be" tags="vbser.ger"/>
+    </def-cat>
+    <def-cat n="relnom">
+      <cat-item tags="rel.nn.*"/>
+    </def-cat>
+    <def-cat n="reladj">
+      <cat-item tags="rel.an.*"/>
+    </def-cat>
+    <def-cat n="that">
+      <cat-item lemma="that" tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="where">
+      <cat-item lemma="where" tags="rel.adv"/>
+      <!-- BCN-->
+      <cat-item lemma="where" tags="adv.itg"/>
+    </def-cat>
+    <def-cat n="which">
+      <cat-item lemma="which" tags="rel.an.*"/>
+      <!-- BCN-->
+      <cat-item lemma="which" tags="prn.itg.*"/>
+    </def-cat>
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="guio">
+      <cat-item tags="guio"/>
+    </def-cat>
+    <def-cat n="let">
+      <cat-item lemma="let" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="going">
+      <cat-item lemma="go" tags="vblex.ger"/>
+    </def-cat>
+	<def-cat n="were">
+      <cat-item lemma="be" tags="vbser.past"/>
+    </def-cat>
+
+      <def-cat n="dare">
+      <cat-item lemma="dare" tags="vblex.inf"/>
+    </def-cat>
+  </section-def-cats>
+  <section-def-attrs>
+    <def-attr n="a_nom">
+      <attr-item tags="defa"/>
+      <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
+      <attr-item tags="np.loc"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.al"/>
+      <attr-item tags="adv"/>
+    </def-attr>
+    <def-attr n="a_np">
+      <attr-item tags="defa"/>
+      <attr-item tags="np"/>
+    </def-attr>
+    <def-attr n="a_np_acr">
+      <attr-item tags="np"/>
+      <attr-item tags="acr"/>
+    </def-attr>
+    <def-attr n="a_adj">
+      <attr-item tags="defa"/>
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.pos"/>
+      <attr-item tags="vblex.pp"/>
+      <!-- BCN ok-->
+      <!--<attr-item tags="vbmod.pp"/>-->
+      <!-- BCN ok-->
+      <attr-item tags="vblex.pron.pp"/>
+      <!-- BCN ok-->
+    </def-attr>
+    <def-attr n="grau_adj">
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+    </def-attr>
+    <def-attr n="a_det">
+      <attr-item tags="defa"/>
+      <attr-item tags="prn"/>
+      <attr-item tags="art"/>
+
+<!--      <attr-item tags="det.dem"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.def"/>
+      <attr-item tags="det.pos"/>
+      <attr-item tags="det.qnt"/>
+      <attr-item tags="det.itg"/>
+      <attr-item tags="det.ord"/>
+      <attr-item tags="adj.pos"/>
+      <attr-item tags="num"/>
+      <attr-item tags="predet"/>-->
+    </def-attr>
+    <def-attr n="a_prnpro">
+      <attr-item tags="defa"/>
+      <attr-item tags="prn.pro"/>
+    </def-attr>
+    <def-attr n="a_prnenc">
+      <attr-item tags="defa"/>
+      <attr-item tags="prn.enc"/>
+    </def-attr>
+    <def-attr n="a_cnj">
+      <attr-item tags="defa"/>
+      <attr-item tags="cnjcoo"/>
+      <attr-item tags="cnjadv"/>
+      <attr-item tags="cnj"/>	
+    </def-attr>
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
+      <attr-item tags="defa"/>
+      <attr-item tags="num.percent"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="defa"/>
+      <attr-item tags="v"/>
+<!--      <attr-item tags="vblex"/>
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+     <attr-item tags="vbmod"/>-->
+    </def-attr>
+    <def-attr n="a_prep">
+      <attr-item tags="defa"/>
+      <attr-item tags="pr"/>
+      <attr-item tags="pr_of"/>
+    </def-attr>
+    <def-attr n="a_have_aux">
+      <attr-item tags="defa"/>
+      <attr-item tags="vbhaver"/>
+    </def-attr>
+    <def-attr n="a_pp">
+      <attr-item tags="defa"/>
+      <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.pron.pp"/>
+      <attr-item tags="vbser.pp"/>
+     <!-- <attr-item tags="vbmod.pp"/>-->
+    </def-attr>
+    <def-attr n="a_aux">
+      <attr-item tags="defa"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="defa"/>
+      <attr-item tags="prn"/>
+      <attr-item tags="pr"/>
+
+    </def-attr>
+    <def-attr n="a_adv">
+      <attr-item tags="defa"/>
+      <attr-item tags="adv"/>
+      <attr-item tags="preadv"/>
+      <attr-item tags="adv.itg"/>
+      <attr-item tags="cnjadv"/>
+    </def-attr>
+    <def-attr n="a_rel">
+      <attr-item tags="defa"/>
+      <attr-item tags="rel.nn"/>
+      <attr-item tags="rel.an"/>
+      <attr-item tags="rel.adv"/>
+    </def-attr>
+    <def-attr n="tipus_rel">
+      <attr-item tags="defa"/>
+      <attr-item tags="nn"/>
+      <attr-item tags="an"/>
+      <attr-item tags="adv"/>
+    </def-attr>
+    <def-attr n="tipus_prn">
+      <attr-item tags="defa"/>
+      <attr-item tags="tn"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="enc"/>
+      <attr-item tags="itg"/>
+      <attr-item tags="pos"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+    <def-attr n="case">
+      <attr-item tags="d"/>
+      <attr-item tags="o"/>
+      <attr-item tags="CD"/>
+    </def-attr>
+    <def-attr n="gen_sense_mf">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+    <def-attr n="gen_mf">
+      <attr-item tags="mf"/>
+    </def-attr>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="nbr_sense_sp">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="nbr_sp">
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="cni"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="subs"/>
+    </def-attr>
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="genvar" />
+    <def-var n="nbrvar" />
+    <def-var n="persvar" />
+    <def-var n="casevar"/>
+    <def-var n="interrogativa"/>
+    <def-var n="exclamativa"/>
+    <def-var n="neg"/>
+    <def-var n="adjectiu1"/>
+    <def-var n="adjectiu2"/>
+    <def-var n="auxiliar"/>
+    <def-var n="caseFirstWord"/>
+    <def-var n="EOS" v="true"/>
+    <def-var n="lema"/>
+    <def-var n="lema_SV"/>
+    <def-var n="verbfinal"/>
+    <def-var n="temps_chunk"/>
+    <def-var n="pers_chunk"/>
+    <def-var n="nbr_chunk"/>
+    <def-var n="gen_chunk"/>
+    <def-var n="chunk_name"/>
+    <def-var n="tam_tag"/>
+    <def-var n="tam_post"/>
+    <def-var n="tam_pre"/>
+    <def-var n="subj_vibhakthi"/>
+    <def-var n="gen_paraula"/>
+    <def-var n="nbr_paraula"/>
+    <def-var n="pronom"/>
+    <def-var n="pronomenc"/>
+    <def-var n="paraula1"/>
+    <def-var n="paraula2"/>
+    <def-var n="tipus_verb"/>
+    <def-var n="tipus_verb_imp"/>
+    <def-var n="tipus_det"/>
+    <!-- BCN-->
+  </section-def-vars>
+  <section-def-lists>
+    <def-list n="reportingverb">
+      <!-- BCN verbs que poden no portar el THAT -->
+      <list-item v="say"/>
+      <list-item v="admit"/>
+      <list-item v="agree"/>
+      <list-item v="decide"/>
+      <list-item v="deny"/>
+      <list-item v="explain"/>
+      <list-item v="insist"/>
+      <list-item v="promise"/>
+      <list-item v="recommend"/>
+      <list-item v="suggest"/>
+      <list-item v="point"/>
+      <list-item v="think"/>
+      <list-item v="believe"/>
+      <list-item v="hope"/>
+      <list-item v="fear"/>
+      <list-item v="suppose"/>
+    </def-list>
+    <def-list n="controlnouns">
+      <!-- BCN -->
+      <list-item v="desire"/>
+      <list-item v="order"/>
+      <list-item v="need"/>
+      <list-item v="right"/>
+      <list-item v="duty"/>
+      <list-item v="failure"/>
+      <list-item v="power"/>
+      <list-item v="wish"/>
+      <list-item v="capacity"/>
+      <list-item v="ability"/>
+      <list-item v="hope"/>
+      <list-item v="chance"/>
+      <list-item v="honour"/>
+      <list-item v="compulsion"/>
+      <list-item v="responsibility"/>
+      <list-item v="opportunity"/>
+      <list-item v="idea"/>
+      <list-item v="record"/>
+      <list-item v="way"/>
+      <list-item v="attempt"/>
+      <list-item v="obligation"/>
+      <list-item v="impulse"/>
+      <list-item v="surprise"/>
+      <list-item v="will"/>
+      <list-item v="mean"/>
+    </def-list>
+    <def-list n="tractaments">
+      <!--potser s'hauria de canviar categoria i posar com a determinants -->
+      <list-item v="Mr"/>
+      <list-item v="Mrs"/>
+      <list-item v="Ms"/>
+      <list-item v="Dr"/>
+    </def-list>
+    <def-list n="days">
+      <list-item v="Monday"/>
+      <list-item v="Tuesday"/>
+      <list-item v="Wednesday"/>
+      <list-item v="Thursday"/>
+      <list-item v="Friday"/>
+      <list-item v="Saturday"/>
+      <list-item v="Sunday"/>
+    </def-list>
+    <def-list n="adv_neg">
+      <list-item v="not"/>
+      <list-item v="never"/>
+    </def-list>
+    <def-list n="verbs_modals">
+      <list-item v="can"/>
+      <list-item v="must"/>
+      <list-item v="should"/>
+      <list-item v="may"/>
+      <list-item v="might"/>
+    </def-list>
+  </section-def-lists>
+  
+  <section-def-macros>
+    <def-macro n="verb_init" npar="1">
+      <choose>
+        <when>
+          <test>
+ 	    <or>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="sg"/>
+            </equal>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="pl"/>
+            </equal>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="sp"/>
+            </equal>
+	    </or>
+          </test>
+	<let>
+	      <var n ="nbrvar"/>
+              <clip part="nbr" pos="1" side="tl"/>
+	</let>
+        </when>
+	<otherwise>
+          <let>
+	      <var n ="nbrvar"/>
+              <lit-tag v="sg"/>
+          </let>
+	</otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="m"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="f"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="mf"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="nt"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="genvar"/>
+              <clip part="gen" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="genvar"/>
+              <lit-tag v="m"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p1"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p2"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p3"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="PD"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="persvar"/>
+              <clip part="pers" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="persvar"/>
+              <lit-tag v="p3"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="noun_init" npar="1">
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="sg"/>
+            </equal>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="pl"/>
+            </equal>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="sp"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="nbrvar"/>
+              <clip part="nbr" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="nbrvar"/>
+              <lit-tag v="sg"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="m"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="f"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="nt"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="genvar"/>
+              <clip part="gen" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="genvar"/>
+              <lit-tag v="m"/>
+          </let>
+        </otherwise>
+      </choose>
+
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p1"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p2"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p3"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="PD"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="persvar"/>
+              <clip part="pers" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="persvar"/>
+              <lit-tag v="p3"/>
+          </let>
+        </otherwise>
+      </choose>
+
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="d"/>
+            </equal>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="o"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="casevar"/>
+              <clip part="case" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="casevar"/>
+              <lit-tag v="d"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+</section-def-macros>
+<section-rules>
+
+  <rule comment="REGLA: NOM">
+     <pattern>
+       <pattern-item n="nom"/>
+     </pattern>
+     <action>
+           <out>
+             <chunk name="nom" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SN"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_nom"/>
+                 <clip pos="1" side="tl" part="nbr" link-to="2"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+             </chunk>
+           </out>
+     </action>
+  </rule>
+
+</section-rules>
+</transfer>
