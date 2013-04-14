@@ -22,7 +22,7 @@
 <sdef n="sg"     c="Singular"/>
 <sdef n="pl"     c=" plural"/>
 <sdef n="sint"     c=" "/>
-<sdef n="sent"   c=""/>
+<sdef n="sent"   c="sentmaterial"/>
 <sdef n="cm"   c=""/>
 <sdef n="guio"   c=""/>
 </sdefs>
