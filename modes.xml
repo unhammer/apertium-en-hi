@@ -2,7 +2,7 @@
 <modes>
 
 
-  <mode name="en-hi" install="yes">
+  <mode name="en-hi" install="no">
     <pipeline>
       <program name="lt-proc -c">
         <file name="en-hi.automorf.bin"/>
@@ -122,8 +122,6 @@
         <file name="apertium-en-hi.en-hi.t3x"/>
         <file name="en-hi.t3x.bin"/>
       </program>
-      <!--<program name="prog.out">
-      </program>-->
     </pipeline>
   </mode>
 
@@ -175,6 +173,20 @@
     </pipeline>
   </mode>
 
+  <mode name="hi-en-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="hi-en.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="hi-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
   <mode name="hi-en-chunker" install="no">
     <pipeline>
@@ -185,10 +197,12 @@
         <file name="hi-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer -c">
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-en-hi.hi-en.t1x"/>
         <file name="hi-en.t1x.bin"/>
-        <file name="hi-en.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -203,10 +217,12 @@
         <file name="hi-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer -c">
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-en-hi.hi-en.t1x"/>
         <file name="hi-en.t1x.bin"/>
-        <file name="hi-en.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-en-hi.hi-en.t2x"/>
@@ -226,10 +242,12 @@
         <file name="hi-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer -c">
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-en-hi.hi-en.t1x"/>
         <file name="hi-en.t1x.bin"/>
-        <file name="hi-en.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-en-hi.hi-en.t2x"/>
@@ -253,10 +271,12 @@
         <file name="hi-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer -c">
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-en-hi.hi-en.t1x"/>
         <file name="hi-en.t1x.bin"/>
-        <file name="hi-en.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-en-hi.hi-en.t2x"/>
