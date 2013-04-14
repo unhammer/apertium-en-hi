@@ -43,11 +43,9 @@ $(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
 	lt-comp lr $(BASENAME).$(LANG2).dix $@
 
-
-# This is the unicode one
-$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX2).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX2).dix
-	lt-comp rl $(BASENAME).$(PREFIX2).dix $@
+$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
 
 $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).metadix $(BASENAME).$(LANG1).acx
 	@xsltproc buscaPar.xsl apertium-en-hi.en.metadix | uniq > tmp1gen.xsl          
