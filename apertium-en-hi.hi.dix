@@ -11,7 +11,7 @@
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
-	<sdef n="prn"  	  c="Pronoun"/>
+	<sdef n="prn"   c="Pronoun"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
     <sdef n="mf"      c=""/>

@@ -21,15 +21,10 @@ TARGETS_COMMON =  \
 ##
 
 
-$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).metadix $(BASENAME).$(LANG1).acx
-	@xsltproc buscaPar.xsl apertium-en-hi.en.metadix | uniq > tmp1gen.xsl          
-	@xsltproc tmp1gen.xsl apertium-en-hi.en.metadix >$(BASENAME).$(LANG1).dixtmp1
-	@rm tmp1gen.xsl
+$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
-	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp1
-	lt-comp lr $(BASENAME).$(LANG1).dixtmp1 $@ $(BASENAME).$(LANG1).acx
-	@rm $(BASENAME).$(LANG1).dixtmp1
-
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
+	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
 	
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -47,14 +42,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
 	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
 
-$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).metadix $(BASENAME).$(LANG1).acx
-	@xsltproc buscaPar.xsl apertium-en-hi.en.metadix | uniq > tmp1gen.xsl          
-	@xsltproc tmp1gen.xsl apertium-en-hi.en.metadix >$(BASENAME).$(LANG1).dixtmp1
-	@rm tmp1gen.xsl
+$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
-	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp1
-	lt-comp rl $(BASENAME).$(LANG1).dixtmp1 $@ $(BASENAME).$(LANG1).acx
-	@rm $(BASENAME).$(LANG1).dixtmp1
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
+	lt-comp rl $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
 
 
 ##
@@ -102,7 +93,7 @@ $(PREFIX2).mode: modes.xml
 ##	FILES WHICH AREN'T BUILD BUT ARE DISTRIBUTED
 ## 
 
-EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
+EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(LANG2).dix \
            $(PREFIX1).prob  \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
