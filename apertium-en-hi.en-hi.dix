@@ -65,6 +65,8 @@
 <e><p><l>can</l><r>सक</r></p></e>
 
 <!-- Nouns -->
+<e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>
+<e><p><l>girl<s n="n"/></l><r>लड़की</r></p></e>
 <e><p><l>cheque<s n="n"/></l><r>चैक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>abacus<s n="n"/></l><r>गिनतारा<s n="n"/></r></p></e>
 <e><p><l>abandonment<s n="n"/></l><r>परित्याग<s n="n"/><s n="m"/></r></p></e>
@@ -5541,7 +5543,7 @@
 <e><p><l>planning<s n="n"/></l><r>योजना2<s n="n"/></r></p></e>
 <e><p><l>plant<s n="n"/></l><r>वनस्पति<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>plant<s n="n"/></l><r>वनस्पति<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>plantation<s n="n"/></l><r>बगीचा<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>garden<s n="n"/></l><r>बगीचा<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>plaque<s n="n"/></l><r>फलक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>plasma<s n="n"/></l><r>प्लाविक<s n="n"/></r></p></e>
 <e><p><l>plaster<s n="n"/></l><r>प्लास्तर<s n="n"/></r></p></e>
@@ -10092,7 +10094,8 @@
 <e><p><l>geriatric<s n="n"/></l><r>वृद्ध-संबंधी<s n="n"/></r></p></e>
 <e><p><l>gesticulation<s n="n"/></l><r>इशारा<s n="n"/></r></p></e>
 <e><p><l>gibbousness<s n="n"/></l><r>उभार<s n="n"/></r></p></e>
-<e><p><l>glad<s n="n"/></l><r>खुश<s n="n"/></r></p></e>
+<e><p><l>glad<s n="adj"/><s n="sint"/></l><r>खुश</r></p></e>
+<e><p><l>@</l><r>सा</r></p></e>
 <e><p><l>gladness<s n="n"/></l><r>प्रसन्नता<s n="n"/></r></p></e>
 <e><p><l>glaucoma<s n="n"/></l><r>ग्लकोमा<s n="n"/></r></p></e>
 <e><p><l>glissade<s n="n"/></l><r>फिसलन<s n="n"/></r></p></e>
@@ -13648,7 +13651,7 @@
 <e><p><l>enough<s n="adv"/></l><r>पर्याप्त<s n="adv"/></r></p></e>
 <e><p><l>entirely<s n="adv"/></l><r>सम्पूर्णतया<s n="adv"/></r></p></e>
 <e><p><l>ergo<s n="adv"/></l><r>इसलिए<s n="adv"/></r></p></e>
-<e><p><l>even<s n="adv"/></l><r>भी<s n="adv"/></r></p></e>
+
 <e><p><l>even<s n="adv"/></l><r>तो<s n="adv"/></r></p></e>
 <e><p><l>everywhere<s n="adv"/></l><r>सर्वत्र<s n="adv"/></r></p></e>
 <e><p><l>excessively<s n="adv"/></l><r>बाहुल्यतापूर्ण<s n="adv"/></r></p></e>
@@ -14044,6 +14047,7 @@
 <e><p><l>light<s n="adv"/></l><r>चपदीप<s n="adv"/></r></p></e>
 <e><p><l>likely<s n="adv"/></l><r>संभावित<s n="adv"/></r></p></e>
 <e><p><l>little<s n="adv"/></l><r>छोटा<s n="adv"/></r></p></e>
+<e><p><l>little<s n="adv"/></l><r>छोटी<s n="adv"/></r></p></e>
 <e><p><l>loathly<s n="adv"/></l><r>घृणास्पद<s n="adv"/></r></p></e>
 <e><p><l>lordly<s n="adv"/></l><r>भव्य<s n="adv"/></r></p></e>
 <e><p><l>luxuriously<s n="adv"/></l><r>वैभवपूर्वक<s n="adv"/></r></p></e>
@@ -14054,7 +14058,7 @@
 <e><p><l>middling<s n="adv"/></l><r>मध्यम<s n="adv"/></r></p></e>
 <e><p><l>monthly<s n="adv"/></l><r>मासिक<s n="adv"/></r></p></e>
 <e><p><l>mostly<s n="adv"/></l><r>प्रायः<s n="adv"/></r></p></e>
-<e><p><l>mutually<s n="adv"/></l><r>परस्पर<s n="adv"/></r></p></e>
+<e><p><l>mutually<s n="adv"/></l><r>परस्पर<s n="adv"/></r></p></e> 
 <e><p><l>neurotically<s n="adv"/></l><r>विक्षिप्ततापूर्वक<s n="adv"/></r></p></e>
 <e><p><l>nightly<s n="adv"/></l><r>रात्रिकालीन<s n="adv"/></r></p></e>
 <e><p><l>nor'-east<s n="adv"/></l><r>उत्तर-पूर्व<s n="adv"/></r></p></e>
@@ -14394,7 +14398,7 @@
 <e><p><l>anthropoid<s n="adj"/></l><r>मानवकार<s n="adj"/></r></p></e>
 <e><p><l>anthropological<s n="adj"/></l><r>मानवशासत्रीय<s n="adj"/></r></p></e>
 <e><p><l>antiquarian<s n="adj"/></l><r>पुरातनिक<s n="adj"/></r></p></e>
-<e><p><l>antiquated<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>antisocial<s n="adj"/></l><r>असामाजिक<s n="adj"/></r></p></e>
 <e><p><l>anti-tank<s n="adj"/></l><r>तोपनाशक<s n="adj"/></r></p></e>
 <e><p><l>anxious<s n="adj"/></l><r>चिन्तित<s n="adj"/></r></p></e>
@@ -15195,7 +15199,7 @@
 <e><p><l>forgiving<s n="adj"/></l><r>क्षमाशील<s n="adj"/></r></p></e>
 <e><p><l>forgivable<s n="adj"/></l><r>क्षम्य<s n="adj"/></r></p></e>
 <e><p><l>forlorn<s n="adj"/></l><r>लाचार<s n="adj"/></r></p></e>
-<e><p><l>former<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>formal<s n="adj"/></l><r>औपचारिक<s n="adj"/></r></p></e>
 <e><p><l>formative<s n="adj"/></l><r>विकासकालीन<s n="adj"/></r></p></e>
 <e><p><l>former<s n="adj"/></l><r>भूतपूर्व<s n="adj"/></r></p></e>
@@ -15945,6 +15949,7 @@
 <e><p><l>life-giving<s n="adj"/></l><r>जीवनदायक<s n="adj"/></r></p></e>
 <e><p><l>life<b/>threatening<s n="adj"/></l><r>घातक<s n="adj"/></r></p></e>
 <e><p><l>lifelike<s n="adj"/></l><r>सजीव<s n="adj"/></r></p></e>
+<e><p><l>like</l><r>पसंद</r></p></e>
 <e><p><l>lifelong<s n="adj"/></l><r>आजीवन<s n="adj"/></r></p></e>
 <e><p><l>light<s n="adj"/></l><r>हलका<s n="adj"/></r></p></e>
 <e><p><l>light-hearted<s n="adj"/></l><r><s n="adj"/></r></p></e>
@@ -16303,7 +16308,8 @@
 <e><p><l>offensive<s n="adj"/></l><r>अपमानजनक<s n="adj"/></r></p></e>
 <e><p><l>official<s n="adj"/></l><r>आधिकारिक<s n="adj"/></r></p></e>
 <e><p><l>oily<s n="adj"/></l><r>तेलहा<s n="adj"/></r></p></e>
-<e><p><l>old<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+<e><p><l>old<s n="adj"/><s n="sint"/></l><r>पुराना<s n="adj"/></r></p></e>
+<e><p><l>old<s n="adj"/><s n="sint"/></l><r>पुरानी<s n="adj"/></r></p></e>
 <e><p><l>olden<s n="adj"/></l><r>प्राचीन<s n="adj"/></r></p></e>
 <e><p><l>ominous<s n="adj"/></l><r>अपशगुन<s n="adj"/></r></p></e>
 <e><p><l>omnipotent<s n="adj"/></l><r>सर्व-शक्ति-मान<s n="adj"/></r></p></e>
@@ -16334,7 +16340,7 @@
 <e><p><l>outboard<s n="adj"/></l><r>बाहरी<s n="adj"/></r></p></e>
 <e><p><l>outbound<s n="adj"/></l><r>बहिर्गामी<s n="adj"/></r></p></e>
 <e><p><l>outcast<s n="adj"/></l><r>बहिष्कृत<s n="adj"/></r></p></e>
-<e><p><l>outdated<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>outer<s n="adj"/></l><r>बाह्य<s n="adj"/></r></p></e>
 <e><p><l>outgoing<s n="adj"/></l><r>खुशमिजाज<s n="adj"/></r></p></e>
 <e><p><l>outlandish<s n="adj"/></l><r>बेतुका<s n="adj"/></r></p></e>
@@ -16495,7 +16501,7 @@
 <e><p><l>plain<s n="adj"/></l><r>सादा<s n="adj"/></r></p></e>
 <e><p><l>plaintive<s n="adj"/></l><r>दुःखपूर्ण<s n="adj"/></r></p></e>
 <e><p><l>platonic<s n="adj"/></l><r>अफलातूनी<s n="adj"/></r></p></e>
-<e><p><l>played<b/>out<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>playful<s n="adj"/></l><r>विनोदशील<s n="adj"/></r></p></e>
 <e><p><l>pleasant<s n="adj"/></l><r>मनोहर<s n="adj"/></r></p></e>
 <e><p><l>pleasurable<s n="adj"/></l><r>आनन्ददायक<s n="adj"/></r></p></e>
@@ -16946,7 +16952,7 @@
 <e><p><l>sebaceous<s n="adj"/></l><r>वसामय<s n="adj"/></r></p></e>
 <e><p><l>secessionist<s n="adj"/></l><r>पृथकतावादी<s n="adj"/></r></p></e>
 <e><p><l>secluded<s n="adj"/></l><r>एकांत<s n="adj"/></r></p></e>
-<e><p><l>second<b/>hand<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>second<b/>Rate<s n="adj"/></l><r>मामूली<s n="adj"/></r></p></e>
 <e><p><l>Second<b/>String<s n="adj"/></l><r><s n="adj"/></r></p></e>
 <e><p><l>secondary<s n="adj"/></l><r>अमुख्य<s n="adj"/></r></p></e>
@@ -17426,7 +17432,7 @@
 <e><p><l>trim<s n="adj"/></l><r>ठीक-ठाक<s n="adj"/></r></p></e>
 <e><p><l>tripartite<s n="adj"/></l><r>त्रिपक्षीय<s n="adj"/></r></p></e>
 <e><p><l>triple<s n="adj"/></l><r>तिगुना<s n="adj"/></r></p></e>
-<e><p><l>trite<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>triumphant<s n="adj"/></l><r>विजयोल्लसित<s n="adj"/></r></p></e>
 <e><p><l>trivial<s n="adj"/></l><r>तुच्छ<s n="adj"/></r></p></e>
 <e><p><l>tropic<s n="adj"/></l><r>उष्णकटिबंधी<s n="adj"/></r></p></e>
@@ -18443,7 +18449,7 @@
 <e><p><l>dissonant<s n="adj"/></l><r>बेसुरा<s n="adj"/></r></p></e>
 <e><p><l>distorted<s n="adj"/></l><r>दूषित<s n="adj"/></r></p></e>
 <e><p><l>distracted<s n="adj"/></l><r>अन्यमनस्क<s n="adj"/></r></p></e>
-<e><p><l>distressed<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>distressful<s n="adj"/></l><r>कष्टप्रद<s n="adj"/></r></p></e>
 <e><p><l>distressing<s n="adj"/></l><r>दुःखद<s n="adj"/></r></p></e>
 <e><p><l>distributive<s n="adj"/></l><r>वितरणात्मक<s n="adj"/></r></p></e>
@@ -19737,9 +19743,9 @@
 <e><p><l>anatomical<s n="adj"/></l><r>शारीरिक<s n="adj"/></r></p></e>
 <e><p><l>ancestral<s n="adj"/></l><r>पैतृक<s n="adj"/></r></p></e>
 <e><p><l>anomalous<s n="adj"/></l><r>अनियमित<s n="adj"/></r></p></e>
-<e><p><l>antediluvian<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>anti-aircraft<s n="adj"/></l><r>हवामार<s n="adj"/></r></p></e>
-<e><p><l>antique<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>ashen<s n="adj"/></l><r>पीला<s n="adj"/></r></p></e>
 <e><p><l>barren<s n="adj"/></l><r>ऊसर<s n="adj"/></r></p></e>
 <e><p><l>base<s n="adj"/></l><r>तुच्छ<s n="adj"/></r></p></e>
@@ -19821,7 +19827,7 @@
 <e><p><l>new<s n="adj"/></l><r>नया<s n="adj"/></r></p></e>
 <e><p><l>obscene<s n="adj"/></l><r>असभ्य<s n="adj"/></r></p></e>
 <e><p><l>observable<s n="adj"/></l><r>अवलोकनीय<s n="adj"/></r></p></e>
-<e><p><l>obsolescent<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
+
 <e><p><l>obstinate<s n="adj"/></l><r>हठीला<s n="adj"/></r></p></e>
 <e><p><l>obtuse<s n="adj"/></l><r>बेअकल<s n="adj"/></r></p></e>
 <e><p><l>peerless<s n="adj"/></l><r>अनुपम<s n="adj"/></r></p></e>
