@@ -22,7 +22,7 @@
 	<sdef n="itg"     c="interrogative"/>
     <sdef n="nom"     c="Nominative"/>
     <sdef n="obl"     c="Oblique"/>
-
+	<sdef n="pos"     c=""/>
     <sdef n="ind"     c="Indefinite"/>
 
     <sdef n="p1"      c="First person"/>
@@ -1635,7 +1635,14 @@
         </p>
       </e>
     </pardef>
-
+	 <pardef n="मेरी__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
     <!-- Postpositions -->
 
     <pardef n="ने__post">
@@ -1779,8 +1786,10 @@
     <!-- Determiners -->
 
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
-
-    <!-- Conjunctions -->
+	<e lm="मेरी"><i>मेरी</i><par n="मेरी__det"/></e>
+	<e lm="मेरा"><i>मेरा</i><par n="मेरी__det"/></e>
+	 <e lm="मेरे"><i>मेरे</i><par n="मेरी__det"/></e>   
+	<!-- Conjunctions -->
 
     <e lm="और"><i>और</i><par n="और__cnjcoo"/></e>
     <e lm="पर"><i>पर</i><par n="और__cnjcoo"/></e>
@@ -1803,6 +1812,7 @@
     <e lm="समान"><i>समान</i><par n="आठ__num"/></e>
     <e lm="इकतालीस"><i>इकतालीस</i><par n="आठ__num"/></e>
     <e lm="पाँच"><i>पाँच</i><par n="आठ__num"/></e>
+	<e lm="पांच"><i>पांच</i><par n="आठ__num"/></e>
 	<e lm="छह"><i>छह</i><par n="आठ__num"/></e>
     <e lm="एक"><i>एक</i><par n="आठ__num"/></e>
     <e lm="तीन"><i>तीन</i><par n="आठ__num"/></e>
@@ -1870,8 +1880,8 @@
     
 	<!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
-	<e lm="लड़का"><i>लड़का</i><par n="ध/ी__n_f"/></e>
-	<e lm="लड़की"><i>लड़की</i><par n="ध/ी__n_f"/></e>
+	<e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>
+	<e lm="लड़की"><i>लड़की</i><par n="ध/ा__n_m"/></e>
     <e lm="लकडबग्घा"><i>लकडबग्घ</i><par n="ध/ा__n_m"/></e>
     <e lm="परिहार"><i>परिहार</i><par n="ऐ__n_m"/></e>
     <e lm="संचलन"><i>संचलन</i><par n="ऐ__n_m"/></e>
@@ -30634,6 +30644,7 @@
     <e lm="हाँ"><i>हाँ</i><par n="गलत__adv"/></e>
     <e lm="वाकई"><i>वाकई</i><par n="गलत__adv"/></e>
     <e lm="उत्साहपूर्वक"><i>उत्साहपूर्वक</i><par n="गलत__adv"/></e>
+	<e lm="पास"><i>पास</i><par n="गलत__adv"/></e>
   </section>
 
   <section id="final" type="inconditional">

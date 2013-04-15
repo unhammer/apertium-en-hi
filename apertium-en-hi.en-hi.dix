@@ -19,6 +19,7 @@
 <sdef n="ind"    c="Indefinite"/>
 <sdef n="ant"    c=""/>
 <sdef n="sp"     c="Singular / plural"/>
+<sdef n="pos"     c=""/>
 <sdef n="sg"     c="Singular"/>
 <sdef n="pl"     c=" plural"/>
 <sdef n="sint"     c=" "/>
@@ -54,10 +55,15 @@
 <!-- Determiners -->
 
 <e><p><l>a<s n="det"/><s n="ind"/></l><r>एक<s n="det"/><s n="ind"/></r></p></e>
+<e><p><l>my</l><r>मेरी</r></p></e>
+<e><p><l>my</l><r>मेरा</r></p></e>
+<e><p><l>my</l><r>मेरे</r></p></e>
 
 <!-- Numerals -->
 
 <e><p><l>two<s n="num"/><s n="sp"/></l><r>दो<s n="num"/></r></p></e>
+<e><p><l>five<s n="num"/><s n="sp"/></l><r>पांच<s n="num"/></r></p></e>
+<e><p><l>five<s n="num"/><s n="sp"/></l><r>पाँच<s n="num"/></r></p></e>
 <e><p><l>six<s n="num"/><s n="sp"/></l><r>छह<s n="num"/></r></p></e>
 <!-- Verbs -->
 
@@ -67,6 +73,7 @@
 <!-- Nouns -->
 <e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>
 <e><p><l>girl<s n="n"/></l><r>लड़की</r></p></e>
+<e><p><l>close</l><r>पास</r></p></e>
 <e><p><l>cheque<s n="n"/></l><r>चैक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>abacus<s n="n"/></l><r>गिनतारा<s n="n"/></r></p></e>
 <e><p><l>abandonment<s n="n"/></l><r>परित्याग<s n="n"/><s n="m"/></r></p></e>
@@ -4674,7 +4681,7 @@
 <e><p><l>modification<s n="n"/></l><r>सुधार<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>modifier<s n="n"/></l><r>सुधारक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>module<s n="n"/></l><r>इकाई<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>moggie<s n="n"/></l><r>बिल्ली<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cat<s n="n"/></l><r>बिल्ली<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>mogul<s n="n"/></l><r>मुगल<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>mohammed<s n="n"/></l><r>मुहम्मद<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>moisture<s n="n"/></l><r>नमी<s n="n"/><s n="f"/></r></p></e>
@@ -6009,7 +6016,7 @@
 <e><p><l>pus<s n="n"/></l><r>पीप<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>push<s n="n"/></l><r>धक्का<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>pushcart<s n="n"/></l><r>ठेलागाडी<s n="n"/></r></p></e>
-<e><p><l>puss<s n="n"/></l><r>बिल्ली<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cat<s n="n"/></l><r>बिल्ली<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>pustule<s n="n"/></l><r>फुन्सी<s n="n"/></r></p></e>
 <e><p><l>putsch<s n="n"/></l><r>विद्रोह<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>putty<s n="n"/></l><r>पुटीन<s n="n"/><s n="m"/></r></p></e>
