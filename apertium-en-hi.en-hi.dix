@@ -26,6 +26,7 @@
 <sdef n="sent"   c="sentmaterial"/>
 <sdef n="cm"   c=""/>
 <sdef n="guio"   c=""/>
+<sdef n="ger"   c=""/>
 </sdefs>
 <section id="main" type="standard">
 
@@ -69,6 +70,7 @@
 
 <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
 <e><p><l>can</l><r>सक</r></p></e>
+<e><p><l>sleep</l><r>सो</r></p></e>
 
 <!-- Nouns -->
 <e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>
