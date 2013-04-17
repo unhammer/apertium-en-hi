@@ -29,7 +29,6 @@
 <sdef n="ger"   c=""/>
 <sdef n="nom" c=""/>
 <sdef n="pres" c=""/>
-<sdef n="pr" c=""/>
 <sdef n="predet" c=""/>
 <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 <sdef n="cnjadv"  c=""/>
@@ -2415,6 +2414,7 @@
 <e><p><l>facet<s n="n"/></l><r>पहलू<s n="n"/></r></p></e>
 <e><p><l>facility<s n="n"/></l><r>सुगमता<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>facing<s n="n"/></l><r>सामना<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>front<s n="n"/></l><r>सामना<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>fact<s n="n"/></l><r>तथ्य<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>faction<s n="n"/></l><r>गुट<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>factionism<s n="n"/></l><r>गुटबाजी<s n="n"/></r></p></e>
