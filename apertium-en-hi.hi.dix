@@ -11,6 +11,7 @@
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
+	<sdef n="cnjadv"  c=""/>
 	<sdef n="prn"   c="Pronoun"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
@@ -24,7 +25,7 @@
     <sdef n="obl"     c="Oblique"/>
 	<sdef n="pos"     c=""/>
     <sdef n="ind"     c="Indefinite"/>
-	<sdef n="pr"     c=""/>
+	
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -1682,7 +1683,20 @@
       </e>
     </pardef>
 	<pardef n="उस__det">
-      <e>
+    <e>
+        <p>
+          <l>े</l>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
+	<e>
+        <p>
+          <l>के</l>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
+	
+	<e>
         <p>
           <l>के</l>
           <r><s n="det"/><s n="pos"/><s n="sp"/></r>
@@ -1784,7 +1798,7 @@
 	<e>
         <p>
           <l></l>
-          <r><s n="pr"/></r>
+          <r><s n="prn"/></r>
         </p>
     </e>
 	
@@ -1959,6 +1973,12 @@
 	<e lm="चल"><i>चल</i><par n="/खेल__vblex"/></e>
 	<e lm="ढूॅंड"><i>ढूॅंड</i><par n="/खेल__vblex"/></e>
 	<e lm="सुन"><i>सुन</i><par n="/खेल__vblex"/></e>
+	<e lm="बैठ"><i>बैठ</i><par n="/खेल__vblex"/></e>
+	<e lm="जान"><i>जान</i><par n="/खेल__vblex"/></e>
+	<e lm="सोच"><i>सोच</i><par n="/खेल__vblex"/></e>
+	<e lm="गिन"><i>गिन</i><par n="/खेल__vblex"/></e>
+	<e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
+
 	<!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
 	<e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>
@@ -3537,6 +3557,7 @@
     <e lm="गुलेलबाजी"><i>गुलेलबाजी</i><par n="ऊब__n_f"/></e>
     <e lm="घिनौना"><i>घिनौन</i><par n="ध/ा__n_m"/></e>
     <e lm="शिक्षाविद्"><i>शिक्षाविद</i><par n="सद/्__n_m"/></e>
+	<e lm="जगह"><i>जगह</i><par n="थ__n_m"/></e>
     <e lm="अंगुरी"><i>अंगुर</i><par n="ध/ी__n_f"/></e>
     <e lm="कौर"><i>कौर</i><par n="थ__n_m"/></e>
     <e lm="संक्षिप्ति"><i>संक्षिप्ति</i><par n="ऊब__n_f"/></e>
@@ -30170,7 +30191,7 @@
     <e lm="सदैव"><i>सदैव</i><par n="गलत__adv"/></e>
     <e lm="आगे"><i>आगे</i><par n="गलत__adv"/></e>
     <e lm="तुरन्त"><i>तुरन्त</i><par n="गलत__adv"/></e>
-    <e lm="1"><i>1</i><par n="गलत__adv"/></e>
+    <e lm="दोनों"><i>दोनों</i><par n="गलत__adv"/></e>
     <e lm="बहुधा"><i>बहुधा</i><par n="गलत__adv"/></e>
     <e lm="अत्यन्त"><i>अत्यन्त</i><par n="गलत__adv"/></e>
     <e lm="से"><i>से</i><par n="गलत__adv"/></e>
@@ -30734,6 +30755,8 @@
     <e lm="वाकई"><i>वाकई</i><par n="गलत__adv"/></e>
     <e lm="उत्साहपूर्वक"><i>उत्साहपूर्वक</i><par n="गलत__adv"/></e>
 	<e lm="पास"><i>पास</i><par n="गलत__adv"/></e>
+	<e lm="वहॉं"><i>वहॉं</i><par n="गलत__adv"/></e>
+
   </section>
 
   <section id="final" type="inconditional">

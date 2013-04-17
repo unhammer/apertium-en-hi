@@ -30,6 +30,9 @@
 <sdef n="nom" c=""/>
 <sdef n="pres" c=""/>
 <sdef n="pr" c=""/>
+<sdef n="predet" c=""/>
+<sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
+<sdef n="cnjadv"  c=""/>
 </sdefs>
 <section id="main" type="standard">
 
@@ -44,7 +47,7 @@
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>पर<s n="cnjcoo"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
-
+<e><p><l>if<s n="cnjadv"/></l><r>कि<s n="cnjsub"/></r></p></e>
 <!-- Postpositions -->
 
 <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -80,7 +83,7 @@
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
-<e><p><l></l><r>रह</r></p></e>
+<e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
 <e><p><l>drink</l><r>पी</r></p></e>
 <e><p><l>laugh</l><r>हस</r></p></e>
 <e><p><l>talk</l><r>बोल</r></p></e>
@@ -88,9 +91,14 @@
 <e><p><l>run</l><r>भाग</r></p></e>
 <e><p><l>hear</l><r>सुन</r></p></e>
 <e><p><l>find</l><r>ढूॅंड</r></p></e>
+<e><p><l>know</l><r>जान</r></p></e>
+<e><p><l>think</l><r>सोच</r></p></e>
+<e><p><l>sit</l><r>बैठ</r></p></e>
+<e><p><l>count</l><r>गिन</r></p></e>
+<e><p><l>finish</l><r>चुक</r></p></e>
 
 <!-- Nouns -->
-
+<e><p><l>space<s n="n"/><s n="sg"/></l><r>जगह<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 <e><p><l>inside<s n="n"/></l><r>अंदर</r></p></e>
 <e><p><l>medium</l><r>माध्यम</r></p></e>
 <e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>
@@ -327,7 +335,7 @@
 <e><p><l>alienation<s n="n"/></l><r>अन्यसंक्रमण<s n="n"/></r></p></e>
 <e><p><l>alkali<s n="n"/></l><r>क्षार<s n="n"/></r></p></e>
 <e><p><l>alkaloid<s n="n"/></l><r>क्षाराभ<s n="n"/></r></p></e>
-<e><p><l>all<s n="n"/></l><r>सबकुछ<s n="n"/></r></p></e>
+<e><p><l>all<s n="n"/></l><r>सबकुछ</r></p></e>
 <e><p><l>allegation<s n="n"/></l><r>आरोप<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>allegory<s n="n"/></l><r>रूपक-कथा<s n="n"/></r></p></e>
 <e><p><l>allegro<s n="n"/></l><r>द्रुत<s n="n"/><s n="m"/></r></p></e>
@@ -883,6 +891,7 @@
 <e><p><l>bother<s n="n"/></l><r>परेशानी<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>bottle<s n="n"/></l><r>बोतल<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>bottleneck<s n="n"/></l><r>मार्गावरोध<s n="n"/></r></p></e>
+<e><p><l>both<s n="adv"/></l><r>दोनों<s n="adv"/></r></p></e>
 <e><p><l>bounce<s n="n"/></l><r>छलांग<s n="n"/></r></p></e>
 <e><p><l>bourn<s n="n"/></l><r>सीमा<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>bourn<s n="n"/></l><r>सीमा<s n="n"/><s n="m"/></r></p></e>
@@ -10123,7 +10132,7 @@
 <e><p><l>geriatric<s n="n"/></l><r>वृद्ध-संबंधी<s n="n"/></r></p></e>
 <e><p><l>gesticulation<s n="n"/></l><r>इशारा<s n="n"/></r></p></e>
 <e><p><l>gibbousness<s n="n"/></l><r>उभार<s n="n"/></r></p></e>
-<e><p><l>glad<s n="adj"/><s n="sint"/></l><r>खुश</r></p></e>
+<e><p><l>glad<s n="adj"/><s n="sint"/></l><r>खुश<s n="adj"/></r></p></e>
 <e><p><l>@</l><r>सा</r></p></e>
 <e><p><l>gladness<s n="n"/></l><r>प्रसन्नता<s n="n"/></r></p></e>
 <e><p><l>glaucoma<s n="n"/></l><r>ग्लकोमा<s n="n"/></r></p></e>
@@ -13610,6 +13619,7 @@
 <e><p><l>why</l><r>क्यों</r></p></e>
 <e><p><l>why</l><r>क्या</r></p></e>
 <e><p><l>when</l><r>जब</r></p></e>
+<e><p><l>there</l><r>वहॉं</r></p></e>
 <e><p><l>aback<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
 <e><p><l>aboard<s n="adv"/></l><r>सवार<s n="adv"/></r></p></e>
 <e><p><l>above<s n="adv"/></l><r>ऊँचा<s n="adv"/></r></p></e>
@@ -13707,7 +13717,7 @@
 <e><p><l>forever<s n="adv"/></l><r>सदैव<s n="adv"/></r></p></e>
 <e><p><l>forth<s n="adv"/></l><r>आगे<s n="adv"/></r></p></e>
 <e><p><l>forthwith<s n="adv"/></l><r>तुरन्त<s n="adv"/></r></p></e>
-<e><p><l>freely<s n="adv"/></l><r>1<s n="adv"/></r></p></e>
+
 <e><p><l>frequently<s n="adv"/></l><r>बहुधा<s n="adv"/></r></p></e>
 <e><p><l>frightfully<s n="adv"/></l><r>अत्यन्त<s n="adv"/></r></p></e>
 <e><p><l>fro<s n="adv"/></l><r>से<s n="adv"/></r></p></e>
@@ -14388,7 +14398,7 @@
 <e><p><l>alike<s n="adj"/></l><r>समान<s n="adj"/></r></p></e>
 <e><p><l>alive<s n="adj"/></l><r>जीवित<s n="adj"/></r></p></e>
 <e><p><l>alkaline<s n="adj"/></l><r>क्षारीय<s n="adj"/></r></p></e>
-<e><p><l>all<s n="adj"/></l><r>सब<s n="adj"/></r></p></e>
+<e><p><l>all<s n="predet"/><s n="sp"/></l><r>सब<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 <e><p><l>all-round<s n="adj"/></l><r>चौतरफा<s n="adj"/></r></p></e>
 <e><p><l>all-in<s n="adj"/></l><r>कुल<s n="adj"/></r></p></e>
 <e><p><l>all<b/>out<s n="adj"/></l><r>भरसक<s n="adj"/></r></p></e>
