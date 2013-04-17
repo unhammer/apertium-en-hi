@@ -11,6 +11,9 @@
 	<def-cat n="pronoun">
 		<cat-item tags="prn.*"/>
 	</def-cat>
+    <def-cat n="post-decl">
+      <cat-item tags="post.*"/>
+    </def-cat>
     <def-cat n="unknown">
       <cat-item tags=""/>
     </def-cat>
@@ -1210,6 +1213,27 @@ Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com el
            </out>
      </action>
   </rule>
+
+  <rule comment="REGLA: post-decl">
+     <pattern>
+       <pattern-item n="post-decl"/>
+     </pattern>
+     <action>
+           <out>
+             <chunk name="prep" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="PREP"/></tag>
+               </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <lit-tag v="pr"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+             </chunk>
+           </out>
+     </action>
+  </rule>
+
 
 </section-rules>
 </transfer>
