@@ -59,6 +59,8 @@
 <e><p><l>my</l><r>मेरी</r></p></e>
 <e><p><l>my</l><r>मेरा</r></p></e>
 <e><p><l>my</l><r>मेरे</r></p></e>
+<e><p><l>her</l><r>उस</r></p></e>
+<e><p><l>their</l><r>उन</r></p></e>
 
 <!-- Numerals -->
 
@@ -71,8 +73,12 @@
 <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
+<e><p><l>see</l><r>देख</r></p></e>
 
 <!-- Nouns -->
+
+<e><p><l>inside<s n="n"/></l><r>अंदर</r></p></e>
+<e><p><l>medium</l><r>माध्यम</r></p></e>
 <e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>
 <e><p><l>girl<s n="n"/></l><r>लड़की</r></p></e>
 <e><p><l>close</l><r>पास</r></p></e>
@@ -10490,6 +10496,9 @@
 <e><p><l>just<s n="n"/></l><r>ठीक<s n="n"/></r></p></e>
 <e><p><l>jut<s n="n"/></l><r>उभार<s n="n"/></r></p></e>
 <e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल</r></p></e>
+<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>रहुल</r></p></e>
+<e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स</r></p></e>
+<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम</r></p></e>
 <e><p><l>keen<s n="n"/></l><r>अत्यधिक<s n="n"/></r></p></e>
 <e><p><l>keenness<s n="n"/></l><r>कुशाग्रता<s n="n"/></r></p></e>
 <e><p><l>ketonuria<s n="n"/></l><r>एसीटोनमेह<s n="n"/></r></p></e>
@@ -13607,7 +13616,7 @@
 <e><p><l>alternatively<s n="adv"/></l><r>विकल्पत<s n="adv"/></r></p></e>
 <e><p><l>always<s n="adv"/></l><r>हमेशा<s n="adv"/></r></p></e>
 <e><p><l>amiss<s n="adv"/></l><r>गलत<s n="adv"/></r></p></e>
-<e><p><l>anon<s n="adv"/></l><r>जल्दी<s n="adv"/></r></p></e>
+<e><p><l>fast<s n="adv"/></l><r>जल्दी<s n="adv"/></r></p></e>
 <e><p><l>apart<s n="adv"/></l><r>पृथक<s n="adv"/></r></p></e>
 <e><p><l>apiece<s n="adv"/></l><r>प्रत्येक<s n="adv"/></r></p></e>
 <e><p><l>apprehensively<s n="adv"/></l><r>डरपूर्वक<s n="adv"/></r></p></e>
@@ -13652,7 +13661,7 @@
 <e><p><l>doubtless<s n="adv"/></l><r>निसन्देह<s n="adv"/></r></p></e>
 <e><p><l>down<s n="adv"/></l><r>नीचे<s n="adv"/></r></p></e>
 <e><p><l>each<s n="adv"/></l><r>हर<s n="adv"/></r></p></e>
-<e><p><l>early<s n="adv"/></l><r>जल्दी<s n="adv"/></r></p></e>
+
 <e><p><l>efficiently<s n="adv"/></l><r>दक्षतापूर्वक<s n="adv"/></r></p></e>
 <e><p><l>else<s n="adv"/></l><r>अन्य<s n="adv"/></r></p></e>
 <e><p><l>emotionally<s n="adv"/></l><r>भावुकतापूर्वक<s n="adv"/></r></p></e>
@@ -13787,7 +13796,7 @@
 <e><p><l>progressively<s n="adv"/></l><r>उत्तरोत्तर<s n="adv"/></r></p></e>
 <e><p><l>prompt<s n="adv"/></l><r>ठीक<s n="adv"/></r></p></e>
 <e><p><l>promptly<s n="adv"/></l><r>तुरंत<s n="adv"/></r></p></e>
-<e><p><l>pronto<s n="adv"/></l><r>जल्दी<s n="adv"/></r></p></e>
+
 <e><p><l>pro-term<s n="adv"/></l><r>तात्कालिक<s n="adv"/></r></p></e>
 <e><p><l>proud<s n="adv"/></l><r>शानदार<s n="adv"/></r></p></e>
 <e><p><l>publicty<s n="adv"/></l><r>खुलेआम<s n="adv"/></r></p></e>
@@ -13912,7 +13921,7 @@
 <e><p><l>chief<s n="adv"/></l><r>मुख्य<s n="adv"/></r></p></e>
 <e><p><l>chock-a-block<s n="adv"/></l><r>ठसाठस<s n="adv"/></r></p></e>
 <e><p><l>chock<s n="adv"/></l><r>पच्चर<s n="adv"/></r></p></e>
-<e><p><l>chop-chop<s n="adv"/></l><r>जल्दी<s n="adv"/></r></p></e>
+
 <e><p><l>competently<s n="adv"/></l><r>कुशलतापूर्वक<s n="adv"/></r></p></e>
 <e><p><l>complacently<s n="adv"/></l><r>आत्मटुष्टिपूर्वक<s n="adv"/></r></p></e>
 <e><p><l>conceitedly<s n="adv"/></l><r>अहंकारपूर्वक<s n="adv"/></r></p></e>
