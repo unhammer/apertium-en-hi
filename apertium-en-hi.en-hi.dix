@@ -27,6 +27,9 @@
 <sdef n="cm"   c=""/>
 <sdef n="guio"   c=""/>
 <sdef n="ger"   c=""/>
+<sdef n="nom" c=""/>
+<sdef n="pres" c=""/>
+<sdef n="pr" c=""/>
 </sdefs>
 <section id="main" type="standard">
 
@@ -34,6 +37,7 @@
 <e><p><l>this<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
 
 <e><p><l>that<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
+<e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
 
 <!-- Conjunctions -->
 
@@ -43,7 +47,9 @@
 
 <!-- Postpositions -->
 
-<e><p><l>of<s n="pr"/></l><r>का<s n="post"/></r></p></e>
+<e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+<e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+<e><p><l>of<s n="pr"/></l><r>का</r></p></e>
 <e><p><l>@<s n="pr"/></l><r>के<b/>द्वारा<s n="post"/></r></p></e>
 <e><p><l>@<s n="pr"/></l><r>के<b/>लिये<s n="post"/></r></p></e>
 <e><p><l>to<s n="pr"/></l><r>को<s n="post"/></r></p></e>
@@ -74,6 +80,14 @@
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
+<e><p><l></l><r>रह</r></p></e>
+<e><p><l>drink</l><r>पी</r></p></e>
+<e><p><l>laugh</l><r>हस</r></p></e>
+<e><p><l>talk</l><r>बोल</r></p></e>
+<e><p><l>walk</l><r>चल</r></p></e>
+<e><p><l>run</l><r>भाग</r></p></e>
+<e><p><l>hear</l><r>सुन</r></p></e>
+<e><p><l>find</l><r>ढूॅंड</r></p></e>
 
 <!-- Nouns -->
 
@@ -610,7 +624,7 @@
 <e><p><l>axis<s n="n"/></l><r>धुरी<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>axle<s n="n"/></l><r>धुरा<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>azure<s n="n"/></l><r>नीलाकाश<s n="n"/></r></p></e>
-<e><p><l>babe<s n="n"/></l><r>बच्चा<s n="n"/><s n="m"/></r></p></e>
+
 <e><p><l>baby<s n="n"/></l><r>शिशु<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>baby-hood<s n="n"/></l><r>बचपन<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>babyhood<s n="n"/></l><r>बचपना<s n="n"/><s n="m"/></r></p></e>
@@ -3611,7 +3625,7 @@
 <e><p><l>inexperience<s n="n"/></l><r>अनुभवहीनता<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>infamy<s n="n"/></l><r>बदनामी<s n="n"/></r></p></e>
 <e><p><l>infancy<s n="n"/></l><r>बचपन<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>infant<s n="n"/></l><r>बच्चा<s n="n"/><s n="m"/></r></p></e>
+
 <e><p><l>infatuation<s n="n"/></l><r>आसक्ति<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>inference<s n="n"/></l><r>अनुमान<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>inferior<s n="n"/></l><r>अधीनस्थ<s n="n"/></r></p></e>
@@ -4940,7 +4954,7 @@
 <e><p><l>nine<s n="n"/></l><r>नौ<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>nineteen<s n="n"/></l><r>उन्नीस<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>nip<s n="n"/></l><r>चिकोटी<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>nipper<s n="n"/></l><r>बच्चा<s n="n"/><s n="m"/></r></p></e>
+
 <e><p><l>nipple<s n="n"/></l><r>चूची<s n="n"/></r></p></e>
 <e><p><l>nirvana<s n="n"/></l><r>निर्वाण<s n="n"/></r></p></e>
 <e><p><l>nitrate<s n="n"/></l><r>नाइट्रेट<s n="n"/></r></p></e>
@@ -12996,6 +13010,7 @@
 <e><p><l>monsuir<s n="n"/></l><r>श्रीमान<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>morning<s n="n"/></l><r>सुबह<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>mother<s n="n"/></l><r>माता<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mother<s n="n"/></l><r>मॉं<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>motor<s n="n"/></l><r>प्रेरक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>moustache<s n="n"/></l><r>मूँछ<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>mouthful<s n="n"/></l><r>कौर<s n="n"/><s n="m"/></r></p></e>
@@ -13593,6 +13608,8 @@
 <e><p><l>where</l><r>कहॉं</r></p></e>
 <e><p><l>when</l><r>कब</r></p></e>
 <e><p><l>why</l><r>क्यों</r></p></e>
+<e><p><l>why</l><r>क्या</r></p></e>
+<e><p><l>when</l><r>जब</r></p></e>
 <e><p><l>aback<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
 <e><p><l>aboard<s n="adv"/></l><r>सवार<s n="adv"/></r></p></e>
 <e><p><l>above<s n="adv"/></l><r>ऊँचा<s n="adv"/></r></p></e>
@@ -13760,6 +13777,8 @@
 <e><p><l>northwestwards<s n="adv"/></l><r>उत्तरपश्चिमोन्मुख<s n="adv"/></r></p></e>
 <e><p><l>not<s n="adv"/></l><r>नहीं<s n="adv"/></r></p></e>
 <e><p><l>now<s n="adv"/></l><r>अब<s n="adv"/></r></p></e>
+<e><p><l>now<s n="adv"/></l><r>अभी<s n="adv"/></r></p></e>
+
 <e><p><l>nowadays<s n="adv"/></l><r>आजकल<s n="adv"/></r></p></e>
 <e><p><l>numerically<s n="adv"/></l><r>संख्यानुसार<s n="adv"/></r></p></e>
 <e><p><l>occasionally<s n="adv"/></l><r>कभीकभी<s n="adv"/></r></p></e>
@@ -14537,7 +14556,8 @@
 <e><p><l>better<s n="adj"/></l><r>बेहतर<s n="adj"/></r></p></e>
 <e><p><l>bevelled<s n="adj"/></l><r>प्रवणित<s n="adj"/></r></p></e>
 <e><p><l>biennial<s n="adj"/></l><r>द्विवार्षिक<s n="adj"/></r></p></e>
-<e><p><l>big<s n="adj"/></l><r>बडा<s n="adj"/></r></p></e>
+<e><p><l>big<s n="adj"/><s n="sint"/></l><r>बडा<s n="adj"/></r></p></e>
+<e><p><l>big<s n="adj"/><s n="sint"/></l><r>बडे<s n="adj"/></r></p></e>
 
 <e><p><l>binding<s n="adj"/></l><r>आवश्यक<s n="adj"/></r></p></e>
 <e><p><l>bismuth<s n="adj"/></l><r>कांसा<s n="adj"/></r></p></e>
@@ -17258,7 +17278,7 @@
 <e><p><l>successive<s n="adj"/></l><r>आनुक्रमिक<s n="adj"/></r></p></e>
 <e><p><l>succinct<s n="adj"/></l><r>संक्षिप्त<s n="adj"/></r></p></e>
 <e><p><l>succulent<s n="adj"/></l><r>रसीला<s n="adj"/></r></p></e>
-<e><p><l>such<s n="adj"/></l><r>ऐसा<s n="adj"/></r></p></e>
+<e><p><l>such<s n="det"/><s n="ind"/><s n="sp"/></l><r>ऐसा<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 <e><p><l>sudden<s n="adj"/></l><r>अचानक<s n="adj"/></r></p></e>
 <e><p><l>sufficient<s n="adj"/></l><r>पर्याप्त<s n="adj"/></r></p></e>
 <e><p><l>suggestive<s n="adj"/></l><r>विचारोत्तेजक<s n="adj"/></r></p></e>
