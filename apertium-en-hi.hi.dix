@@ -25,7 +25,7 @@
     <sdef n="obl"     c="Oblique"/>
 	<sdef n="pos"     c=""/>
     <sdef n="ind"     c="Indefinite"/>
-	<sdef n="pr"      c="prepositions"/>
+	<sdef n="pr"      c="Preposition"/>
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -1998,12 +1998,13 @@
 	<e lm="य"><i>य</i><par n="यह__prn"/></e>
 	<e lm="व"><i>व</i><par n="यह__prn"/></e>
 	<e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
-	<e lm="कोई"><i>कोई</i><par n="यह__prn"/></e>
+	
 
  <!-- Verbs -->
 
     <e lm="होना"><i></i><par n="/होना__vbser"/></e>
 	<e lm="हो"><i>हो</i><par n="/होना__vbser"/></e>
+
 	<e lm="सक"><i>सक</i><par n="/सकता__vbser"/></e>
     <e lm="सो"><i>सो</i><par n="/खेल__vblex"/></e>
 	<e lm="देख"><i>देख</i><par n="/खेल__vblex"/></e>
@@ -2022,6 +2023,8 @@
 	<e lm="गिन"><i>गिन</i><par n="/खेल__vblex"/></e>
 	<e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
 	<e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
+	<e lm="हो"><i>हो</i><par n="/खेल__vblex"/></e>
+
 	<!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
 	<e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>
@@ -30801,11 +30804,13 @@
     <e lm="उत्साहपूर्वक"><i>उत्साहपूर्वक</i><par n="गलत__adv"/></e>
 	<e lm="पास"><i>पास</i><par n="गलत__adv"/></e>
 	<e lm="वहॉं"><i>वहॉं</i><par n="गलत__adv"/></e>
-	<e lm="असल"><i>असल</i><par n="जड__adj"/></e>
+	<e lm="असल"><i>असल</i><par n="गलत__adv"/></e>
 
 	<!-- Prepostions -->
 	
 	<e lm="से"><i>से</i><par n="गलत__pr"/></e>
+	<e lm="ओर"><i>ओर</i><par n="गलत__pr"/></e>
+    <e lm="कोई"><i>कोई</i><par n="गलत__pr"/></e>
   </section>
 
   <section id="final" type="inconditional">

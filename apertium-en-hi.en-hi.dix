@@ -32,13 +32,13 @@
 <sdef n="predet" c=""/>
 <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 <sdef n="cnjadv"  c=""/>
-<sdef n="pr"  c="preposition"/>
+
 </sdefs>
 <section id="main" type="standard">
 
 <!-- Pronouns -->
 <e><p><l>this<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
-<e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="prn"/><s n="sg"/></r></p></e>
+<e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
 
 <e><p><l>that<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
@@ -63,7 +63,7 @@
 <e><p><l>on<s n="pr"/></l><r>पर<s n="post"/></r></p></e>
 <e><p><l>in<s n="pr"/></l><r>में<s n="post"/></r></p></e>
 <e><p><l>from<s n="pr"/></l><r>से<s n="pr"/></r></p></e>
-
+<e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
 <!-- Determiners -->
 
 <e><p><l>a<s n="det"/><s n="ind"/></l><r>एक<s n="det"/><s n="ind"/></r></p></e>
@@ -90,6 +90,7 @@
 <e><p><l>see</l><r>देख</r></p></e>
 <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
 <e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
+<e r="RL"><p><l></l><r>हो<s n="vblex"/><s n="pres"/></r></p></e>
 <e><p><l>drink</l><r>पी</r></p></e>
 <e><p><l>laugh</l><r>हस</r></p></e>
 <e><p><l>talk</l><r>बोल</r></p></e>
@@ -14093,6 +14094,7 @@
 <e><p><l>inward<s n="adv"/></l><r>भीतरी<s n="adv"/></r></p></e>
 <e><p><l>item<s n="adv"/></l><r>अंश<s n="adv"/></r></p></e>
 <e><p><l>jauntily<s n="adv"/></l><r>प्रङुल्लतापूर्वक<s n="adv"/></r></p></e>
+<e><p><l>really<s n="adv"/></l><r>असल<s n="adv"/></r></p></e>
 <e><p><l>jealously<s n="adv"/></l><r>ईर्ष्यापूर्वक<s n="adv"/></r></p></e>
 <e><p><l>jovially<s n="adv"/></l><r>प्रसन्नतापूर्वक<s n="adv"/></r></p></e>
 <e><p><l>knavishly<s n="adv"/></l><r>धूर्ततापूर्वक<s n="adv"/></r></p></e>
@@ -14296,7 +14298,7 @@
 
 
 <!-- Adjectives -->
-<e><p><l>real<s n="adj"/><s n="sint"/></l><r>असल<s n="adj"/></r></p></e>
+
 <e><p><l>abashed<s n="adj"/></l><r>लज्जित<s n="adj"/></r></p></e>
 <e><p><l>aberrant<s n="adj"/></l><r>असामान्य<s n="adj"/></r></p></e>
 <e><p><l>abhorrent<s n="adj"/></l><r>घृणित<s n="adj"/></r></p></e>
