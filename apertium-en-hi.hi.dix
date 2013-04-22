@@ -25,7 +25,7 @@
     <sdef n="obl"     c="Oblique"/>
 	<sdef n="pos"     c=""/>
     <sdef n="ind"     c="Indefinite"/>
-	
+	<sdef n="pr"      c="prepositions"/>
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -38,6 +38,18 @@
   </sdefs>
 
   <pardefs>
+	<!-- Prepostions -->
+	<pardef n="गलत__pr">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+	
+
+
     <!-- Punctuation -->
 
     <pardef n="numeros">
@@ -1565,6 +1577,13 @@
           <r>होना<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
+   <e>
+        <p>
+          <l>गा</l>
+          <r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+	
     </pardef>    
 	
     <pardef n="/सकता__vbser">
@@ -1714,6 +1733,25 @@
           <r><s n="det"/><s n="pos"/><s n="sp"/></r>
         </p>
       </e>
+
+	<e>
+        <p>
+          <l>ने</l>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
+	<e>
+        <p>
+          <l>ना</l>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
+ <e>
+        <p>
+          <l>नी</l>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
     </pardef>
 
     <!-- Postpositions -->
@@ -1860,7 +1898,7 @@
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
     <e lm="ने"><i>ने</i><par n="ने__post"/></e>
     <e lm="को"><i>को</i><par n="ने__post"/></e>
-    <e lm="से"><i>से</i><par n="ने__post"/></e>
+
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
     <e lm="के द्वारा"><i>के<b/>द्वारा</i><par n="ने__post"/></e>
     <e lm="में"><i>में</i><par n="ने__post"/></e>
@@ -1873,14 +1911,16 @@
 	<e lm="मेरा"><i>मेरा</i><par n="मेरी__det"/></e>
 	 <e lm="मेरे"><i>मेरे</i><par n="मेरी__det"/></e>
 	<e lm="उस"><i>उस</i><par n="उस__det"/></e>
-	<e lm="उन"><i>उन</i><par n="उस__det"/></e>   
+	<e lm="उन"><i>उन</i><par n="उस__det"/></e>  
+	<e lm="आप"><i>आप</i><par n="उस__det"/></e> 
+	<e lm="अप"><i>अप</i><par n="उस__det"/></e> 
 	<!-- Conjunctions -->
 
     <e lm="और"><i>और</i><par n="और__cnjcoo"/></e>
     <e lm="पर"><i>पर</i><par n="और__cnjcoo"/></e>
     <e lm="मगर"><i>मगर</i><par n="और__cnjcoo"/></e>
-    <e lm="लेकिन"><i>लेकिन</i><par n="और__cnjcoo"/></e>
-
+    <e lm="या"><i>या</i><par n="और__cnjcoo"/></e>
+	<e lm="लेकिन"><i>लेकिन</i><par n="और__cnjcoo"/></e>
     <e lm="अगर"><i>अगर</i><par n="अगर__cnjsub"/></e>
     <e lm="अगरचे"><i>अगरचे</i><par n="अगर__cnjsub"/></e>
     <e lm="कि"><i>कि</i><par n="अगर__cnjsub"/></e>
@@ -1958,14 +1998,17 @@
 	<e lm="य"><i>य</i><par n="यह__prn"/></e>
 	<e lm="व"><i>व</i><par n="यह__prn"/></e>
 	<e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
-   
+	<e lm="कोई"><i>कोई</i><par n="यह__prn"/></e>
+
  <!-- Verbs -->
 
     <e lm="होना"><i></i><par n="/होना__vbser"/></e>
+	<e lm="हो"><i>हो</i><par n="/होना__vbser"/></e>
 	<e lm="सक"><i>सक</i><par n="/सकता__vbser"/></e>
     <e lm="सो"><i>सो</i><par n="/खेल__vblex"/></e>
 	<e lm="देख"><i>देख</i><par n="/खेल__vblex"/></e>
 	<e lm="रह"><i>रह</i><par n="/खेल__vblex"/></e>
+	<e lm="ही"><i>ही</i><par n="/खेल__vblex"/></e>
 	<e lm="भाग"><i>भाग</i><par n="/खेल__vblex"/></e>
 	<e lm="पी"><i>पी</i><par n="/खेल__vblex"/></e>
 	<e lm="हस"><i>हस</i><par n="/खेल__vblex"/></e>
@@ -1978,7 +2021,7 @@
 	<e lm="सोच"><i>सोच</i><par n="/खेल__vblex"/></e>
 	<e lm="गिन"><i>गिन</i><par n="/खेल__vblex"/></e>
 	<e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
-
+	<e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
 	<!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
 	<e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>
@@ -1992,6 +2035,7 @@
     <e lm="परिहास"><i>परिहास</i><par n="ऐ__n_m"/></e>
     <e lm="हलदी"><i>हलदी</i><par n="ऊब__n_f"/></e>
     <e lm="सेंट"><i>सेंट</i><par n="ऐ__n_m"/></e>
+    <e lm="तरह"><i>तरह</i><par n="थ__n_m"/></e>
     <e lm="कर्टूनकार"><i>कर्टूनकार</i><par n="थ__n_m"/></e>
     <e lm="दीपित"><i>दीपित</i><par n="ऊब__n_f"/></e>
     <e lm="परतंत्र"><i>परतंत्र</i><par n="ऐ__n_m"/></e>
@@ -22009,7 +22053,7 @@
     <e lm="पुनर्विचारप्राथी"><i>पुनर्विचारप्राथ</i><par n="हठ/ी__n_m"/></e>
     <e lm="पशुचर्या"><i>पशुचर्या</i><par n="बला__n_f"/></e>
     <e lm="बरफी"><i>बरफ</i><par n="ध/ी__n_f"/></e>
-    <e lm="पूछ"><i>पूछ</i><par n="ऊब__n_f"/></e>
+
     <e lm="परिसंपत्ति"><i>परिसंपत्ति</i><par n="ऊब__n_f"/></e>
     <e lm="अपसर्पण"><i>अपसर्पण</i><par n="ऐ__n_m"/></e>
     <e lm="ध्वनि"><i>ध्वनि</i><par n="नति__n_f"/></e>
@@ -23730,7 +23774,7 @@
     <e lm="प्रतिज्ञात"><i>प्रतिज्ञात</i><par n="जड__adj"/></e>
     <e lm="संकरजात"><i>संकरजात</i><par n="जड__adj"/></e>
     <e lm="संतरण"><i>संतरण</i><par n="जड__adj"/></e>
-    <e lm="असल"><i>असल</i><par n="जड__adj"/></e>
+    
     <e lm="प्रदूषक"><i>प्रदूषक</i><par n="जड__adj"/></e>
     <e lm="संबाधक"><i>संबाधक</i><par n="जड__adj"/></e>
     <e lm="संशोधित"><i>संशोधित</i><par n="जड__adj"/></e>
@@ -30135,7 +30179,7 @@
     <e lm="साहसपूर्वक"><i>साहसपूर्वक</i><par n="गलत__adv"/></e>
     <e lm="स्तब्ध"><i>स्तब्ध</i><par n="गलत__adv"/></e>
     <e lm="रूप"><i>रूप</i><par n="गलत__adv"/></e>
-    <e lm="से"><i>से</i><par n="गलत__adv"/></e>
+
     <e lm="क्षमतापूर्वक"><i>क्षमतापूर्वक</i><par n="गलत__adv"/></e>
     <e lm="लगातार"><i>लगातार</i><par n="गलत__adv"/></e>
     <e lm="प्रधानतः"><i>प्रधानतः</i><par n="गलत__adv"/></e>
@@ -30194,7 +30238,7 @@
     <e lm="दोनों"><i>दोनों</i><par n="गलत__adv"/></e>
     <e lm="बहुधा"><i>बहुधा</i><par n="गलत__adv"/></e>
     <e lm="अत्यन्त"><i>अत्यन्त</i><par n="गलत__adv"/></e>
-    <e lm="से"><i>से</i><par n="गलत__adv"/></e>
+
     <e lm="प्राय"><i>प्राय</i><par n="गलत__adv"/></e>
     <e lm="अत्यन्त"><i>अत्यन्त</i><par n="गलत__adv"/></e>
     <e lm="आदतन"><i>आदतन</i><par n="गलत__adv"/></e>
@@ -30390,6 +30434,7 @@
     <e lm="लाल"><i>लाल</i><par n="गलत__adv"/></e>
     <e lm="गतिमान"><i>गतिमान</i><par n="गलत__adv"/></e>
     <e lm="दुबारा"><i>दुबारा</i><par n="गलत__adv"/></e>
+    <e lm="फ़िर"><i>फ़िर</i><par n="गलत__adv"/></e>
     <e lm="उर्फ़"><i>उर्फ़</i><par n="गलत__adv"/></e>
     <e lm="उतरना"><i>उतरना</i><par n="गलत__adv"/></e>
     <e lm="कड़ा"><i>कड़ा</i><par n="गलत__adv"/></e>
@@ -30756,7 +30801,11 @@
     <e lm="उत्साहपूर्वक"><i>उत्साहपूर्वक</i><par n="गलत__adv"/></e>
 	<e lm="पास"><i>पास</i><par n="गलत__adv"/></e>
 	<e lm="वहॉं"><i>वहॉं</i><par n="गलत__adv"/></e>
+	<e lm="असल"><i>असल</i><par n="जड__adj"/></e>
 
+	<!-- Prepostions -->
+	
+	<e lm="से"><i>से</i><par n="गलत__pr"/></e>
   </section>
 
   <section id="final" type="inconditional">

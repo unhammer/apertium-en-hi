@@ -32,11 +32,13 @@
 <sdef n="predet" c=""/>
 <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 <sdef n="cnjadv"  c=""/>
+<sdef n="pr"  c="preposition"/>
 </sdefs>
 <section id="main" type="standard">
 
 <!-- Pronouns -->
 <e><p><l>this<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
+<e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="prn"/><s n="sg"/></r></p></e>
 
 <e><p><l>that<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
@@ -46,6 +48,7 @@
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>पर<s n="cnjcoo"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
 <e><p><l>if<s n="cnjadv"/></l><r>कि<s n="cnjsub"/></r></p></e>
 <!-- Postpositions -->
 
@@ -59,7 +62,7 @@
 <e><p><l></l><r>ने<s n="post"/></r></p></e> <!-- Ergative marker -->
 <e><p><l>on<s n="pr"/></l><r>पर<s n="post"/></r></p></e>
 <e><p><l>in<s n="pr"/></l><r>में<s n="post"/></r></p></e>
-<e><p><l>from<s n="pr"/></l><r>से<s n="post"/></r></p></e>
+<e><p><l>from<s n="pr"/></l><r>से<s n="pr"/></r></p></e>
 
 <!-- Determiners -->
 
@@ -69,7 +72,8 @@
 <e><p><l>my</l><r>मेरे</r></p></e>
 <e><p><l>her</l><r>उस</r></p></e>
 <e><p><l>their</l><r>उन</r></p></e>
-
+<e><p><l>your</l><r>आप</r></p></e>
+<e><p><l>our</l><r>अप</r></p></e>
 <!-- Numerals -->
 
 <e><p><l>two<s n="num"/><s n="sp"/></l><r>दो<s n="num"/></r></p></e>
@@ -79,10 +83,13 @@
 <!-- Verbs -->
 
 <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
+<e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>
+
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
 <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
+<e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
 <e><p><l>drink</l><r>पी</r></p></e>
 <e><p><l>laugh</l><r>हस</r></p></e>
 <e><p><l>talk</l><r>बोल</r></p></e>
@@ -95,9 +102,12 @@
 <e><p><l>sit</l><r>बैठ</r></p></e>
 <e><p><l>count</l><r>गिन</r></p></e>
 <e><p><l>finish</l><r>चुक</r></p></e>
+<e><p><l>ask</l><r>पूछ</r></p></e>
+
 
 <!-- Nouns -->
 <e><p><l>space<s n="n"/><s n="sg"/></l><r>जगह<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+<e><p><l>way<s n="n"/><s n="sg"/></l><r>तरह<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 <e><p><l>inside<s n="n"/></l><r>अंदर</r></p></e>
 <e><p><l>medium</l><r>माध्यम</r></p></e>
 <e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>
@@ -5738,7 +5748,7 @@
 <e><p><l>potter's<b/>wheel<s n="n"/></l><r>चाक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>potty<s n="n"/></l><r>पौटी<s n="n"/></r></p></e>
 <e><p><l>pouffe<s n="n"/></l><r>गद्दी<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>poultry<s n="n"/></l><r>पक्षी<s n="n"/></r></p></e>
+<e><p><l>bird<s n="n"/></l><r>पक्षी<s n="n"/></r></p></e>
 <e><p><l>pound<s n="n"/></l><r>पौण्ड<s n="n"/></r></p></e>
 <e><p><l>pounding<s n="n"/></l><r>ध्वनि<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>poverty<s n="n"/></l><r>गरीबी<s n="n"/><s n="f"/></r></p></e>
@@ -7683,7 +7693,7 @@
 <e><p><l>tale<s n="n"/></l><r>कहानी<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>talent<s n="n"/></l><r>प्रतिभा<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>talisman<s n="n"/></l><r>जन्तर<s n="n"/></r></p></e>
-<e><p><l>talk<s n="n"/></l><r>बातचीत<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>talk<s n="n"/></l><r>बात<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>tallow<s n="n"/></l><r>चर्बी<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>tally<s n="n"/></l><r>लेखा<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>tally<s n="n"/></l><r>लेखा<s n="n"/><s n="m"/></r></p></e>
@@ -12547,7 +12557,7 @@
 <e><p><l>wigging<s n="n"/></l><r>फटकार<s n="n"/></r></p></e>
 <e><p><l>wiggle<s n="n"/></l><r>हरकत<s n="n"/></r></p></e>
 <e><p><l>wiggler<s n="n"/></l><r>छटपटिया<s n="n"/></r></p></e>
-<e><p><l>wight<s n="n"/></l><r>प्राणी<s n="n"/></r></p></e>
+<e><p><l>animal<s n="n"/></l><r>प्राणी<s n="n"/></r></p></e>
 <e><p><l>wiliness<s n="n"/></l><r>धूर्तता<s n="n"/></r></p></e>
 <e><p><l>wimble<s n="n"/></l><r>बरमा<s n="n"/></r></p></e>
 <e><p><l>winceyette<s n="n"/></l><r>विन्सियेट<s n="n"/></r></p></e>
@@ -13620,7 +13630,7 @@
 <e><p><l>why</l><r>क्या</r></p></e>
 <e><p><l>when</l><r>जब</r></p></e>
 <e><p><l>there</l><r>वहॉं</r></p></e>
-<e><p><l>aback<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
+<e><p><l>behind<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
 <e><p><l>aboard<s n="adv"/></l><r>सवार<s n="adv"/></r></p></e>
 <e><p><l>above<s n="adv"/></l><r>ऊँचा<s n="adv"/></r></p></e>
 <e><p><l>absolutely<s n="adv"/></l><r>पूर्णतः<s n="adv"/></r></p></e>
@@ -13917,6 +13927,7 @@
 <e><p><l>aflame<s n="adv"/></l><r>लाल<s n="adv"/></r></p></e>
 <e><p><l>afoot<s n="adv"/></l><r>गतिमान<s n="adv"/></r></p></e>
 <e><p><l>again<s n="adv"/></l><r>दुबारा<s n="adv"/></r></p></e>
+<e><p><l>again<s n="adv"/></l><r>फ़िर<s n="adv"/></r></p></e>
 <e><p><l>alias<s n="adv"/></l><r>उर्फ़<s n="adv"/></r></p></e>
 <e><p><l>alight<s n="adv"/></l><r>उतरना<s n="adv"/></r></p></e>
 <e><p><l>all-out<s n="adv"/></l><r>कड़ा<s n="adv"/></r></p></e>
@@ -14283,7 +14294,9 @@
 <e><p><l>yes<s n="adv"/></l><r>वाकई<s n="adv"/></r></p></e>
 <e><p><l>zealously<s n="adv"/></l><r>उत्साहपूर्वक<s n="adv"/></r></p></e>
 
+
 <!-- Adjectives -->
+<e><p><l>real<s n="adj"/><s n="sint"/></l><r>असल<s n="adj"/></r></p></e>
 <e><p><l>abashed<s n="adj"/></l><r>लज्जित<s n="adj"/></r></p></e>
 <e><p><l>aberrant<s n="adj"/></l><r>असामान्य<s n="adj"/></r></p></e>
 <e><p><l>abhorrent<s n="adj"/></l><r>घृणित<s n="adj"/></r></p></e>
@@ -16917,7 +16930,7 @@
 <e><p><l>ruddy<s n="adj"/></l><r>सुर्ख<s n="adj"/></r></p></e>
 <e><p><l>rude<s n="adj"/></l><r>अशिष्ट<s n="adj"/></r></p></e>
 <e><p><l>rudimentary<s n="adj"/></l><r>प्रारम्भिक<s n="adj"/></r></p></e>
-<e><p><l>rueful<s n="adj"/></l><r>उदास<s n="adj"/></r></p></e>
+<e><p><l>rueful<s n="adj"/></l><r>उदास<s n="adj"/></r></p></e>और
 <e><p><l>rugged<s n="adj"/></l><r>ऊँचा-नीचा<s n="adj"/></r></p></e>
 <e><p><l>ruinous<s n="adj"/></l><r>नाशक<s n="adj"/></r></p></e>
 <e><p><l>ruling<s n="adj"/></l><r>प्रबल<s n="adj"/></r></p></e>
