@@ -13,6 +13,8 @@
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 	<sdef n="cnjadv"  c=""/>
 	<sdef n="prn"   c="Pronoun"/>
+	<sdef n="ant"   c="Anthroponym"/>
+	<sdef n="np"   c="Proper noun"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
     <sdef n="mf"      c=""/>
@@ -77,7 +79,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="m"/><s n="sg"/></r>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       
@@ -86,7 +88,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="f"/><s n="sg"/></r>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       

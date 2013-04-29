@@ -10529,10 +10529,10 @@
 <e><p><l>justifier<s n="n"/></l><r>प्रतिसमर्थक<s n="n"/></r></p></e>
 <e><p><l>just<s n="n"/></l><r>ठीक<s n="n"/></r></p></e>
 <e><p><l>jut<s n="n"/></l><r>उभार<s n="n"/></r></p></e>
-<e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल</r></p></e>
-<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>रहुल</r></p></e>
-<e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स</r></p></e>
-<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम</r></p></e>
+<e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>रहुल<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>keen<s n="n"/></l><r>अत्यधिक<s n="n"/></r></p></e>
 <e><p><l>keenness<s n="n"/></l><r>कुशाग्रता<s n="n"/></r></p></e>
 <e><p><l>ketonuria<s n="n"/></l><r>एसीटोनमेह<s n="n"/></r></p></e>
@@ -11321,7 +11321,7 @@
 <e><p><l>quoits<s n="n"/></l><r>कौइट्स<s n="n"/></r></p></e>
 <e><p><l>quotidian<s n="n"/></l><r>साधारण<s n="n"/></r></p></e>
 <e><p><l>rabbi<s n="n"/></l><r>रब्बी<s n="n"/></r></p></e>
-<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल</r></p></e>
+<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>racetrack<s n="n"/></l><r>घुड़दौड़-मैदान<s n="n"/></r></p></e>
 <e><p><l>racketeering<s n="n"/></l><r>ठगी<s n="n"/></r></p></e>
 <e><p><l>racketeer<s n="n"/></l><r>ठग<s n="n"/></r></p></e>
