@@ -38,16 +38,21 @@
 
 <!-- Pronouns -->
 <e><p><l>this<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
+<e><p><l>this<s n="prn"/><s n="tn"/><s n="sg"/></l><r>इस<s n="prn"/></r></p></e>
+
 <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
 
 <e><p><l>that<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
+<e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>
 
 <!-- Conjunctions -->
 
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>पर<s n="cnjcoo"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
+<e><p><l>and<s n="cnjcoo"/></l><r>तथा<s n="cnjcoo"/></r></p></e>
+<e><p><l>and<s n="cnjcoo"/></l><r>एवं<s n="cnjcoo"/></r></p></e>
 <e><p><l>or<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
 <e><p><l>if<s n="cnjadv"/></l><r>कि<s n="cnjsub"/></r></p></e>
 <!-- Postpositions -->

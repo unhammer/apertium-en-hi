@@ -1,4 +1,41 @@
 <dictionary>
+<<<<<<< .mine
+  <alphabet>किपीडियाविविहिनदीकिपीडियापरवागतहैक्तजोकोकारदेताहैहिनदीमेंलेखअआइईउऊएओऐऔऋॠऌॡऍऑपािीुूेोैौृॄॢॣॅॉपापिपीपुपूपेपोपैपौपृपॄपॢपॣपॅपॉथशबसबहुभाषीयड़</alphabet>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
+	<sdef n="cnjadv"  c=""/>
+	<sdef n="prn"   c="Pronoun"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="mf"      c=""/>
+	<sdef n="vaux"    c=""/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c=""/>
+	<sdef n="itg"     c="interrogative"/>
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="obl"     c="Oblique"/>
+	<sdef n="pos"     c=""/>
+    <sdef n="ind"     c="Indefinite"/>
+	<sdef n="pr"      c="Preposition"/>
+
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pres"    c="Present tense"/>
+	<sdef n="past"    c="Past tense"/>
+=======
   <alphabet>किपीडियाविविहिनदीकिपीडियापरवागतहैक्तजोकोकारदेताहैहिनदीमेंलेखअआइईउऊएओऐऔऋॠऌॡऍऑपािीुूेोैौृॄॢॣॅॉपापिपीपुपूपेपोपैपौपृपॄपॢपॣपॅपॉथशबसबहुभाषीय</alphabet>   
   <sdefs>     
     <sdef n="n"       c="Noun"/>     
@@ -34,6 +71,7 @@
     <sdef n="inf"     c="Infinitive"/>     
     <sdef n="pres"    c="Present tense"/>   
     <sdef n="past"    c="Past tense"/>     
+>>>>>>> .r44478
     <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
   <pardefs>   
@@ -244,6 +282,20 @@
        <e><p><l>उओं</l><r>ऊ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
      </pardef>
 
+<<<<<<< .mine
+    <e lm="और"><i>और</i><par n="और__cnjcoo"/></e>
+	<e lm="तथा"><i>तथा</i><par n="और__cnjcoo"/></e>
+	<e lm="एवं"><i>एवं</i><par n="और__cnjcoo"/></e>
+    <e lm="पर"><i>पर</i><par n="और__cnjcoo"/></e>
+    <e lm="मगर"><i>मगर</i><par n="और__cnjcoo"/></e>
+    <e lm="या"><i>या</i><par n="और__cnjcoo"/></e>
+	<e lm="लेकिन"><i>लेकिन</i><par n="और__cnjcoo"/></e>
+    <e lm="अगर"><i>अगर</i><par n="अगर__cnjsub"/></e>
+    <e lm="अगरचे"><i>अगरचे</i><par n="अगर__cnjsub"/></e>
+    <e lm="कि"><i>कि</i><par n="अगर__cnjsub"/></e>
+    <e lm="ताकि"><i>ताकि</i><par n="अगर__cnjsub"/></e>
+    <e lm="यदि"><i>यदि</i><par n="अगर__cnjsub"/></e>
+=======
      <pardef n="जरद/ा__n_m">
        <e><p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -251,6 +303,7 @@
        <e><p><l>ों</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
        <e><p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
      </pardef>
+>>>>>>> .r44478
 
      <pardef n="ऋ__n_m">
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -274,12 +327,21 @@
        <e><p><l>वों</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
      </pardef>
 
+<<<<<<< .mine
+	<!-- pronouns -->	
+	<e lm="य"><i>य</i><par n="यह__prn"/></e>
+	
+	<e lm="व"><i>व</i><par n="यह__prn"/></e>
+	<e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
+	<e lm="इस"><i>इस</i><par n="just__prn"/></e>
+=======
      <pardef n="गेह/ूँ__n_m">
        <e><p><l>ूँ</l><r>ूँ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ूँ</l><r>ूँ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
        <e><p><l>ूँ</l><r>ूँ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ुँओं</l><r>ूँ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
      </pardef>
+>>>>>>> .r44478
 
      <pardef n="नकल__n_f">
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -29413,6 +29475,7 @@
    <e lm="से"><i>से</i><par n="गलत__pr"/></e>
    <e lm="ओर"><i>ओर</i><par n="गलत__pr"/></e>
      <e lm="कोई"><i>कोई</i><par n="गलत__pr"/></e>
+    <e lm="द्वारा"><i>द्वारा</i><par n="गलत__pr"/></e>
   </section>
 
   <section id="final" type="inconditional">
