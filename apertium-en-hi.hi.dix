@@ -2,6 +2,8 @@
   <alphabet>किपीडियाविविहिनदीकिपीडियापरवागतहैक्तजोकोकारदेताहैहिनदीमेंलेखअआइईउऊएओऐऔऋॠऌॡऍऑपािीुूेोैौृॄॢॣॅॉपापिपीपुपूपेपोपैपौपृपॄपॢपॣपॅपॉथशबसबहुभाषीयड़</alphabet>   
   <sdefs>     
     <sdef n="n"       c="Noun"/>     
+	<sdef n="np"      c="Proper noun"/>
+	<sdef n="ant"     c=""/>
     <sdef n="num"     c="Numeral"/>     
     <sdef n="adj"     c="Adjective"/>     
     <sdef n="adv"     c="Adverb"/>     
@@ -52,11 +54,11 @@
   
     <!-- SECTION: Nouns -->     
     <pardef n="name__n_m">
-      <e><p><l></l><r><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>  
              
     <pardef n="name__n_f">
-      <e><p><l></l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>    
         
     <pardef n="ऊब__n_f">
