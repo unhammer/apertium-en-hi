@@ -5754,7 +5754,7 @@
 <e><p><l>potter's<b/>wheel<s n="n"/></l><r>चाक<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>potty<s n="n"/></l><r>पौटी<s n="n"/></r></p></e>
 <e><p><l>pouffe<s n="n"/></l><r>गद्दी<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>bird<s n="n"/></l><r>पक्षी<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bird<s n="n"/></l><r>पक्षी<s n="n"/></r></p></e>
 <e><p><l>pound<s n="n"/></l><r>पौण्ड<s n="n"/></r></p></e>
 <e><p><l>pounding<s n="n"/></l><r>ध्वनि<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>poverty<s n="n"/></l><r>गरीबी<s n="n"/><s n="f"/></r></p></e>
@@ -7677,8 +7677,7 @@
 <e><p><l>systematization<s n="n"/></l><r>व्यवस्थापन<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>systemization<s n="n"/></l><r>व्यवस्थापन<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>tab<s n="n"/></l><r>टँगनी<s n="n"/></r></p></e>
-<e><p><l>table<s n="n"/></l><r>मेज<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>table<s n="n"/></l><r>मेज<s n="n"/><s n="m"/></r></p></e><!-- FIXME: CHECK!! -->
+<e><p><l>table<s n="n"/></l><r>मेज<s n="n"/></r></p></e>
 <e><p><l>table-cloth<s n="n"/></l><r>मेजपोश<s n="n"/></r></p></e>
 <e><p><l>table-tennis<s n="n"/></l><r>पिंगपोंग<s n="n"/></r></p></e>
 <e><p><l>tableau<s n="n"/></l><r>झाँकी<s n="n"/><s n="f"/></r></p></e>
@@ -10535,10 +10534,10 @@
 <e><p><l>justifier<s n="n"/></l><r>प्रतिसमर्थक<s n="n"/></r></p></e>
 <e><p><l>just<s n="n"/></l><r>ठीक<s n="n"/></r></p></e>
 <e><p><l>jut<s n="n"/></l><r>उभार<s n="n"/></r></p></e>
-<e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>रहुल<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल</r></p></e>
+<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>रहुल</r></p></e>
+<e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स</r></p></e>
+<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम</r></p></e>
 <e><p><l>keen<s n="n"/></l><r>अत्यधिक<s n="n"/></r></p></e>
 <e><p><l>keenness<s n="n"/></l><r>कुशाग्रता<s n="n"/></r></p></e>
 <e><p><l>ketonuria<s n="n"/></l><r>एसीटोनमेह<s n="n"/></r></p></e>
@@ -11327,7 +11326,7 @@
 <e><p><l>quoits<s n="n"/></l><r>कौइट्स<s n="n"/></r></p></e>
 <e><p><l>quotidian<s n="n"/></l><r>साधारण<s n="n"/></r></p></e>
 <e><p><l>rabbi<s n="n"/></l><r>रब्बी<s n="n"/></r></p></e>
-<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल</r></p></e>
 <e><p><l>racetrack<s n="n"/></l><r>घुड़दौड़-मैदान<s n="n"/></r></p></e>
 <e><p><l>racketeering<s n="n"/></l><r>ठगी<s n="n"/></r></p></e>
 <e><p><l>racketeer<s n="n"/></l><r>ठग<s n="n"/></r></p></e>
@@ -12564,7 +12563,7 @@
 <e><p><l>wigging<s n="n"/></l><r>फटकार<s n="n"/></r></p></e>
 <e><p><l>wiggle<s n="n"/></l><r>हरकत<s n="n"/></r></p></e>
 <e><p><l>wiggler<s n="n"/></l><r>छटपटिया<s n="n"/></r></p></e>
-<e><p><l>animal<s n="n"/></l><r>प्राणी<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>animal<s n="n"/></l><r>प्राणी<s n="n"/></r></p></e>
 <e><p><l>wiliness<s n="n"/></l><r>धूर्तता<s n="n"/></r></p></e>
 <e><p><l>wimble<s n="n"/></l><r>बरमा<s n="n"/></r></p></e>
 <e><p><l>winceyette<s n="n"/></l><r>विन्सियेट<s n="n"/></r></p></e>
