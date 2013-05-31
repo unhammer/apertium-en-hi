@@ -56,16 +56,18 @@
     </pardef>
   
     <!-- SECTION: Nouns -->     
-    <pardef n="name__n_m">
+    
+	<pardef n="name__n_m">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>  
              
     <pardef n="name__n_f">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>    
-        
+    
+    
     <pardef n="ऊब__n_f">
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
@@ -438,18 +440,19 @@
     <!-- SECTION: Verbs -->      
  
     <pardef n="/होना__vbser">
-      <e><p><l>होना</l><r>होना<s n="vbser"/><s n="inf"/></r></p></e>
+          <e><p><l>होना</l><r>होना<s n="vbser"/><s n="inf"/></r></p></e>
          <e><p><l>है</l><r>होना<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
           <e><p><l>हैं</l><r>होना<s n="vbser"/><s n="pres"/></r></p></e>
            <e><p><l>था</l><r>होना<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>गा</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-             </pardef>                 
-    <pardef n="/सकता__vbser">
+              <e><p><l>गा</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+   </pardef>                 
+   
+ <pardef n="/सकता__vbser">
       <e><p><l>ता</l><r><s n="vaux"/><s n="past"/></r></p></e>
         <e><p><l>ते</l><r><s n="vaux"/><s n="past"/></r></p></e>
           <e>                <p><l>ती</l><r><s n="vaux"/><s n="past"/></r></p></e>
         <e><p><l>ना</l><r><s n="vaux"/><s n="pres"/></r></p></e>
-         </pardef>            
+     </pardef>            
     <pardef n="पसंद__vblex">         <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
     </pardef>
                  
@@ -518,7 +521,14 @@
 		<pardef n="pl_p1__prn">       
         <e><p><l></l><r><s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>	
-	        
+		<pardef n="sg_p2__prn">       
+        <e><p><l></l><r><s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+   
+	</pardef>
+		<pardef n="pl_p2__prn">       
+        <e><p><l></l><r><s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>	
+	                
 	<pardef n="pl__prn">       
         <e><p><l></l><r><s n="prn"/><s n="pl"/></r></p></e>
     </pardef>
@@ -648,14 +658,18 @@
     <e lm="चौरानवे"><i>चौरानवे</i><par n="आठ__num"/></e>
     <e lm="छियासी"><i>छियासी</i><par n="आठ__num"/></e>
     <e lm="सत्तर"><i>सत्तर</i><par n="आठ__num"/></e>
-         <!-- pronouns -->               
+    
+	<!-- pronouns -->               
     <e lm="य"><i>य</i><par n="यह__prn"/></e>
     <e lm="व"><i>व</i><par n="यह__prn"/></e>
     <e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
     <e lm="इस"><i>इस</i><par n="just__prn"/></e>
 	<e lm="मैं"><i>मैं</i><par n="sg_p1__prn"/></e>
 	<e lm="हम"><i>हम</i><par n="pl_p1__prn"/></e>
-	
+	<e lm="तुम"><i>तुम</i><par n="sg_p2__prn"/></e>
+	<e lm="तू"><i>तू</i><par n="sg_p2__prn"/></e>
+	<e lm="तू"><i>तू</i><par n="sg_p2__prn"/></e>
+    <e lm="आप"><i>आप</i><par n="sg_p2__prn"/></e>
    <!-- Verbs -->
     <e lm="होना"><i></i><par n="/होना__vbser"/></e>
     <e lm="हो"><i>हो</i><par n="/होना__vbser"/></e>

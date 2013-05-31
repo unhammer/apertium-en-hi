@@ -10,11 +10,14 @@
 <sdef n="vblex"   c="verb"/>
 <sdef n="det"    c="Determiner"/>
 <sdef n="prn"    c="Pronoun"/>
+<sdef n="subj"   c="subject"/>
+
 <sdef n="pr"     c="Preposition"/>
 <sdef n="vbser"  c="Verb 'to be'"/>
 <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
 <sdef n="f"      c="Feminine"/>
 <sdef n="m"      c="Masculine"/>
+<sdef n="mf"      c="Masculine/feminine"/>
 <sdef n="tn"      c=""/>
 <sdef n="ind"    c="Indefinite"/>
 <sdef n="ant"    c=""/>
@@ -51,7 +54,9 @@
 <e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/></l><r>मैं<s n="prn"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/></l><r>हम<s n="prn"/></r></p></e>	
-
+<e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
+<e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तू<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
+<e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>आप<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 <!-- Conjunctions -->
 
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
