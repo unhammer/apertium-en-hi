@@ -4,6 +4,7 @@
     <sdef n="n"       c="Noun"/>     
 	<sdef n="np"      c="Proper noun"/>
 	<sdef n="ant"     c=""/>
+	<sdef n="subj"    c="subject"/>
     <sdef n="num"     c="Numeral"/>     
     <sdef n="adj"     c="Adjective"/>     
     <sdef n="adv"     c="Adverb"/>     
@@ -35,6 +36,8 @@
     <sdef n="pres"    c="Present tense"/>        
     <sdef n="past"    c="Past tense"/>     
     <sdef n="sent"    c="Sentence marker"/>
+
+
   </sdefs>    
   <pardefs>        
 
@@ -502,13 +505,29 @@
 
     <!-- SECTIN: Pronouns -->
                 
-    <pardef n="यह__prn">        <e><p><l>ह</l><r><s n="prn"/><s n="sg"/></r></p></e>
+    <pardef n="यह__prn">       
+		 <e><p><l>ह</l><r><s n="prn"/><s n="sg"/></r></p></e>
         <e><p><l>े</l><r><s n="prn"/><s n="pl"/></r></p></e>
     </pardef>
-        
-    <pardef n="just__prn">        <e><p><l></l><r><s n="prn"/></r></p></e>
-            </pardef>
-
+	<pardef n="sg__prn">       
+        <e><p><l></l><r><s n="prn"/><s n="sg"/></r></p></e>
+    </pardef>
+	<pardef n="sg_p1__prn">       
+        <e><p><l></l><r><s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+		<pardef n="pl_p1__prn">       
+        <e><p><l></l><r><s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>	
+	        
+	<pardef n="pl__prn">       
+        <e><p><l></l><r><s n="prn"/><s n="pl"/></r></p></e>
+    </pardef>
+	
+    <pardef n="just__prn">       
+		 <e><p><l></l><r><s n="prn"/></r></p></e>
+    </pardef>
+	
+	
     <!-- SECTION: Adverbs -->      
     <pardef n="गलत__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
@@ -634,6 +653,9 @@
     <e lm="व"><i>व</i><par n="यह__prn"/></e>
     <e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
     <e lm="इस"><i>इस</i><par n="just__prn"/></e>
+	<e lm="मैं"><i>मैं</i><par n="sg_p1__prn"/></e>
+	<e lm="हम"><i>हम</i><par n="pl_p1__prn"/></e>
+	
    <!-- Verbs -->
     <e lm="होना"><i></i><par n="/होना__vbser"/></e>
     <e lm="हो"><i>हो</i><par n="/होना__vbser"/></e>
@@ -655,7 +677,7 @@
     <e lm="गिन"><i>गिन</i><par n="/खेल__vblex"/></e>
     <e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
     <e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
-    <e lm="हो"><i>हो</i><par n="/खेल__vblex"/></e>
+
          <!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
     <e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>

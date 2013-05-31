@@ -32,6 +32,9 @@
 <sdef n="predet" c=""/>
 <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 <sdef n="cnjadv"  c=""/>
+<sdef n="p1"      c="first person"/>
+<sdef n="p2"      c="second person"/>
+<sdef n="p3"      c="third person"/>
 
 </sdefs>
 <section id="main" type="standard">
@@ -43,8 +46,11 @@
 <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
 
 <e><p><l>that<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
-<e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>
+<e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	
+<e><p><l>prpers<s n="prn"/></l><r>मैं<s n="prn"/></r></p></e>	
+<e><p><l>prpers<s n="prn"/></l><r>हम<s n="prn"/></r></p></e>	
 
 <!-- Conjunctions -->
 
