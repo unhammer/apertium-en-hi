@@ -46,6 +46,7 @@
 
 <!-- Pronouns -->
 
+<e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
 <e><p><l>this<s n="prn"/><s n="tn"/><s n="sg"/></l><r>इस<s n="prn"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>य<s n="prn"/></r></p></e>
@@ -105,8 +106,10 @@
 
 <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
 <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>
-
 <e><p><l>can</l><r>सक</r></p></e>
+<e><p><l>do</l><r>किया</r></p></e>
+<e><p><l>go</l><r>गया</r></p></e>
+<e><p><l>say</l><r>कहा</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
 <e><p><l>go</l><r>जा</r></p></e>
@@ -13648,6 +13651,7 @@
 
 
 <!-- Adverbs -->
+<e><p><l>because</l><r>क्योंकि</r></p></e>
 <e><p><l>where</l><r>कहॉं</r></p></e>
 <e><p><l>when</l><r>कब</r></p></e>
 <e><p><l>why</l><r>क्यों</r></p></e>

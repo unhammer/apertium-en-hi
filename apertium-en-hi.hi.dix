@@ -448,13 +448,15 @@
               <e><p><l>गा</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
    </pardef>                 
    
+	
  <pardef n="/सकता__vbser">
       <e><p><l>ता</l><r><s n="vaux"/><s n="past"/></r></p></e>
         <e><p><l>ते</l><r><s n="vaux"/><s n="past"/></r></p></e>
-          <e>                <p><l>ती</l><r><s n="vaux"/><s n="past"/></r></p></e>
+          <e><p><l>ती</l><r><s n="vaux"/><s n="past"/></r></p></e>
         <e><p><l>ना</l><r><s n="vaux"/><s n="pres"/></r></p></e>
      </pardef>            
-    <pardef n="पसंद__vblex">         <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+    <pardef n="पसंद__vblex">        
+		 <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>	
     </pardef>
                  
     <pardef n="/खेल__vblex">
@@ -543,10 +545,13 @@
         <e><p><l></l><r><s n="prn"/><s n="pl"/></r></p></e>
     </pardef>
 	
-    <pardef n="just__prn">       
+    <pardef n="int__prn">       
+		 <e><p><l></l><r><s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+    </pardef>
+
+	<pardef n="just__prn">       
 		 <e><p><l></l><r><s n="prn"/></r></p></e>
     </pardef>
-	
 	
     <!-- SECTION: Adverbs -->      
     <pardef n="गलत__adv">
@@ -672,6 +677,7 @@
     <e lm="सत्तर"><i>सत्तर</i><par n="आठ__num"/></e>
     
 	<!-- pronouns -->               
+	<e lm="जो"><i>जो</i><par n="int__prn"/></e>
     <e lm="य"><i>य</i><par n="यह__prn"/></e>
     <e lm="व"><i>व</i><par n="यह__prn"/></e>
     <e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
@@ -718,6 +724,10 @@
     <e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
     <e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
     <e lm="जा"><i>जा</i><par n="/खेल__vblex"/></e>
+	
+	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
+	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
+	<e lm="कहा"><p><l>कहा</l><r>कहा<s n="vblex"/><s n="past"/></r></p></e>		
          <!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
     <e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>
@@ -29490,6 +29500,7 @@
     <e lm="ओर"><i>ओर</i><par n="गलत__pr"/></e>
     <e lm="कोई"><i>कोई</i><par n="गलत__pr"/></e>
     <e lm="द्वारा"><i>द्वारा</i><par n="गलत__pr"/></e>
+	<e lm="क्योंकि"><p><l>क्योंकि</l><r>क्योंकि<s n="cnjadv"/></r></p></e>
    </section>
    <section id="final" type="inconditional">
      <e><par n="numeros"/></e>
