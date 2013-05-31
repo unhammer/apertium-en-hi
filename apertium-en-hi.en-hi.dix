@@ -18,6 +18,8 @@
 <sdef n="f"      c="Feminine"/>
 <sdef n="m"      c="Masculine"/>
 <sdef n="mf"      c="Masculine/feminine"/>
+<sdef n="GD"      c="Gender to be determined"/>
+<sdef n="FD"      c="function to be determined"/>
 <sdef n="tn"      c=""/>
 <sdef n="ind"    c="Indefinite"/>
 <sdef n="ant"    c=""/>
@@ -43,12 +45,11 @@
 <section id="main" type="standard">
 
 <!-- Pronouns -->
-<e><p><l>he<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
+
 <e><p><l>this<s n="prn"/><s n="tn"/><s n="sg"/></l><r>इस<s n="prn"/></r></p></e>
-
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>व<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>य<s n="prn"/></r></p></e>
 <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
-
-<e><p><l>he<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
 <e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	

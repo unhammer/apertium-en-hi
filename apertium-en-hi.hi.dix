@@ -511,7 +511,7 @@
                 
     <pardef n="यह__prn">       
 		 <e><p><l>ह</l><r><s n="prn"/><s n="sg"/></r></p></e>
-        <e><p><l>े</l><r><s n="prn"/><s n="pl"/></r></p></e>
+         <e><p><l>े</l><r><s n="prn"/><s n="pl"/></r></p></e>
     </pardef>
 	<pardef n="sg__prn">       
         <e><p><l></l><r><s n="prn"/><s n="sg"/></r></p></e>
