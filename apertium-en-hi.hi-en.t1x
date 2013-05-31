@@ -11,9 +11,10 @@
 	<def-cat n="pronoun">
 		<cat-item tags="prn.*"/>
 	</def-cat>
-    <def-cat n="post-decl">
-      <cat-item tags="post.*"/>
+    <def-cat n="c_post">
+      <cat-item tags="post"/>
     </def-cat>
+	
     <def-cat n="unknown">
       <cat-item tags=""/>
     </def-cat>
@@ -106,7 +107,7 @@
       <cat-item tags="n.pl"/>
     </def-cat>
     <def-cat n="nom">
-      <cat-item tags="n.*"/>
+      <cat-item tags="n.*"/> 
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="nomcomu">
@@ -115,10 +116,13 @@
     <def-cat n="nompropi">
       <cat-item tags="np.*"/>
     </def-cat>
+	<def-cat n="c_obl">
+      <cat-item tags="n.*.*.obl"/>
+    </def-cat>
     <def-cat n="nploc">
       <cat-item tags="np.loc.*"/>
     </def-cat>
-    <def-cat n="adj">
+    <def-cat n="c_adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.sup"/>
@@ -1004,7 +1008,7 @@ Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com el
               <lit-tag v="m"/>
             </equal>
             <equal>
-              <clip part="gen" pos="1" side="tl"/>
+              <clip part="gen" pos="1" side="tl"/>	
               <lit-tag v="f"/>
             </equal>
             <equal>
@@ -1191,6 +1195,28 @@ Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com el
     </def-macro>
 </section-def-macros>
 <section-rules>
+  <rule comment="REGLA: obl-decl">
+     <pattern>
+       <pattern-item n="c_obl"/>
+     </pattern>
+     <action>
+           <out>
+             <chunk name="obl" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SN.obl"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+				 <clip pos="1" side="tl" part="a_nom"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="nbr" link-to="3	"/>	
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+             </chunk>
+           </out>
+     </action>
+  </rule>
 
   <rule comment="REGLA: NOM">
      <pattern>
@@ -1217,7 +1243,7 @@ Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com el
 
   <rule comment="REGLA: post-decl">
      <pattern>
-       <pattern-item n="post-decl"/>
+       <pattern-item n="c_post"/>
      </pattern>
      <action>
            <out>
@@ -1234,7 +1260,27 @@ Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com el
            </out>
      </action>
   </rule>
+	
 
+  <rule>
+     <pattern>
+       <pattern-item n="c_adj"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
 
 </section-rules>
 </transfer>

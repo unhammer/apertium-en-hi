@@ -10,6 +10,10 @@
       <cat-item tags="VP.*"/> 
        <cat-item tags="VP"/>   
     </def-cat>
+	<def-cat n="SN_obl">
+	  <cat-item tags="SN.obl"/>  	
+      <cat-item tags="SN.obl.*"/>   
+    </def-cat>
     <def-cat n="preposition">
        <cat-item tags="PP"/>
       <cat-item tags="PP.*"/>    
@@ -48,7 +52,7 @@
       <cat-item tags="SN.DET.*.*.negacio"/>
     </def-cat>
     
-    <def-cat n="pr">
+    <def-cat n="PREP">
       <cat-item tags="PREP"/>
     </def-cat>
     
@@ -1628,7 +1632,29 @@
          </chunk>
         </out>
       </action>
-</rule>
+  </rule>
+    <rule comment="REGLA: SN PREP">
+      <pattern>
+        <pattern-item n="SN_obl"/>
+        <pattern-item n="PREP"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
  </section-rules>
 </interchunk>
  
