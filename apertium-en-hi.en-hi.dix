@@ -43,12 +43,12 @@
 <section id="main" type="standard">
 
 <!-- Pronouns -->
-<e><p><l>this<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
+<e><p><l>he<s n="prn"/><s n="tn"/></l><r>य<s n="prn"/></r></p></e>
 <e><p><l>this<s n="prn"/><s n="tn"/><s n="sg"/></l><r>इस<s n="prn"/></r></p></e>
 
 <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
 
-<e><p><l>that<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
+<e><p><l>he<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
 <e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	
@@ -57,6 +57,10 @@
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तू<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>आप<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
+
+<e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम्हें<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
+
+
 <!-- Conjunctions -->
 
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
@@ -104,6 +108,7 @@
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
+<e><p><l>go</l><r>जा</r></p></e>
 <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
 <e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
 <e r="RL"><p><l></l><r>हो<s n="vblex"/><s n="pres"/></r></p></e>
@@ -6684,6 +6689,7 @@
 <e><p><l>scheme<s n="n"/></l><r>योजना<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>schmo<s n="n"/></l><r>मूर्ख<s n="n"/></r></p></e>
 <e><p><l>school<s n="n"/></l><r>विद्यालय<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>school<s n="n"/></l><r>स्कूल<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>schooling<s n="n"/></l><r>प्रशिक्षण<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>school<b/>Fellow<s n="n"/></l><r>सहपाठी<s n="n"/></r></p></e>
 <e><p><l>school<b/>Master<s n="n"/></l><r>अध्यापक<s n="n"/></r></p></e>
