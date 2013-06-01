@@ -469,6 +469,7 @@
       <e><p><l>ते</l><r><s n="vblex"/><s n="pres"/></r></p></e>
           <e><p><l>ने</l><r><s n="vblex"/><s n="pres"/></r></p></e>
         <e><p><l>ना</l><r><s n="vblex"/><s n="pres"/></r></p></e>
+		<e><p><l>के</l><r><s n="vblex"/><s n="pres"/></r></p></e>
          </pardef>
  
     <!-- SECTION: Determiners -->       
@@ -599,7 +600,9 @@
     <e lm="आप"><i>आप</i><par n="उस__det"/></e>
     <e lm="अप"><i>अप</i><par n="उस__det"/></e>
          <!-- Conjunctions -->
+    <e lm="परन्तु"><i>परन्तु</i><par n="और__cnjcoo"/></e>
     <e lm="और"><i>और</i><par n="और__cnjcoo"/></e>
+    <e lm="अथवा"><i>अथवा</i><par n="और__cnjcoo"/></e>
     <e lm="तथा"><i>तथा</i><par n="और__cnjcoo"/></e>
     <e lm="एवं"><i>एवं</i><par n="और__cnjcoo"/></e>
     <e lm="पर"><i>पर</i><par n="और__cnjcoo"/></e>
@@ -693,8 +696,15 @@
 	<e lm="तू"><i>तू</i><par n="sg_p2__prn"/></e>
 	<e lm="तू"><i>तू</i><par n="sg_p2__prn"/></e>
     <e lm="आप"><i>आप</i><par n="sg_p2__prn"/></e>
-	
 
+	<e lm ="किस"><p><l>किस</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e lm ="किससे"><p><l>किससे</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e lm ="किसकी"><p><l>किसकी</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e lm ="किसके"><p><l>किसके</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e lm ="किसका"><p><l>किसका</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e lm ="किसको"><p><l>किसको</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e lm ="किसे"><p><l>किसे</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>	
+	<e lm ="किसी"><p><l>किसी</l><r>किस<s n="prn"/><s n="itg"/><s n="sp"/></r></p></e>	
 	<e lm ="इन"><p><l>इन</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
 	<e lm ="इनसे"><p><l>इनसे</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
 	<e lm ="इनकी"><p><l>इनकी</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
@@ -725,7 +735,7 @@
 	<e lm ="उनको"><p><l>उनको</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
 	<e lm ="उनमें"><p><l>उनमें</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
 	<e lm ="उन्होंने"><p><l>उन्होंने</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
-
+	<e lm ="उन्हें"><p><l>उन्हें</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
     <e lm="मुझे"><i>मुझे</i><par n="यह__prn"/></e>
 	<e lm="अपनी"><i>अपनी</i><par n="यह__prn"/></e>   
     <e lm="तुम्हें"><i>तुम्हें</i><par n="sg_p2__prn"/></e>
@@ -761,8 +771,12 @@
 	
 	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
 	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
+	<e lm="लिया"><p><l>लिया</l><r>लिया<s n="vblex"/><s n="past"/></r></p></e>
+	<e lm="लगा"><p><l>लगा</l><r>लगा<s n="vblex"/><s n="past"/></r></p></e>		
 	<e lm="कहा"><p><l>कहा</l><r>कहा<s n="vblex"/><s n="past"/></r></p></e>		
-         <!-- Nouns -->
+       
+
+    <!-- Nouns -->
     <e lm="मसूरी"><i>मसूर</i><par n="ध/ी__n_f"/></e>
     <e lm="लड़का"><i>लड़का</i><par n="ध/ा__n_m"/></e>
     <e lm="लड़की"><i>लड़की</i><par n="ध/ा__n_m"/></e>
@@ -29533,6 +29547,8 @@
     <e lm="पास"><i>पास</i><par n="गलत__adv"/></e>
     <e lm="वहॉं"><i>वहॉं</i><par n="गलत__adv"/></e>
     <e lm="असल"><i>असल</i><par n="गलत__adv"/></e>
+	<e lm="कभी"><i>कभी</i><par n="गलत__adv"/></e>
+
          <!-- Prepostions -->                
     <e lm="से"><i>से</i><par n="गलत__pr"/></e>
     <e lm="ओर"><i>ओर</i><par n="गलत__pr"/></e>

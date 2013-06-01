@@ -47,6 +47,7 @@
 <!-- Pronouns -->
 
 <e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
+<e><p><l>who<s n="prn"/></l><r>किस<s n="prn"/></r></p></e>
 <e><p><l>who<s n="prn"/></l><r>जिस<s n="prn"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>उस<s n="prn"/></r></p></e>
@@ -71,7 +72,9 @@
 
 <!-- Conjunctions -->
 
+<e><p><l>but<s n="cnjcoo"/></l><r>परन्तु<s n="cnjcoo"/></r></p></e> 
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>अथवा<s n="cnjcoo"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>पर<s n="cnjcoo"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>तथा<s n="cnjcoo"/></r></p></e>
@@ -118,6 +121,8 @@
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>do</l><r>किया</r></p></e>
 <e><p><l>go</l><r>गया</r></p></e>
+<e><p><l>take</l><r>लिया</r></p></e>
+<e><p><l>felt</l><r>लगा</r></p></e>
 <e><p><l>say</l><r>कहा</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
@@ -13662,7 +13667,9 @@
 
 
 <!-- Adverbs -->
+
 <e><p><l>because</l><r>क्योंकि</r></p></e>
+<e><p><l>sometimes</l><r>कभी</r></p></e>
 <e><p><l>where</l><r>कहॉं</r></p></e>
 <e><p><l>when</l><r>कब</r></p></e>
 <e><p><l>why</l><r>क्यों</r></p></e>
