@@ -6,7 +6,11 @@
 	<sdef n="ant"     c=""/>
 	<sdef n="subj"    c="subject"/>
     <sdef n="num"     c="Numeral"/>     
-    <sdef n="adj"     c="Adjective"/>     
+    <sdef n="adj"     c="Adjective"/>    
+    <sdef n="pers"     c="Personal"/>    
+    <sdef n="dat"     c="Dative"/>        
+    <sdef n="erg"     c="Ergative"/>        
+    <sdef n="gen"     c="Genitive"/>        
     <sdef n="adv"     c="Adverb"/>     
     <sdef n="det"     c="Determiner"/>     
     <sdef n="post"    c="Postposition"/>     
@@ -512,6 +516,17 @@
 
     <!-- SECTIN: Pronouns -->
                 
+
+    <pardef n="म/ैं__prn">
+      <e><p><l>ैं</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ेरा</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ुझे</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ुझको</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ैने</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l>ुझ</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="यह__prn">       
 		 <e><p><l>ह</l><r><s n="prn"/><s n="sg"/></r></p></e>
          <e><p><l>े</l><r><s n="prn"/><s n="pl"/></r></p></e>
@@ -678,8 +693,11 @@
     <e lm="चौरानवे"><i>चौरानवे</i><par n="आठ__num"/></e>
     <e lm="छियासी"><i>छियासी</i><par n="आठ__num"/></e>
     <e lm="सत्तर"><i>सत्तर</i><par n="आठ__num"/></e>
-    
-	<!-- pronouns -->               
+     
+    <!-- SECTION: Pronouns -->               
+
+    <e lm="मैं"><i>म</i><par n="म/ैं__prn"/></e>
+
 	<e lm="जो"><i>जो</i><par n="int__prn"/></e>
 	<e lm="जिस"><i>जिस</i><par n="int__prn"/></e>
     <e lm="य"><i>य</i><par n="यह__prn"/></e>
@@ -687,9 +705,6 @@
     <e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
     
 	
-	<e lm="मैं"><i>मैं</i><par n="sg_p1__prn"/></e>
-	<e lm="मैंने"><i>मैंने</i><par n="sg_p1__prn"/></e>
-	<e lm="मुझे"><i>मुझे</i><par n="sg_p1__prn"/></e>
 	<e lm="हम"><i>हम</i><par n="pl_p1__prn"/></e>
 	
 	<e lm="तुम"><i>तुम</i><par n="sg_p2__prn"/></e>

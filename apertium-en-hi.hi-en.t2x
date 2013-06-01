@@ -7,7 +7,7 @@
       <cat-item tags="SN.obl.*"/>   
     </def-cat>
     <def-cat n="POST">
-      <cat-item tags="PREP"/>
+      <cat-item tags="POST"/>
     </def-cat>
     <def-cat n="SN">
       <cat-item tags="SN"/>
