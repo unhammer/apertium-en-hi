@@ -444,7 +444,7 @@
          <e><p><l>है</l><r>होना<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 		  <e><p><l>हूँ</l><r>होना<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
           <e><p><l>हैं</l><r>होना<s n="vbser"/><s n="pres"/></r></p></e>
-           <e><p><l>था</l><r>होना<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+
               <e><p><l>गा</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
    </pardef>                 
    
@@ -678,31 +678,64 @@
     
 	<!-- pronouns -->               
 	<e lm="जो"><i>जो</i><par n="int__prn"/></e>
+	<e lm="जिस"><i>जिस</i><par n="int__prn"/></e>
     <e lm="य"><i>य</i><par n="यह__prn"/></e>
     <e lm="व"><i>व</i><par n="यह__prn"/></e>
     <e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
-    <e lm="इस"><i>इस</i><par n="just__prn"/></e>
+    
+	
 	<e lm="मैं"><i>मैं</i><par n="sg_p1__prn"/></e>
+	<e lm="मैंने"><i>मैंने</i><par n="sg_p1__prn"/></e>
 	<e lm="मुझे"><i>मुझे</i><par n="sg_p1__prn"/></e>
 	<e lm="हम"><i>हम</i><par n="pl_p1__prn"/></e>
+	
 	<e lm="तुम"><i>तुम</i><par n="sg_p2__prn"/></e>
 	<e lm="तू"><i>तू</i><par n="sg_p2__prn"/></e>
 	<e lm="तू"><i>तू</i><par n="sg_p2__prn"/></e>
     <e lm="आप"><i>आप</i><par n="sg_p2__prn"/></e>
-	<e lm="उस"><i>उस</i><par n="यह__prn"/></e>
-    <e lm="उसके"><i>उसके</i><par n="यह__prn"/></e>
-    <e lm="इन"><i>इन</i><par n="यह__prn"/></e>
-    <e lm="उसकी"><i>उसकी</i><par n="यह__prn"/></e>
-    <e lm="उसे"><i>उसे</i><par n="यह__prn"/></e>
-    <e lm="अपनी"><i>अपनी</i><par n="यह__prn"/></e>
-    <e lm="उन्होंने"><i>उन्होंने</i><par n="यह__prn"/></e>
+	
+
+	<e lm ="इन"><p><l>इन</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इनसे"><p><l>इनसे</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इनकी"><p><l>इनकी</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इनके"><p><l>इनके</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इनका"><p><l>इनका</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इनको"><p><l>इनको</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इनमें"><p><l>इनमें</l><r>इन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="इन्होंने"><p><l>इन्होंने</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इस"><p><l>इस</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इससे"><p><l>इससे</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इसकी"><p><l>इसकी</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इसके"><p><l>इसके</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इसका"><p><l>इसका</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इसको"><p><l>इसको</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="इसे"><p><l>इसे</l><r>इस<s n="prn"/><s n="sg"/></r></p></e>	
+	<e lm ="उस"><p><l>उस</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उससे"><p><l>उससे</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उसकी"><p><l>उसकी</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उसके"><p><l>उसके</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उसका"><p><l>उसका</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उसको"><p><l>उसको</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उसे"><p><l>उसे</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+	<e lm ="उन"><p><l>उन</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उनसे"><p><l>उनसे</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उनकी"><p><l>उनकी</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उनके"><p><l>उनके</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उनका"><p><l>उनका</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उनको"><p><l>उनको</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उनमें"><p><l>उनमें</l><r>उन<s n="prn"/><s n="pl"/></r></p></e>
+	<e lm ="उन्होंने"><p><l>उन्होंने</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
+
     <e lm="मुझे"><i>मुझे</i><par n="यह__prn"/></e>
-    <e lm="उसका"><i>उसका</i><par n="यह__prn"/></e>
+	<e lm="अपनी"><i>अपनी</i><par n="यह__prn"/></e>   
     <e lm="तुम्हें"><i>तुम्हें</i><par n="sg_p2__prn"/></e>
     <e lm="दूसरे"><i>दूसरे</i><par n="यह__prn"/></e> 
 	
 
    <!-- Verbs -->
+	<e lm ="था"><p><l>था</l><r>था<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+	<e lm ="था"><p><l>थे</l><r>थे<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+	<e lm ="थी"><p><l>थी</l><r>थी<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="होना"><i></i><par n="/होना__vbser"/></e>
     <e lm="हो"><i>हो</i><par n="/होना__vbser"/></e>
     <e lm="सक"><i>सक</i><par n="/सकता__vbser"/></e>
@@ -724,6 +757,7 @@
     <e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
     <e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
     <e lm="जा"><i>जा</i><par n="/खेल__vblex"/></e>
+	<e lm="बन"><i>बन</i><par n="/खेल__vblex"/></e>
 	
 	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
 	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
@@ -3204,7 +3238,10 @@
     <e lm="जेम्स"><i>जेम्स</i><par n="name__n_m"/></e>
     <e lm="मरियम"><i>मरियम</i><par n="name__n_f"/></e>
     <e lm="काजोल"><i>काजोल</i><par n="name__n_f"/></e>
+	<e lm="भारत"><i>भारत</i><par n="name__n_f"/></e>
+
     <e lm="अंगक्रिया"><i>अंगक्रिया</i><par n="बला__n_f"/></e>
+	
     <e lm="प्रकृष्टता"><i>प्रकृष्टता</i><par n="ऊब__n_f"/></e>
     <e lm="अत्युत्पादन"><i>अत्युत्पादन</i><par n="ऐ__n_m"/></e>
     <e lm="प्रेतान्न"><i>प्रेतान्न</i><par n="ऐ__n_m"/></e>
@@ -28829,6 +28866,7 @@
     <e lm="दोरंगा"><i>दोरंग</i><par n="स/ा__adj"/></e>
     <e lm="सर्वसुलभ"><i>सर्वसुलभ</i><par n="जड__adj"/></e>
     <e lm="अनुलग्न"><i>अनुलग्न</i><par n="जड__adj"/></e>
+
        <!-- Adverbs -->        
     <e lm="कहॉं"><i>कहॉं</i><par n="int__adv"/></e>
     <e lm="कब "><i>कब</i><par n="int__adv"/></e>

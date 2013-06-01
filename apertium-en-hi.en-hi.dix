@@ -47,15 +47,21 @@
 <!-- Pronouns -->
 
 <e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
-<e><p><l>this<s n="prn"/><s n="tn"/><s n="sg"/></l><r>इस<s n="prn"/></r></p></e>
-<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>व<s n="prn"/></r></p></e>
-<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>य<s n="prn"/></r></p></e>
+<e><p><l>who<s n="prn"/></l><r>जिस<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>व<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>उस<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>इस<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>इन<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>उन<s n="prn"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>य<s n="prn"/></r></p></e>
 <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
 <e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/></l><r>मैं<s n="prn"/></r></p></e>	
-<e><p><l>prpers<s n="prn"/></l><r>हम<s n="prn"/></r></p></e>	
+<e><p><l>prpers<s n="prn"/></l><r>मैंने<s n="prn"/></r></p></e>	
+<e><p><l>prpers<s n="prn"/></l><r>हम<s n="prn"/></r></p></e>
+	
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तू<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>आप<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
@@ -105,6 +111,9 @@
 <!-- Verbs -->
 
 <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
+<e><p><l>be<s n="vbser"/></l><r>था<s n="vbser"/></r></p></e>
+<e><p><l>be<s n="vbser"/></l><r>थी<s n="vbser"/></r></p></e>
+<e><p><l>be<s n="vbser"/></l><r>थे<s n="vbser"/></r></p></e>
 <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>
 <e><p><l>can</l><r>सक</r></p></e>
 <e><p><l>do</l><r>किया</r></p></e>
@@ -129,6 +138,7 @@
 <e><p><l>count</l><r>गिन</r></p></e>
 <e><p><l>finish</l><r>चुक</r></p></e>
 <e><p><l>ask</l><r>पूछ</r></p></e>
+<e><p><l>become</l><r>बन</r></p></e>
 
 
 <!-- Nouns -->
@@ -10559,6 +10569,7 @@
 <e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>रहुल</r></p></e>
 <e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स</r></p></e>
 <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम</r></p></e>
+<e><p><l>India<s n="np"/><s n="ant"/></l><r>भारत</r></p></e>
 <e><p><l>keen<s n="n"/></l><r>अत्यधिक<s n="n"/></r></p></e>
 <e><p><l>keenness<s n="n"/></l><r>कुशाग्रता<s n="n"/></r></p></e>
 <e><p><l>ketonuria<s n="n"/></l><r>एसीटोनमेह<s n="n"/></r></p></e>
