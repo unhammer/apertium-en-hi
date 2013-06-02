@@ -465,7 +465,6 @@
                  
     <pardef n="/खेल__vblex">
       <e><p><l>कर</l><r><s n="vblex"/><s n="pres"/></r></p></e>
-     <e><p><l>े </l><r><s n="vblex"/><s n="pres"/></r></p></e>
                <e><p><l>ा</l><r><s n="vblex"/><s n="pres"/></r></p></e>
          <e><p><l>ी</l><r><s n="vblex"/><s n="pres"/></r></p></e>
          <e><p><l>ती</l><r><s n="vblex"/><s n="pres"/></r></p></e>
@@ -633,8 +632,6 @@
     <e lm="आप"><i>आप</i><par n="उस__det"/></e>
     <e lm="अप"><i>अप</i><par n="उस__det"/></e>
          <!-- Conjunctions -->
-
-    <e lm="किन्तु"><i>किन्तु</i><par n="और__cnjcoo"/></e>
     <e lm="परन्तु"><i>परन्तु</i><par n="और__cnjcoo"/></e>
     <e lm="और"><i>और</i><par n="और__cnjcoo"/></e>
     <e lm="अथवा"><i>अथवा</i><par n="और__cnjcoo"/></e>
@@ -803,14 +800,11 @@
     <e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
     <e lm="जा"><i>जा</i><par n="/खेल__vblex"/></e>
 	<e lm="बन"><i>बन</i><par n="/खेल__vblex"/></e>
-	<e lm="मिल"><i>मिल</i><par n="/खेल__vblex"/></e>
-	<e lm="लग"><i>लग</i><par n="/खेल__vblex"/></e>
-	<e lm="लिख"><i>लिख</i><par n="/खेल__vblex"/></e>
-
+	
 	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
 	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
 	<e lm="लिया"><p><l>लिया</l><r>लिया<s n="vblex"/><s n="past"/></r></p></e>
-			
+	<e lm="लगा"><p><l>लगा</l><r>लगा<s n="vblex"/><s n="past"/></r></p></e>		
 	<e lm="कहा"><p><l>कहा</l><r>कहा<s n="vblex"/><s n="past"/></r></p></e>		
        
 
@@ -28921,11 +28915,7 @@
 
        <!-- Adverbs -->        
     <e lm="कहॉं"><i>कहॉं</i><par n="int__adv"/></e>
-<<<<<<< .mine
-	<e lm="जहाँ"><i>जहाँ</i><par n="int__adv"/></e>
-=======
 
->>>>>>> .r44858
     <e lm="कब "><i>कब</i><par n="int__adv"/></e>
     <e lm="क्यों"><i>क्यों</i><par n="int__adv"/></e>
     <e lm="क्या"><i>क्या</i><par n="int__adv"/></e>
@@ -29592,17 +29582,8 @@
     <e lm="वहॉं"><i>वहॉं</i><par n="गलत__adv"/></e>
     <e lm="असल"><i>असल</i><par n="गलत__adv"/></e>
 	<e lm="कभी"><i>कभी</i><par n="गलत__adv"/></e>
-	<e lm="यहां"><i>यहां</i><par n="गलत__adv"/></e>
-	<e lm="वहां"><i>वहां</i><par n="गलत__adv"/></e>
-	<e lm="नही"><i>नही</i><par n="गलत__adv"/></e>
-	
-	
 
-         <!-- Prepostions -->
-	<e lm="बिना"><i>बिना</i><par n="गलत__pr"/></e>                
-
-	<e lm="तक"><i>तक</i><par n="गलत__pr"/></e>
-	<e lm="लेकर"><i>लेकर</i><par n="गलत__pr"/></e>
+         <!-- Prepostions -->                
 
 	<e lm="क्योंकि"><p><l>क्योंकि</l><r>क्योंकि<s n="cnjadv"/></r></p></e>
    </section>
