@@ -10311,10 +10311,10 @@ I can switch <subs> on and off in a ger_subs paradigm?
 <e lm="evermore">        <i>evermore</i><par n="maybe__adv"/></e>
 <e lm="every now and again"><i>every<b/>now<b/>and<b/>again</i><par n="maybe__adv"/></e>
 <e lm="everyday">        <i>everyday</i><par n="expensive__adj"/></e>
-<!-- rompigas, sed eble poste denove enmetu...
+<!--
 <e lm="everything">           <i>everything</i><par n="house__n"/></e>
-<e lm="everywhere">           <i>everywhere</i><par n="maybe__adv"/></e>
 -->
+<e lm="everywhere">           <i>everywhere</i><par n="maybe__adv"/></e>
 <e lm="eviction">        <i>eviction</i><par n="house__n"/></e>
 <e lm="evidence">        <i>evidence</i><par n="house__n"/></e>
 <e lm="evident">         <i>evident</i><par n="expensive__adj"/></e>

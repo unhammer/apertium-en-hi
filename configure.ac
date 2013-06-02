@@ -85,5 +85,27 @@ then
   AC_MSG_ERROR([You don't have xsltproc installed.])
 fi
 
+AC_PATH_PROG(LRXCOMP, lrx-comp, no)
+if test x$ac_cv_path_LRXCOMP = x
+then
+  AC_MSG_ERROR([You don't have lrx-comp installed.])
+fi
+if test x$ac_cv_path_LRXCOMP = xno
+then
+  AC_MSG_ERROR([You don't have lrx-comp installed.])
+fi
+
+AC_PATH_PROG(LRXPROC, lrx-proc, no)
+if test x$ac_cv_path_LRXPROC = x
+then
+  AC_MSG_ERROR([You don't have lrx-proc installed.])
+fi
+if test x$ac_cv_path_LRXPROC = xno
+then
+  AC_MSG_ERROR([You don't have lrx-proc installed.])
+fi
+
+
+
 
 AC_OUTPUT([Makefile])

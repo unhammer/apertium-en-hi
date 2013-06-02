@@ -595,17 +595,29 @@
 
   </pardefs>
   <section id="main" type="standard">
-    <!-- SECTION: Postpositions (Vibkhati) -->
+
+    <!-- SECTION: Postpositions -->
+
     <e lm="का"><i></i><par n="/का__post"/></e>
+    <e lm="ने" c="nē (erg)"><i>ने</i><par n="ने__post"/></e>
+    <e lm="को" c="ko (dat)"><i>को</i><par n="ने__post"/></e>
+    <e lm="में" c="mēṁ (loc)"><i>में</i><par n="ने__post"/></e>
+    <e lm="पर" c="para ('on')"><i>पर</i><par n="ने__post"/></e>
+    <e lm="लिए"><i>लिए</i><par n="ने__post"/></e>
+
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
-    <e lm="ने"><i>ने</i><par n="ने__post"/></e>
-    <e lm="को"><i>को</i><par n="ने__post"/></e>
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
     <e lm="के द्वारा"><i>के<b/>द्वारा</i><par n="ने__post"/></e>
-    <e lm="में"><i>में</i><par n="ने__post"/></e>
-    <e lm="पर"><i>पर</i><par n="ने__post"/></e>
-    <e lm="लिए"><i>लिए</i><par n="ने__post"/></e>
-     <!-- Determiners -->
+    <e lm="के सामने"><i>के<b/>सामने</i><par n="ने__post"/></e>
+    <e lm="के नीचे"><i>के<b/>नीचे</i><par n="ने__post"/></e>
+    <e lm="के पीछे"><i>के<b/>पीछे</i><par n="ने__post"/></e>
+    <e lm="के साथ"><i>के<b/>साथ</i><par n="ने__post"/></e>
+    <e lm="के पास"><i>के<b/>पास</i><par n="ने__post"/></e>
+
+
+
+    <!-- SECTION: Determiners -->
+
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="मेरी"><i>मेरी</i><par n="मेरी__det"/></e>
     <e lm="मेरा"><i>मेरा</i><par n="मेरी__det"/></e>
@@ -28898,12 +28910,14 @@
 
        <!-- Adverbs -->        
     <e lm="कहॉं"><i>कहॉं</i><par n="int__adv"/></e>
+
     <e lm="कब "><i>कब</i><par n="int__adv"/></e>
     <e lm="क्यों"><i>क्यों</i><par n="int__adv"/></e>
     <e lm="क्या"><i>क्या</i><par n="int__adv"/></e>
     <e lm="जब"><i>जब</i><par n="int__adv"/></e>
     <e lm="पीछे"><i>पीछे</i><par n="गलत__adv"/></e>
     <e lm="सवार"><i>सवार</i><par n="गलत__adv"/></e>
+    <e lm="सब जगह"><i>सब<b/>जगह</i><par n="गलत__adv"/></e>
     <e lm="ऊँचा"><i>ऊँचा</i><par n="गलत__adv"/></e>
     <e lm="पूर्णतः"><i>पूर्णतः</i><par n="गलत__adv"/></e>
     <e lm="संयोगवश"><i>संयोगवश</i><par n="गलत__adv"/></e>
