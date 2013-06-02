@@ -73,8 +73,15 @@
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम्हें<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 
 
-<!-- SECTION: Conjunctions -->
+<<<<<<< .mine
 
+
+<!-- Conjunctions -->
+=======
+<!-- SECTION: Conjunctions -->
+>>>>>>> .r44858
+
+<e><p><l>but<s n="cnjcoo"/></l><r>किन्तु<s n="cnjcoo"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>परन्तु<s n="cnjcoo"/></r></p></e> 
 <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
 <e><p><l>or<s n="cnjcoo"/></l><r>अथवा<s n="cnjcoo"/></r></p></e>
@@ -101,6 +108,14 @@
 <e><p><l>with<s n="pr"/></l><r>से<s n="post"/></r></p></e>
 <e><p><l>by<s n="pr"/></l><r>से<s n="post"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
+<<<<<<< .mine
+<e><p><l>to<s n="pr"/></l><r>तक<s n="pr"/></r></p></e>
+<e><p><l>with<s n="pr"/></l><r>लेकर<s n="pr"/></r></p></e>
+<e><p><l>without<s n="pr"/></l><r>बिना<s n="pr"/></r></p></e>
+
+<!-- Determiners -->
+=======
+>>>>>>> .r44858
 
 <e><p><l>for<s n="pr"/></l><r>के<b/>लिये<s n="post"/></r></p></e>
 <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>के<b/>सामने<s n="post"/></r></p></e>
@@ -115,10 +130,6 @@
 <e><p><l>my</l><r>मेरी</r></p></e>
 <e><p><l>my</l><r>मेरा</r></p></e>
 <e><p><l>my</l><r>मेरे</r></p></e>
-<e><p><l>her</l><r>उस</r></p></e>
-<e><p><l>their</l><r>उन</r></p></e>
-<e><p><l>your</l><r>आप</r></p></e>
-<e><p><l>our</l><r>अप</r></p></e>
 
 <!-- SECTION: Numerals -->
 
@@ -135,10 +146,11 @@
 <e><p><l>be<s n="vbser"/></l><r>थे<s n="vbser"/></r></p></e>
 <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>
 <e><p><l>can</l><r>सक</r></p></e>
+<e><p><l>meet</l><r>मिल</r></p></e>
 <e><p><l>do</l><r>किया</r></p></e>
 <e><p><l>go</l><r>गया</r></p></e>
 <e><p><l>take</l><r>लिया</r></p></e>
-<e><p><l>felt</l><r>लगा</r></p></e>
+<e><p><l>feel</l><r>लग</r></p></e>
 <e><p><l>say</l><r>कहा</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
@@ -160,6 +172,7 @@
 <e><p><l>finish</l><r>चुक</r></p></e>
 <e><p><l>ask</l><r>पूछ</r></p></e>
 <e><p><l>become</l><r>बन</r></p></e>
+<e><p><l>write</l><r>लिख</r></p></e>
 
 
 <!-- SECTION: Nouns -->
@@ -13686,6 +13699,19 @@
 
 <!-- SECTION: Adverbs -->
 
+<<<<<<< .mine
+<e><p><l>where</l><r>जहाँ</r></p></e>
+<e><p><l>there</l><r>वहां</r></p></e>
+<e><p><l>here</l><r>यहां</r></p></e>
+<e><p><l>because</l><r>क्योंकि</r></p></e>
+<e><p><l>sometimes</l><r>कभी</r></p></e>
+<e><p><l>where</l><r>कहॉं</r></p></e>
+<e><p><l>when</l><r>कब</r></p></e>
+<e><p><l>why</l><r>क्यों</r></p></e>
+<e><p><l>why</l><r>क्या</r></p></e>
+<e><p><l>when</l><r>जब</r></p></e>
+<e><p><l>there</l><r>वहॉं</r></p></e>
+=======
 <e><p><l>because<s n="adv"/></l><r>क्योंकि<s n="adv"/></r></p></e> <!-- FIXME -->
 <e><p><l>sometimes<s n="adv"/></l><r>कभी<s n="adv"/></r></p></e>
 <e><p><l>where<s n="adv"/><s n="itg"/></l><r>कहॉं<s n="adv"/><s n="itg"/></r></p></e>
@@ -13694,6 +13720,9 @@
 <e><p><l>why<s n="adv"/><s n="itg"/></l><r>क्या<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>when<s n="adv"/><s n="itg"/></l><r>जब<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>there<s n="adv"/></l><r>वहॉं<s n="adv"/></r></p></e>
+>>>>>>> .r44858
+<e><p><l>there</l><r>वहाँ</r></p></e>
+
 <e><p><l>behind<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
 <e><p><l>aboard<s n="adv"/></l><r>सवार<s n="adv"/></r></p></e>
 <e><p><l>above<s n="adv"/></l><r>ऊँचा<s n="adv"/></r></p></e>
@@ -13861,6 +13890,7 @@
 <e><p><l>normally<s n="adv"/></l><r>सामान्यत<s n="adv"/></r></p></e>
 <e><p><l>northwestwards<s n="adv"/></l><r>उत्तरपश्चिमोन्मुख<s n="adv"/></r></p></e>
 <e><p><l>not<s n="adv"/></l><r>नहीं<s n="adv"/></r></p></e>
+<e><p><l>not<s n="adv"/></l><r>नही<s n="adv"/></r></p></e>
 <e><p><l>now<s n="adv"/></l><r>अब<s n="adv"/></r></p></e>
 <e><p><l>now<s n="adv"/></l><r>अभी<s n="adv"/></r></p></e>
 
