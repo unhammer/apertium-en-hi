@@ -1,0 +1,9 @@
+
+<rules>
+  <rule>
+    <match lemma="लोग" tags="n.*"><select lemma="people" tags="n.*"/></match> 
+  </rule>
+  <rule>
+    <match lemma="खेल" tags="n.*"><select lemma="game" tags="n.*"/></match> 
+  </rule>
+</rules>
