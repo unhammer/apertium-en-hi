@@ -1,0 +1,13 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+SETS
+
+LIST N = n ; 
+LIST Obl = obl ; 
+LIST Post = post ; 
+
+SECTION
+
+SELECT Obl IF (1C Post) ;
+  ## 

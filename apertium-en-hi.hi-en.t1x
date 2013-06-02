@@ -9,6 +9,7 @@
       <cat-item tags="prn.pers.*"/>
     </def-cat>
     <def-cat n="adj">
+      <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
     <def-cat n="nom">
