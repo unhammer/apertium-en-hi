@@ -1,44 +1,44 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="np"     c="Proper noun"/>
-    <sdef n="n"      c="Noun"/>
-    <sdef n="num"    c="Numeral"/>
-    <sdef n="adv"    c="Adverb"/>
-    <sdef n="adj"    c="Adjective"/>
-    <sdef n="post"   c="Postposition"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="post"    c="Postposition"/>
     <sdef n="vblex"   c="verb"/>
-    <sdef n="det"    c="Determiner"/>
-    <sdef n="prn"    c="Pronoun"/>
-    <sdef n="subj"   c="Subject"/>
-    <sdef n="itg"   c="Interrogative"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="subj"    c="Subject"/>
+    <sdef n="itg"     c="Interrogative"/>
     
-    <sdef n="pr"     c="Preposition"/>
+    <sdef n="pr"      c="Preposition"/>
     <sdef n="pers"    c="Personal"/>
-    <sdef n="vbser"  c="Verb 'to be'"/>
-    <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
-    <sdef n="f"      c="Feminine"/>
-    <sdef n="m"      c="Masculine"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="m"       c="Masculine"/>
     <sdef n="mf"      c="Masculine/feminine"/>
     <sdef n="GD"      c="Gender to be determined"/>
-    <sdef n="FD"      c="function to be determined"/>
-    <sdef n="tn"      c=""/>
-    <sdef n="ind"    c="Indefinite"/>
-    <sdef n="ant"    c=""/>
-    <sdef n="sp"     c="Singular / plural"/>
-    <sdef n="pos"     c=""/>
-    <sdef n="sg"     c="Singular"/>
-    <sdef n="pl"     c=" plural"/>
-    <sdef n="sint"     c=" "/>
-    <sdef n="sent"   c="sentmaterial"/>
-    <sdef n="cm"   c=""/>
-    <sdef n="guio"   c=""/>
-    <sdef n="ger"   c=""/>
-    <sdef n="nom" c=""/>
-    <sdef n="pres" c=""/>
-    <sdef n="predet" c=""/>
+    <sdef n="FD"      c="Function to be determined"/>
+    <sdef n="tn"      c="Tónic (stressed)"/>
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="sp"      c="Singular / plural"/>
+    <sdef n="pos"     c="Possessive"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sint"    c="Synthetic (adjective)"/>
+    <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="ger"     c="Gerund"/>
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="pres"    c="Present tense"/>
+    <sdef n="predet"  c="Predeterminer"/>
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
-    <sdef n="cnjadv"  c=""/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
     <sdef n="p1"      c="first person"/>
     <sdef n="p2"      c="second person"/>
     <sdef n="p3"      c="third person"/>
@@ -46,7 +46,7 @@
   </sdefs>
   <section id="main" type="standard">
 
-<!-- Pronouns -->
+    <!-- Pronouns -->
 
     <e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
     <e><p><l>who<s n="prn"/></l><r>किस<s n="prn"/></r></p></e>
@@ -73,7 +73,7 @@
     <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम्हें<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>	
 
 
-<!-- SECTION: Conjunctions -->
+    <!-- SECTION: Conjunctions -->
 
     <e><p><l>but<s n="cnjcoo"/></l><r>परन्तु<s n="cnjcoo"/></r></p></e> 
     <e><p><l>but<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
@@ -85,7 +85,7 @@
     <e><p><l>or<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
     <e><p><l>if<s n="cnjadv"/></l><r>कि<s n="cnjsub"/></r></p></e>
 
-<!-- SECTION: Postpositions -->
+    <!-- SECTION: Postpositions -->
 
     <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -109,7 +109,7 @@
     <e><p><l>under<s n="pr"/></l><r>के<b/>नीचे<s n="post"/></r></p></e>
     <e><p><l>near<s n="pr"/></l><r>के<b/>पास<s n="post"/></r></p></e>
 
-<!-- SECTION: Determiners -->
+    <!-- SECTION: Determiners -->
 
     <e><p><l>a<s n="det"/><s n="ind"/></l><r>एक<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>my</l><r>मेरी</r></p></e>
@@ -120,14 +120,14 @@
     <e><p><l>your</l><r>आप</r></p></e>
     <e><p><l>our</l><r>अप</r></p></e>
 
-<!-- SECTION: Numerals -->
+    <!-- SECTION: Numerals -->
 
     <e><p><l>two<s n="num"/><s n="sp"/></l><r>दो<s n="num"/></r></p></e>
     <e><p><l>five<s n="num"/><s n="sp"/></l><r>पांच<s n="num"/></r></p></e>
     <e><p><l>five<s n="num"/><s n="sp"/></l><r>पाँच<s n="num"/></r></p></e>
     <e><p><l>six<s n="num"/><s n="sp"/></l><r>छह<s n="num"/></r></p></e>
 
-<!-- SECTION: Verbs -->
+    <!-- SECTION: Verbs -->
 
     <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
     <e><p><l>be<s n="vbser"/></l><r>था<s n="vbser"/></r></p></e>
@@ -163,7 +163,7 @@
     <e><p><l>become</l><r>बन</r></p></e>
 
 
-<!-- SECTION: Nouns -->
+    <!-- SECTION: Nouns -->
 
     <e><p><l>space<s n="n"/></l><r>जगह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>way<s n="n"/></l><r>तरह<s n="n"/><s n="m"/></r></p></e>
@@ -13404,7 +13404,7 @@
     <e><p><l>Australian<s n="n"/></l><r>ऑस्ट्रेलियाई<s n="n"/></r></p></e>
 
 
- <!-- SECTION: Proper nouns -->
+    <!-- SECTION: Proper nouns -->
 
     <e><p><l>Abraham<s n="n"/></l><r>अब्राहम<s n="n"/></r></p></e>
     <e><p><l>Aberdeen<s n="n"/></l><r>ऐबरडीन<s n="n"/></r></p></e>
@@ -13685,7 +13685,7 @@
 
 
 
-<!-- SECTION: Adverbs -->
+    <!-- SECTION: Adverbs -->
 
     <e><p><l>because<s n="adv"/></l><r>क्योंकि<s n="adv"/></r></p></e> <!-- FIXME -->
     <e><p><l>sometimes<s n="adv"/></l><r>कभी<s n="adv"/></r></p></e>
@@ -14364,7 +14364,7 @@
     <e><p><l>zealously<s n="adv"/></l><r>उत्साहपूर्वक<s n="adv"/></r></p></e>
 
 
-<!-- SECTION: Adjectives -->
+    <!-- SECTION: Adjectives -->
 
     <e><p><l>big<s n="adj"/><s n="sint"/></l><r>बड़े<s n="adj"/></r></p></e>
 <!--<e><p><l>sluggish<s n="adj"/></l><r>धीरे-धीरे<s n="adv"/></r></p></e>-->
@@ -20032,10 +20032,11 @@
     <e><p><l>usual<s n="adj"/></l><r>सामान्य<s n="adj"/></r></p></e>
     <e><p><l>utmost<s n="adj"/></l><r>अधिकतम<s n="adj"/></r></p></e>
 
+    <!-- SECTION: Punctuation -->
+
     <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
     <e><re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e><p><l>.<s n="sent"/></l><r>।<s n="sent"/></r></p></e>
 
 
 </section>
