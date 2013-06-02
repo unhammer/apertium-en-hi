@@ -605,6 +605,11 @@
     <e lm="पर" c="para ('on')"><i>पर</i><par n="ने__post"/></e>
     <e lm="लिए"><i>लिए</i><par n="ने__post"/></e>
 
+    <e lm="से"><i>से</i><par n="ने__post"/></e>
+    <e lm="ओर"><i>ओर</i><par n="ने__post"/></e>
+    <e lm="कोई"><i>कोई</i><par n="ने__post"/></e> <!-- FIXME -->
+    <e lm="द्वारा"><i>द्वारा</i><par n="ने__post"/></e> <!-- FIXME -->
+
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
     <e lm="के द्वारा"><i>के<b/>द्वारा</i><par n="ने__post"/></e>
@@ -29579,10 +29584,7 @@
 	<e lm="कभी"><i>कभी</i><par n="गलत__adv"/></e>
 
          <!-- Prepostions -->                
-    <e lm="से"><i>से</i><par n="गलत__pr"/></e>
-    <e lm="ओर"><i>ओर</i><par n="गलत__pr"/></e>
-    <e lm="कोई"><i>कोई</i><par n="गलत__pr"/></e>
-    <e lm="द्वारा"><i>द्वारा</i><par n="गलत__pr"/></e>
+
 	<e lm="क्योंकि"><p><l>क्योंकि</l><r>क्योंकि<s n="cnjadv"/></r></p></e>
    </section>
    <section id="final" type="inconditional">

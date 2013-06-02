@@ -97,7 +97,9 @@
 <e><p><l></l><r>ने<s n="post"/></r></p></e> <!-- Ergative marker -->
 <e><p><l>on<s n="pr"/></l><r>पर<s n="post"/></r></p></e>
 <e><p><l>in<s n="pr"/></l><r>में<s n="post"/></r></p></e>
-<e><p><l>from<s n="pr"/></l><r>से<s n="pr"/></r></p></e>
+<e><p><l>from<s n="pr"/></l><r>से<s n="post"/></r></p></e>
+<e><p><l>with<s n="pr"/></l><r>से<s n="post"/></r></p></e>
+<e><p><l>by<s n="pr"/></l><r>से<s n="post"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
 
 <e><p><l>for<s n="pr"/></l><r>के<b/>लिये<s n="post"/></r></p></e>
@@ -3395,6 +3397,7 @@
 <e><p><l>holy<b/>orders<s n="n"/></l><r>पुरोहताभिषेक<s n="n"/></r></p></e>
 <e><p><l>holywrit<s n="n"/></l><r>बाइबिल<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>homage<s n="n"/></l><r>श्रद्दांजलि<s n="n"/></r></p></e>
+<e><p><l>house<s n="n"/></l><r>घर<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>home<s n="n"/></l><r>घर<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>homeless<s n="n"/></l><r>घरहीन<s n="n"/></r></p></e>
 <e><p><l>home<b/>rule<s n="n"/></l><r>सुराज्य<s n="n"/><s n="m"/></r></p></e>
