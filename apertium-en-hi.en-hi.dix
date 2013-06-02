@@ -142,6 +142,7 @@
 <e><p><l>say</l><r>कहा</r></p></e>
 <e><p><l>sleep</l><r>सो</r></p></e>
 <e><p><l>see</l><r>देख</r></p></e>
+<e><p><l>look</l><r>देख</r></p></e>
 <e><p><l>go</l><r>जा</r></p></e>
 <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
 <e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
