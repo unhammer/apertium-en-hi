@@ -800,7 +800,8 @@
     <e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
     <e lm="जा"><i>जा</i><par n="/खेल__vblex"/></e>
 	<e lm="बन"><i>बन</i><par n="/खेल__vblex"/></e>
-	
+	<e lm="लिख"><i>लिख</i><par n="/खेल__vblex"/></e>
+
 	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
 	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
 	<e lm="लिया"><p><l>लिया</l><r>लिया<s n="vblex"/><s n="past"/></r></p></e>
