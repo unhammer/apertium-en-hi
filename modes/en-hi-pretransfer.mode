@@ -1,0 +1,3 @@
+    
+    lt-proc /home/nikant/Repository/apertium-en-hi/en-hi.automorf.bin |apertium-tagger -g /home/nikant/Repository/apertium-en-hi/en-hi.prob |apertium-pretransfer
+  
