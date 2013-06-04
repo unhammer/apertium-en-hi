@@ -12,7 +12,7 @@
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="subj"    c="Subject"/>
     <sdef n="itg"     c="Interrogative"/>
-    
+    <sdef n="obl"     c="oblique"/>
     <sdef n="pr"      c="Preposition"/>
     <sdef n="pers"    c="Personal"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
@@ -99,7 +99,9 @@
     <e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
     <e><p><l>who<s n="prn"/></l><r>किस<s n="prn"/></r></p></e>
     <e><p><l>who<s n="prn"/></l><r>जिस<s n="prn"/></r></p></e>
-    <e><p><l>ैं</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>व<s n="prn"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>उस<s n="prn"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>इस<s n="prn"/></r></p></e>

@@ -15,6 +15,7 @@
     <sdef n="det"     c="Determiner"/>     
     <sdef n="post"    c="Postposition"/>     
     <sdef n="vblex"   c="Verb"/>     
+	<sdef n="frm"	  c="formal"/>
     <sdef n="vbser"   c="Verb 'to be'"/>     
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>     
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>        
@@ -526,6 +527,23 @@
       <e><p><l>ुझ</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
+	 <pardef n="त/ैं__prn">
+      <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ेरा</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ुझे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ुझको</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ुमने</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l>ुझ</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+	  <e><p><l>ुम्हें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
+	<pardef n="आ/ैं__prn">
+      <e><p><l>प</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>पका</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>पको</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>पने</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+	  <e><p><l>पकी</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
 
     <pardef n="यह__prn">       
 		 <e><p><l>ह</l><r><s n="prn"/><s n="sg"/></r></p></e>
@@ -714,7 +732,8 @@
     <!-- SECTION: Pronouns -->               
 
     <e lm="मैं"><i>म</i><par n="म/ैं__prn"/></e>
-
+	<e lm="तुम"><i>त</i><par n="त/ैं__prn"/></e>
+	<e lm="आप"><i>आ</i><par n="आ/ैं__prn"/></e>
 	<e lm="जो"><i>जो</i><par n="int__prn"/></e>
 	<e lm="जिस"><i>जिस</i><par n="int__prn"/></e>
     <e lm="य"><i>य</i><par n="यह__prn"/></e>
@@ -770,7 +789,7 @@
 	<e lm ="उन्हें"><p><l>उन्हें</l><r>उस<s n="prn"/><s n="sg"/></r></p></e>
     <e lm="मुझे"><i>मुझे</i><par n="यह__prn"/></e>
 	<e lm="अपनी"><i>अपनी</i><par n="यह__prn"/></e>   
-    <e lm="तुम्हें"><i>तुम्हें</i><par n="sg_p2__prn"/></e>
+    <e lm="अतुम्हें"><i>तुम्हें</i><par n="sg_p2__prn"/></e>
     <e lm="दूसरे"><i>दूसरे</i><par n="यह__prn"/></e> 
 	
 
