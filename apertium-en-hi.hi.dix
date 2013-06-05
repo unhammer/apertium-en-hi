@@ -41,8 +41,12 @@
     <sdef n="pres"    c="Present tense"/>        
     <sdef n="past"    c="Past tense"/>     
     <sdef n="sent"    c="Sentence marker"/>
+	<sdef n="impf"    c=" Imperfective participle"/>
+	<sdef n="perf"     c="Perfective participle"/>     
 
-
+    <sdef n="prs"    c="Subjunctive"/>     
+    <sdef n="fut"    c="Future"/>
+	<sdef n="imp"    c="Imperative"/>	 
   </sdefs>    
   <pardefs>        
 
@@ -581,14 +585,14 @@
 
 	<pardef n="किस/ैं__prn">
 	
-		<e><p><l></l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-		<e><p><l>े</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-		<e><p><l>की</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
-		<e><p><l>के</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-		<e><p><l>का</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
-		<e><p><l>को</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
-		<e><p><l>से</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>	
-		<e><p><l>ने</l><r><s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>			
+		<e><p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>े</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>की</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>के</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>का</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>को</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>से</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>	
+		<e><p><l>ने</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>			
 
 	</pardef>
 	
@@ -605,14 +609,14 @@
 	</pardef>
 
 	<pardef n="कि/ैं__prn">
-		<e><p><l>न</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-		<e><p><l>ने</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-		<e><p><l>नकी</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
-		<e><p><l>नके</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-		<e><p><l>नका</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-		<e><p><l>नको</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
-		<e><p><l>नसे</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>	
-		<e><p><l>न्होंने</l><r>न<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>			
+		<e><p><l>न</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+		<e><p><l>ने</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+		<e><p><l>नकी</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+		<e><p><l>नके</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+		<e><p><l>नका</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+		<e><p><l>नको</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+		<e><p><l>नसे</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
+		<e><p><l>न्होंने</l><r>न<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>			
 
 	</pardef>
 

@@ -98,26 +98,25 @@
     <!-- SECTION: Pronouns -->
 
     <e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
-    <e><p><l>prpers</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>prpers</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers</l><r>प<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers</l><r>प<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers</l><r>इस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>who</l><r>किस<s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>who</l><r>जिस<s n="prn"/><s n="itg"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers</l><r>उस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers</l><r>इन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>who</l><r>किन<s n="prn"/><s n="itg"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>	
-	<e><p><l>prpers</l><r>उन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>	
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s 	n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>अप<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>इस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>किस<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>जिस<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>उस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>इन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>किन<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>उन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>	
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>व<s n="prn"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>उन<s n="prn"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>य<s n="prn"/></r></p></e>
     <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="tn"/></l><r>व<s n="prn"/></r></p></e>
     <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
     <e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	
-    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>		
+
 
 
     <!-- SECTION: Numerals -->
