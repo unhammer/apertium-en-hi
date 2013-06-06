@@ -826,7 +826,7 @@
 	<e lm="आप"><i>आ</i><par n="आ/ैं__prn"/></e>
 	<e lm="अप"><i>अ</i><par n="अ/ैं__prn"/></e>	
 	<e lm="हम"><i>ह</i><par n="ह/ैं__prn"/></e>
-
+	
 	<e lm="इस"><i>इस</i><par n="इस/ैं__prn"/></e>
 	<e lm="उस"><i>उस</i><par n="इस/ैं__prn"/></e>
 	<e lm="किस"><i>किस</i><par n="किस/ैं__prn"/></e>
@@ -849,26 +849,32 @@
     <e lm="हो"><i>हो</i><par n="/होना__vbser"/></e>
     <e lm="सक"><i>सक</i><par n="/सकता__vbser"/></e>
     <e lm="सो"><i>सो</i><par n="/खेल__vblex"/></e>
-    <e lm="देख"><i>देख</i><par n="/खेल__vblex"/></e>
+
     <e lm="रह"><i>रह</i><par n="/खेल__vblex"/></e>
     <e lm="ही"><i>ही</i><par n="/खेल__vblex"/></e>
     <e lm="भाग"><i>भाग</i><par n="/खेल__vblex"/></e>
     <e lm="पी"><i>पी</i><par n="/खेल__vblex"/></e>
     <e lm="हस"><i>हस</i><par n="/खेल__vblex"/></e>
-
-    <e lm="चल"><i>चल</i><par n="/खेल__vblex"/></e>
-    <e lm="ढूॅंड"><i>ढूॅंड</i><par n="/खेल__vblex"/></e>
-    <e lm="सुन"><i>सुन</i><par n="/खेल__vblex"/></e>
     <e lm="बैठ"><i>बैठ</i><par n="/खेल__vblex"/></e>
-    <e lm="जान"><i>जान</i><par n="/खेल__vblex"/></e>
-    <e lm="सोच"><i>सोच</i><par n="/खेल__vblex"/></e>
-    <e lm="गिन"><i>गिन</i><par n="/खेल__vblex"/></e>
-    <e lm="चुक"><i>चुक</i><par n="/खेल__vblex"/></e>
-    <e lm="पूछ"><i>पूछ</i><par n="/खेल__vblex"/></e>
+    <e lm="चल"><i>चल</i><par n="/खेल__vblex"/></e>	
+
+	<e lm="खेल"><i>खेल</i><par n="बोल__vblex_tv"/></e>
+	<e lm="देख"><i>देख</i><par n="बोल__vblex_tv"/></e>
+    <e lm="ढूॅंड"><i>ढूॅंड</i><par n="बोल__vblex_tv"/></e>
+    <e lm="सुन"><i>सुन</i><par n="बोल__vblex_tv"/></e>
+    <e lm="जान"><i>जान</i><par n="बोल__vblex_tv"/></e>
+    <e lm="सोच"><i>सोच</i><par n="बोल__vblex_tv"/></e>
+    <e lm="गिन"><i>गिन</i><par n="बोल__vblex_tv"/></e>
+    <e lm="चुक"><i>चुक</i><par n="बोल__vblex_tv"/></e>
+    <e lm="पूछ"><i>पूछ</i><par n="बोल__vblex_tv"/></e>
     <e lm="जा"><i>जा</i><par n="/खेल__vblex"/></e>
-	<e lm="बन"><i>बन</i><par n="/खेल__vblex"/></e>
-	<e lm="लिख"><i>लिख</i><par n="/खेल__vblex"/></e>
+	<e lm="बन"><i>बन</i><par n="बोल__vblex_tv"/></e>
+	<e lm="लिख"><i>लिख</i><par n="बोल__vblex_tv"/></e>
 	<e lm="बोल"><i>बोल</i><par n="बोल__vblex_tv"/></e>
+	<e lm="कह"><i>कह</i><par n="बोल__vblex_tv"/></e>
+	<e lm="कर"><i>कर</i><par n="बोल__vblex_tv"/></e>
+	<e lm="बता"><i>बता</i><par n="बोल__vblex_tv"/></e>
+
 	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
 	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
 	<e lm="लिया"><p><l>लिया</l><r>लिया<s n="vblex"/><s n="past"/></r></p></e>
@@ -3354,6 +3360,7 @@
     <e lm="मरियम"><i>मरियम</i><par n="name__n_f"/></e>
     <e lm="काजोल"><i>काजोल</i><par n="name__n_f"/></e>
 	<e lm="भारत"><i>भारत</i><par n="name__n_f"/></e>
+	<e lm="मैरी"><i>मैरी</i><par n="name__n_f"/></e>
 
     <e lm="अंगक्रिया"><i>अंगक्रिया</i><par n="बला__n_f"/></e>
 	
@@ -15863,8 +15870,8 @@
     <e lm="प्रयोगार्थ"><i>प्रयोगार्थ</i><par n="ऐ__n_m"/></e>
     <e lm="अधिमित्र"><i>अधिमित्र</i><par n="ऐ__n_m"/></e>
     <e lm="खेल"><i>खेल</i><par n="थ__n_m"/></e>
-    <e lm="खेल"><i>खेल</i><par n="/खेल__vblex"/></e>
-    <e lm="कर"><i>कर</i><par n="/खेल__vblex"/></e>
+
+
     <e lm="प्रयोगशाला"><i>प्रयोगशाला</i><par n="बला__n_f"/></e>
     <e lm="तारकचिह्न"><i>तारकचिह्न</i><par n="ऐ__n_m"/></e>
     <e lm="इंजीनियरिंग"><i>इंजीनियरिंग</i><par n="थ__n_m"/></e>

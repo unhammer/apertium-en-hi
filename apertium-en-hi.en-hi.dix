@@ -43,6 +43,7 @@
     <sdef n="p1"      c="first person"/>
     <sdef n="p2"      c="second person"/>
     <sdef n="p3"      c="third person"/>
+    <sdef n="tv"      c="transitive"/>
     
   </sdefs>
   <section id="main" type="standard">
@@ -5014,7 +5015,9 @@
     <e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मैरी<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>India<s n="np"/><s n="ant"/></l><r>भारत</r></p></e>
+	
 
     <e><p><l>animal<s n="n"/></l><r>प्राणी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abundance<s n="n"/></l><r>अधिकता<s n="n"/><s n="f"/></r></p></e>
@@ -20031,6 +20034,7 @@
     <e><p><l>ask</l><r>पूछ</r></p></e>
     <e><p><l>become</l><r>बन</r></p></e>
 	<e><p><l>write</l><r>लिख</r></p></e>
+	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
