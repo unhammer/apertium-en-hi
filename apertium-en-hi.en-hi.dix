@@ -20020,7 +20020,7 @@
     <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
     <e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
     <e r="RL"><p><l></l><r>हो<s n="vblex"/><s n="pres"/></r></p></e>
-    <e><p><l>drink</l><r>पी</r></p></e>
+
     <e><p><l>laugh</l><r>हस</r></p></e>
     <e><p><l>talk</l><r>बोल</r></p></e>
 
@@ -20038,6 +20038,7 @@
     <e><p><l>become<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>write<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>drink<s n="vblex"/></l><r>पी<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>walk<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>sleep<s n="vblex"/></l><r>सो<s n="vblex"/><s n="iv"/></r></p></e>
     <!-- SECTION: Punctuation -->

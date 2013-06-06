@@ -550,7 +550,43 @@
       <e>       <p><l>ी</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ी</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-             
+         <pardef n="प/ी__vblex_tv">
+      <e>       <p><l>िऊँगा</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँगे</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िऊँगी</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँगी</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िएगा</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ियोगे</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िएगी</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ियोगी</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िएगा</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँगे</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िएगी</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँगी</l><r>ी<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीनेवाला</l><r>ी<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ीनेवाले</l><r>ी<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीनेवाली</l><r>ी<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ीनेवाली</l><r>ी<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीना</l><r>ी<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ीने</l><r>ी<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
+      <e>       <p><l>िऊँ</l><r>ी<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँ</l><r>ी<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िए</l><r>ी<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँ</l><r>ी<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>िए</l><r>ी<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िएँ</l><r>ी<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीजिए</l><r>ी<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ी</l><r>ी<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ियो</l><r>ी<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीता</l><r>ी<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ीतें</l><r>ी<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीती</l><r>ी<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ीतीं</l><r>ी<s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ीकर</l><r>ी<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e>       <p><l>ीके</l><r>ी<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e>       <p><l>िया</l><r>ी<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>िए</l><r>ी<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>    
 	   
 	   <pardef n="बता__vblex_tv">
       <e>       <p><l>ऊँगा</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
@@ -586,7 +622,7 @@
       <e>       <p><l>तीं</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>कर</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e>       <p><l>के</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
-      <e>       <p><l></l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>या</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ए</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ई</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ईं</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
@@ -626,7 +662,7 @@
       <e>       <p><l>तीं</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>कर</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e>       <p><l>के</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e>       <p><l></l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>या</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ए</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ई</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ईं</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
@@ -975,7 +1011,7 @@
     <e lm="रह"><i>रह</i><par n="/खेल__vblex"/></e>
     <e lm="ही"><i>ही</i><par n="/खेल__vblex"/></e>
     <e lm="भाग"><i>भाग</i><par n="/खेल__vblex"/></e>
-    <e lm="पी"><i>पी</i><par n="/खेल__vblex"/></e>
+
     <e lm="हस"><i>हस</i><par n="/खेल__vblex"/></e>
     <e lm="बैठ"><i>बैठ</i><par n="/खेल__vblex"/></e>
 
@@ -996,13 +1032,13 @@
 	<e lm="कह"><i>कह</i><par n="बोल__vblex_tv"/></e>
 	<e lm="कर"><i>कर</i><par n="बोल__vblex_tv"/></e>
 	<e lm="बता"><i>बता</i><par n="बता__vblex_tv"/></e>
-
+     <e lm="पी"><i>प</i><par n="प/ी__vblex_tv"/></e>		
 	<e lm="किया"><p><l>किया</l><r>किया<s n="vblex"/><s n="past"/></r></p></e>	
 	<e lm="गया"><p><l>गया</l><r>गया<s n="vblex"/><s n="past"/></r></p></e>
 	<e lm="लिया"><p><l>लिया</l><r>लिया<s n="vblex"/><s n="past"/></r></p></e>
 	<e lm="लगा"><p><l>लगा</l><r>लगा<s n="vblex"/><s n="past"/></r></p></e>		
 	<e lm="कहा"><p><l>कहा</l><r>कहा<s n="vblex"/><s n="past"/></r></p></e>
-			
+
        
 
     <!-- Nouns -->
