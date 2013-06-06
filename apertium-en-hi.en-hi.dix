@@ -44,6 +44,7 @@
     <sdef n="p2"      c="second person"/>
     <sdef n="p3"      c="third person"/>
     <sdef n="tv"      c="transitive"/>
+	<sdef n="iv"      c="intransitive"/>
     
   </sdefs>
   <section id="main" type="standard">
@@ -20012,7 +20013,7 @@
     <e><p><l>take</l><r>लिया</r></p></e>
     <e><p><l>felt</l><r>लगा</r></p></e>
     <e><p><l>say</l><r>कहा</r></p></e>
-    <e><p><l>sleep</l><r>सो</r></p></e>
+
     <e><p><l>see</l><r>देख</r></p></e>
     <e><p><l>look</l><r>देख</r></p></e>
     <e><p><l>go</l><r>जा</r></p></e>
@@ -20022,7 +20023,7 @@
     <e><p><l>drink</l><r>पी</r></p></e>
     <e><p><l>laugh</l><r>हस</r></p></e>
     <e><p><l>talk</l><r>बोल</r></p></e>
-    <e><p><l>walk</l><r>चल</r></p></e>
+
     <e><p><l>run</l><r>भाग</r></p></e>
     <e><p><l>hear</l><r>सुन</r></p></e>
     <e><p><l>find</l><r>ढूॅंड</r></p></e>
@@ -20031,11 +20032,14 @@
     <e><p><l>sit</l><r>बैठ</r></p></e>
     <e><p><l>count</l><r>गिन</r></p></e>
     <e><p><l>finish</l><r>चुक</r></p></e>
-    <e><p><l>ask</l><r>पूछ</r></p></e>
-    <e><p><l>become</l><r>बन</r></p></e>
-	<e><p><l>write</l><r>लिख</r></p></e>
+		
+	<e><p><l>think<s n="vblex"/></l><r>सोच<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>ask<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>become<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>write<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
-
+	<e><p><l>walk<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>sleep<s n="vblex"/></l><r>सो<s n="vblex"/><s n="iv"/></r></p></e>
     <!-- SECTION: Punctuation -->
 
     <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
