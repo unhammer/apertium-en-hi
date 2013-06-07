@@ -20002,35 +20002,8 @@
 
     <!-- SECTION: Verbs -->
 
-    <e><p><l>be<s n="vbser"/></l><r>होना<s n="vbser"/></r></p></e>
-    <e><p><l>be<s n="vbser"/></l><r>था<s n="vbser"/></r></p></e>
-    <e><p><l>be<s n="vbser"/></l><r>थी<s n="vbser"/></r></p></e>
-    <e><p><l>be<s n="vbser"/></l><r>थे<s n="vbser"/></r></p></e>
-    <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>
-    <e><p><l>can</l><r>सक</r></p></e>
-    <e><p><l>do</l><r>किया</r></p></e>
-    <e><p><l>go</l><r>गया</r></p></e>
-    <e><p><l>take</l><r>लिया</r></p></e>
-    <e><p><l>felt</l><r>लगा</r></p></e>
-    <e><p><l>say</l><r>कहा</r></p></e>
 
-    <e><p><l>see</l><r>देख</r></p></e>
-    <e><p><l>look</l><r>देख</r></p></e>
-
-    <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
-    <e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
-    <e r="RL"><p><l></l><r>हो<s n="vblex"/><s n="pres"/></r></p></e>
-
-    <e><p><l>laugh</l><r>हस</r></p></e>
-    <e><p><l>talk</l><r>बोल</r></p></e>
-
-    <e><p><l>run</l><r>भाग</r></p></e>
-    <e><p><l>hear</l><r>सुन</r></p></e>
-    <e><p><l>find</l><r>ढूॅंड</r></p></e>
-    <e><p><l>know</l><r>जान</r></p></e>
-    <e><p><l>think</l><r>सोच</r></p></e>
-    <e><p><l>count</l><r>गिन</r></p></e>
-    <e><p><l>finish</l><r>चुक</r></p></e>
+    <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>		
     <e><p><l>say<s n="vblex"/></l><r>कहा<s n="vblex"/><s n="tv"/></r></p></e>		
 	<e><p><l>think<s n="vblex"/></l><r>सोच<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>ask<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
@@ -20048,6 +20021,7 @@
 	<e><p><l>hide<s n="vblex"/></l><r>छुप<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>live<s n="vblex"/></l><r>रह<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>go<s n="vblex"/></l><r>जा<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>come<s n="vblex"/></l><r>आ<s n="vblex"/><s n="iv"/></r></p></e>
 	
 
     <!-- SECTION: Punctuation -->
