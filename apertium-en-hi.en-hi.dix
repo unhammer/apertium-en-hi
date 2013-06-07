@@ -20016,7 +20016,7 @@
 
     <e><p><l>see</l><r>देख</r></p></e>
     <e><p><l>look</l><r>देख</r></p></e>
-    <e><p><l>go</l><r>जा</r></p></e>
+
     <e r="RL"><p><l></l><r>रह<s n="vblex"/><s n="pres"/></r></p></e>
     <e r="RL"><p><l></l><r>ही<s n="vblex"/><s n="pres"/></r></p></e>
     <e r="RL"><p><l></l><r>हो<s n="vblex"/><s n="pres"/></r></p></e>
@@ -20047,6 +20047,8 @@
 	<e><p><l>sit<s n="vblex"/></l><r>बैठ<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>hide<s n="vblex"/></l><r>छुप<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>live<s n="vblex"/></l><r>रह<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>go<s n="vblex"/></l><r>जा<s n="vblex"/><s n="iv"/></r></p></e>
+	
 
     <!-- SECTION: Punctuation -->
 
