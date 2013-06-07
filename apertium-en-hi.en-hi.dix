@@ -20029,18 +20029,25 @@
     <e><p><l>find</l><r>ढूॅंड</r></p></e>
     <e><p><l>know</l><r>जान</r></p></e>
     <e><p><l>think</l><r>सोच</r></p></e>
-    <e><p><l>sit</l><r>बैठ</r></p></e>
     <e><p><l>count</l><r>गिन</r></p></e>
     <e><p><l>finish</l><r>चुक</r></p></e>
-		
+    <e><p><l>say<s n="vblex"/></l><r>कहा<s n="vblex"/><s n="tv"/></r></p></e>		
 	<e><p><l>think<s n="vblex"/></l><r>सोच<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>ask<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>become<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>write<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>play<s n="vblex"/></l><r>खेल<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>find<s n="vblex"/></l><r>खोज<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>drink<s n="vblex"/></l><r>पी<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>walk<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>sleep<s n="vblex"/></l><r>सो<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>laugh<s n="vblex"/></l><r>हँस<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>laugh<s n="vblex"/></l><r>हंस<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>sit<s n="vblex"/></l><r>बैठ<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>hide<s n="vblex"/></l><r>छुप<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>live<s n="vblex"/></l><r>रह<s n="vblex"/><s n="iv"/></r></p></e>
+
     <!-- SECTION: Punctuation -->
 
     <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
