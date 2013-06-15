@@ -6,8 +6,23 @@ SETS
 LIST N = n ; 
 LIST Obl = obl ; 
 LIST Post = post ; 
+LIST Adj = adj;
+LIST Adv = adv;
+LIST Verb = vblex;
+
 
 SECTION
 
 SELECT Obl IF (1C Post) ;
   ## 
+
+SELECT Adj IF
+	(0 Adj)
+	(0 Adv)
+	(0 N)
+	(1 N);
+
+SELECT Adv IF
+	(0 Adj)
+	(0 Adv)
+	(1 Verb);

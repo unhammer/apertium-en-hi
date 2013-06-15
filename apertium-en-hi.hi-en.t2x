@@ -2,20 +2,39 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
+
     <def-cat n="SN-OBL">
       <cat-item tags="SN.obl"/>  	
       <cat-item tags="SN.obl.*"/>   
     </def-cat>
+
     <def-cat n="POST">
       <cat-item tags="POST"/>
     </def-cat>
+
+	<def-cat n="ADJ">
+      <cat-item tags="ADJ"/>
+    </def-cat>
+
+	<def-cat n="VBSER">
+      <cat-item tags="VBSER"/>
+	  <cat-item tags="VBSER.*"/>
+    </def-cat>
+	
+	<def-cat n="VERB">
+      <cat-item tags="VERB"/>
+	  <cat-item tags="VERB.*"/>
+    </def-cat>
+
     <def-cat n="SN">
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
+
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nbr">
@@ -84,6 +103,57 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: ADJ VERB">
+      <pattern>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="VERB"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN-OBL POST VERB">
+      <pattern>
+        <pattern-item n="SN-OBL"/>
+        <pattern-item n="POST"/>
+		<pattern-item n="VERB"/>
+      </pattern>
+      <action>
+        <out>
+		 <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: SN-OBL POST POST ">
       <pattern>
         <pattern-item n="SN-OBL"/>
@@ -112,7 +182,7 @@
         </out>
       </action>
     </rule>
-
+	
 
   </section-rules>
 </interchunk>

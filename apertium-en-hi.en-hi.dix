@@ -8,6 +8,7 @@
     <sdef n="adj"     c="Adjective"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="vblex"   c="verb"/>
+	<sdef n="vaux"    c="vaux"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
 	<sdef n="frm"     c="formal"/>
@@ -132,11 +133,9 @@
 
     <e><p><l>space<s n="n"/></l><r>जगह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>way<s n="n"/></l><r>तरह<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>inside<s n="n"/></l><r>अंदर</r></p></e>  <!-- FIXME -->
-    <e><p><l>medium</l><r>माध्यम</r></p></e>  <!-- FIXME -->
-    <e><p><l>boy<s n="n"/></l><r>लड़का</r></p></e>  <!-- FIXME -->
-    <e><p><l>girl<s n="n"/></l><r>लड़की</r></p></e>  <!-- FIXME -->
-    <e><p><l>close</l><r>पास</r></p></e> <!-- FIXME -->
+    <e><p><l>inside<s n="n"/></l><r>अंदर<s n="n"/><s n="m"/></r></p></e>  
+    <e><p><l>boy<s n="n"/></l><r>लड़का<s n="n"/><s n="m"/></r></p></e>  
+    <e><p><l>girl<s n="n"/></l><r>लड़की<s n="n"/><s n="f"/></r></p></e> 
     <e><p><l>cheque<s n="n"/></l><r>चैक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abandonment<s n="n"/></l><r>परित्याग<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abatement<s n="n"/></l><r>कमी<s n="n"/><s n="f"/></r></p></e>
@@ -3723,7 +3722,7 @@
     <e><p><l>revelation<s n="n"/></l><r>रहस्योद्घाटन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>revenge<s n="n"/></l><r>प्रतिशोध<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>revenue<s n="n"/></l><r>कर<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>do</l><r>कर</r></p></e>
+
     <e><p><l>reverberation<s n="n"/></l><r>गूँज<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reverence<s n="n"/></l><r>आदर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>reverie<s n="n"/></l><r>दिवास्वप्न<s n="n"/><s n="m"/></r></p></e>
@@ -13655,7 +13654,7 @@
 
 
     <!-- SECTION: Adjectives -->
-
+	<e><p><l>medium<s n="adj"/></l><r>माध्यम<s n="adj"/></r></p></e>  
     <e><p><l>big<s n="adj"/><s n="sint"/></l><r>बड़े<s n="adj"/></r></p></e>
 <!--<e><p><l>sluggish<s n="adj"/></l><r>धीरे-धीरे<s n="adv"/></r></p></e>-->
     <e><p><l>abashed<s n="adj"/></l><r>लज्जित<s n="adj"/></r></p></e>
@@ -19323,7 +19322,8 @@
 
     <!-- SECTION: Adverbs -->
 
-    <e><p><l>because<s n="adv"/></l><r>क्योंकि<s n="adv"/></r></p></e> <!-- FIXME -->
+    <e><p><l>because<s n="adv"/></l><r>क्योंकि<s n="adv"/></r></p></e> 
+	<e><p><l>close<s n="adv"/></l><r>पास<s n="adv"/></r></p></e>
     <e><p><l>sometimes<s n="adv"/></l><r>कभी<s n="adv"/></r></p></e>
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>कहॉं<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>when<s n="adv"/><s n="itg"/></l><r>कब<s n="adv"/><s n="itg"/></r></p></e>
@@ -20004,15 +20004,24 @@
 
 
     <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>		
+	<e><p><l>can<s n="vaux"/></l><r>सक<s n="vaux"/></r></p></e>
     <e><p><l>say<s n="vblex"/></l><r>कहा<s n="vblex"/><s n="tv"/></r></p></e>		
 	<e><p><l>think<s n="vblex"/></l><r>सोच<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>ask<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>become<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>write<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>do<s n="vblex"/></l><r>कर<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>reach<s n="vblex"/></l><r>पहुँच<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>talk<s n="vblex"/></l><r>बोल<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>meet<s n="vblex"/></l><r>मिल<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>spend<s n="vblex"/></l><r>बिता<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>play<s n="vblex"/></l><r>खेल<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>find<s n="vblex"/></l><r>खोज<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>drink<s n="vblex"/></l><r>पी<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>give<s n="vblex"/></l><r>दे<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>see<s n="vblex"/></l><r>देख<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>hearq<s n="vblex"/></l><r>सुन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>walk<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>sleep<s n="vblex"/></l><r>सो<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>laugh<s n="vblex"/></l><r>हँस<s n="vblex"/><s n="iv"/></r></p></e>
@@ -20020,6 +20029,8 @@
 	<e><p><l>sit<s n="vblex"/></l><r>बैठ<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>hide<s n="vblex"/></l><r>छुप<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>live<s n="vblex"/></l><r>रह<s n="vblex"/><s n="iv"/></r></p></e>
+	<e><p><l>like<s n="vblex"/></l><r>चाह<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>count<s n="vblex"/></l><r>गिन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>go<s n="vblex"/></l><r>जा<s n="vblex"/><s n="iv"/></r></p></e>
 	<e><p><l>come<s n="vblex"/></l><r>आ<s n="vblex"/><s n="iv"/></r></p></e>
 	
