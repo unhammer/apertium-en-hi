@@ -2,40 +2,45 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="vblex-stem">
+      <cat-item tags="vblex.*.stem"/>
+    </def-cat>
+
+    <def-cat n="vblex-impf">
+      <cat-item tags="vblex.*.impf.*"/>
+    </def-cat>
+
+    <def-cat n="vbser-fin">
+      <cat-item tags="vbser.pri.*"/>
+    </def-cat>
+
+    <def-cat n="raha-perf">
+      <cat-item lemma="रह" tags="vaux.perf.*"/>
+    </def-cat>
+
+    <def-cat n="vbser-impf">
+      <cat-item tags="vbser.impf.*"/>
+    </def-cat>
+
+    <def-cat n="vaux-perf">
+      <cat-item tags="vaux.perf.*"/>
+    </def-cat>
+
+    <def-cat n="vaux-impf">
+      <cat-item tags="vaux.impf.*"/>
+    </def-cat>
+
     <def-cat n="post">
       <cat-item tags="post"/>
     </def-cat>
 
-	<def-cat n="vbser">
-		<cat-item tags="vbser"/>
-		<cat-item tags="vbser.*"/>
-	</def-cat>
-    
-	<def-cat n="verb">
-		<cat-item tags="vbser"/>
-		<cat-item tags="vbser.*"/>
-	    <cat-item tags="vblex"/>
-		<cat-item tags="vblex.*"/>
-	</def-cat>
-	
-	
-	<def-cat n="vblex">
-		<cat-item tags="vblex"/>
-		<cat-item tags="vblex.*"/>
-	</def-cat>
-
-
     <def-cat n="pron-pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
+
     <def-cat n="nmod">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
-      <cat-item tags="adj"/>
-      <cat-item tags="adj.*"/>
-    </def-cat>
-
-	<def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -44,11 +49,20 @@
       <cat-item tags="n.*"/>
     </def-cat>
 
+    <def-cat n="n-prop">
+      <cat-item tags="np.*"/>
+    </def-cat>
+
+    <def-cat n="not">
+      <cat-item lemma="नहीं" tags="adv"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
 
-	  </section-def-cats>
+  </section-def-cats>
+
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -59,6 +73,40 @@
       <attr-item tags="obj"/>
       <attr-item tags="FD"/>
     </def-attr>
+
+    <def-attr n="a_tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="impf"/>
+      <attr-item tags="perf"/>
+      <attr-item tags="past"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="inf"/>
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
 
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -74,6 +122,35 @@
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
+    <def-macro n="conv_tense1" npar="1">
+         <choose>
+           <when>
+             <test><or>
+               <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pri"/></equal>
+               <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="prs"/></equal>
+             </or></test>
+             <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pres"/></let>
+           </when>
+
+           <when>
+             <test><and>
+               <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="impf"/></equal>
+               <not><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="vbser"/></equal></not>
+             </and></test>
+             <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pres"/></let>
+           </when>
+
+           <when>
+             <test><and>
+               <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="impf"/></equal>
+               <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="vbser"/></equal>
+             </and></test>
+             <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
+           </when>
+
+         </choose>
+    </def-macro>
+
     <def-macro n="set_func1" npar="1">
          <choose>
            <when>
@@ -116,6 +193,26 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: n-prop">
+      <pattern>
+        <pattern-item n="n-prop"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+        <out>
+          <chunk name="prop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_cas"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -136,7 +233,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: nmod nom">
+   <rule comment="REGLA: nmod nom">
       <pattern>
         <pattern-item n="nmod"/>
         <pattern-item n="nom"/>
@@ -161,26 +258,29 @@
       </action>
     </rule>
 
-
-	<rule comment="REGLA: nom adj">
+    <rule comment="REGLA: vbser-fin">
       <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
+        <pattern-item n="vbser-fin"/>
       </pattern>
       <action>
-        <let><clip pos="2" side="tl" part="a_cas"/><lit v=""/></let>
+        <call-macro n="conv_tense1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
-          <chunk name="x_n" case="caseFirstWord">
+          <chunk name="v" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tense"/>
+              <clip pos="1" side="tl" part="a_pers"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -188,6 +288,232 @@
     </rule>
 
 
+    <rule comment="REGLA: vblex-impf vbser-fin">
+      <pattern>
+        <pattern-item n="vblex-impf"/>
+        <pattern-item n="vbser-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="a_tense"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: vblex-stem not vaux-impf">
+      <pattern>
+        <pattern-item n="vblex-stem"/>
+        <pattern-item n="not"/>
+        <pattern-item n="vaux-impf"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="vaux-neg-inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="a_tense"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: vblex-stem raha-perf vbser-fin">
+      <pattern>
+        <pattern-item n="vblex-stem"/>
+        <pattern-item n="raha-perf"/>
+        <pattern-item n="vbser-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="vbser-ger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="3" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="3" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="a_tense"/>
+              <clip pos="3" side="tl" part="a_pers"/>
+              <clip pos="3" side="tl" part="a_nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="ger"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: vblex-stem vaux-impf vbser-fin">
+      <pattern>
+        <pattern-item n="vblex-stem"/>
+        <pattern-item n="vaux-impf"/>
+        <pattern-item n="vbser-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="vaux-inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="a_tense"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: not vblex-stem vaux-impf">
+      <pattern>
+        <pattern-item n="not"/>
+        <pattern-item n="vblex-stem"/>
+        <pattern-item n="vaux-impf"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="vaux-not-inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="a_tense"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: not vblex-stem vaux-impf vbser-impf">
+      <pattern>
+        <pattern-item n="not"/>
+        <pattern-item n="vblex-stem"/>
+        <pattern-item n="vaux-impf"/>
+        <pattern-item n="vbser-impf"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="vaux-not-inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="4" side="tl" part="a_tense"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: post">
@@ -207,92 +533,6 @@
         </out>
       </action>
     </rule>
-
-		
-	<rule comment="REGLA: vblex_vbser">
-      <pattern>
-        <pattern-item n="vblex"/>
-		<pattern-item n="vbser"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="vblex_vbser" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="VBLEX_VBSER"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-	
-
-
-	<rule comment="REGLA: verb">
-      <pattern>
-        <pattern-item n="verb"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="verb" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="VERB"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: vbser">
-      <pattern>
-        <pattern-item n="vbser"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="vbser" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="VBSER"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-	
-	
-	<rule comment="REGLA: adjective">
-      <pattern>
-        <pattern-item n="adj"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="adj" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="ADJ"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-	
-
-
 
     <rule comment="REGLA: SENT">
       <pattern>
