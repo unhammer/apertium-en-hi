@@ -89,31 +89,24 @@
     <!-- SECTION: Determiners -->
 
     <e><p><l>a<s n="det"/><s n="ind"/></l><r>एक<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>my</l><r>मेरी</r></p></e>
-    <e><p><l>my</l><r>मेरा</r></p></e>
-    <e><p><l>my</l><r>मेरे</r></p></e>
-    <e><p><l>her</l><r>उस</r></p></e>
-    <e><p><l>their</l><r>उन</r></p></e>
-    <e><p><l>your</l><r>आप</r></p></e>
-    <e><p><l>our</l><r>अप</r></p></e>
 
 
     <!-- SECTION: Pronouns -->
 
     <e><p><l>who<s n="prn"/></l><r>जो<s n="prn"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s 	n="nom"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>अप<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>इस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>अप<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>इस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>किस<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>जिस<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>उस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>इन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>उस<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>इन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
 	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>किन<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
-	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>उन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>	
-    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>व<s n="prn"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>उन<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>व<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>उन<s n="prn"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/></l><r>य<s n="prn"/></r></p></e>
     <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
@@ -125,10 +118,15 @@
     <!-- SECTION: Numerals -->
 
     <e><p><l>two<s n="num"/><s n="sp"/></l><r>दो<s n="num"/></r></p></e>
+    <e><p><l>three<s n="num"/><s n="sp"/></l><r>तीन<s n="num"/></r></p></e>
+    <e><p><l>four<s n="num"/><s n="sp"/></l><r>चार<s n="num"/></r></p></e>
     <e><p><l>five<s n="num"/><s n="sp"/></l><r>पांच<s n="num"/></r></p></e>
     <e><p><l>five<s n="num"/><s n="sp"/></l><r>पाँच<s n="num"/></r></p></e>
     <e><p><l>six<s n="num"/><s n="sp"/></l><r>छह<s n="num"/></r></p></e>
-
+    <e><p><l>seven<s n="num"/><s n="sp"/></l><r>सात<s n="num"/></r></p></e>
+    <e><p><l>eight<s n="num"/><s n="sp"/></l><r>अाठ<s n="num"/></r></p></e>
+    <e><p><l>nine<s n="num"/><s n="sp"/></l><r>नौ<s n="num"/></r></p></e>
+    <e><p><l>ten<s n="num"/><s n="sp"/></l><r>दस<s n="num"/></r></p></e>
     <!-- SECTION: Nouns -->
 
     <e><p><l>space<s n="n"/></l><r>जगह<s n="n"/><s n="m"/></r></p></e>
@@ -490,6 +488,7 @@
     <e><p><l>bell<s n="n"/></l><r>घंटा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>belle<s n="n"/></l><r>सुन्दरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>belly<s n="n"/></l><r>पेट<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beginning<s n="n"/></l><r>शुरुआत<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>belongings<s n="n"/></l><r>सम्पत्ति<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>beloved<s n="n"/></l><r>प्रिय<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>benchmark<s n="n"/></l><r>कसौटी<s n="n"/><s n="f"/></r></p></e>
@@ -946,6 +945,7 @@
     <e><p><l>copper<s n="n"/></l><r>पुलिस<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>copse<s n="n"/></l><r>झाडी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>copula<s n="n"/></l><r>क्रिया<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>college<s n="n"/>कॉलेज</l><r><s n="n"/><s n="m"/></r></p></e>
     <e><p><l>copy<s n="n"/></l><r>प्रतिलिपि<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>copyright<s n="n"/></l><r>प्रकाशनाधिकार<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>corbel<s n="n"/></l><r>टोडा<s n="n"/><s n="m"/></r></p></e>
@@ -1676,6 +1676,7 @@
     <e><p><l>forgiveness<s n="n"/></l><r>क्षमा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>formation<s n="n"/></l><r>बनावट<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>formula<s n="n"/></l><r>सूत्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>form<s n="n"/></l><r>दशा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fort<s n="n"/></l><r>किला<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fortitude<s n="n"/></l><r>धैर्य<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fortress<s n="n"/></l><r>किला<s n="n"/><s n="m"/></r></p></e>
@@ -2035,6 +2036,7 @@
     <e><p><l>hooker<s n="n"/></l><r>वैश्या<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hookworm<s n="n"/></l><r>अंकुशकृमि<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hope<s n="n"/></l><r>आशा<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hope<s n="n"/></l><r>उम्मीद<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hopelessness<s n="n"/></l><r>निराशा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>horde<s n="n"/></l><r>भीड<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>horse<s n="n"/></l><r>घोडा<s n="n"/><s n="m"/></r></p></e>
@@ -2268,6 +2270,7 @@
     <e><p><l>inversion<s n="n"/></l><r>उलटाव<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>investment<s n="n"/></l><r>निवेशन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>investigation<s n="n"/></l><r>जाँच<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>investigation<s n="n"/></l><r>छानबीन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>invigilation<s n="n"/></l><r>निगरानी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>invigilator<s n="n"/></l><r>निरीक्षक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>invocation<s n="n"/></l><r>स्तुति<s n="n"/><s n="f"/></r></p></e>
@@ -2749,6 +2752,8 @@
     <e><p><l>misrule<s n="n"/></l><r>कुशासन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>miss<s n="n"/></l><r>कुमारी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mission<s n="n"/></l><r>शिष्टमंडल<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mission<s n="n"/></l><r>मिशन<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>announcement<s n="n"/></l><r>पेशकश<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>missus<s n="n"/></l><r>श्रीमती<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mist<s n="n"/></l><r>धुंध<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mistake<s n="n"/></l><r>गलती<s n="n"/><s n="f"/></r></p></e>
@@ -5011,12 +5016,8 @@
 
     <e><p><l>glad<s n="adj"/><s n="sint"/></l><r>खुश<s n="adj"/></r></p></e>
     <e><p><l>@</l><r>सा</r></p></e>
-    <e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम<s n="np"/><s n="ant"/></r></p></e>
-	<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मैरी<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>India<s n="np"/><s n="ant"/></l><r>भारत</r></p></e>
+
+
 	
 
     <e><p><l>animal<s n="n"/></l><r>प्राणी<s n="n"/><s n="m"/></r></p></e>
@@ -5358,6 +5359,7 @@
     <e><p><l>occasion<s n="n"/></l><r>अवसर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>onlooker<s n="n"/></l><r>तमाशबीन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>openness<s n="n"/></l><r>सादगी<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>opportunity<s n="n"/></l><r>अपॉर्च्युनिटी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ostracism<s n="n"/></l><r>निर्वासन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>outfit<s n="n"/></l><r>वेश<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>outgoing<s n="n"/></l><r>खर्च<s n="n"/><s n="m"/></r></p></e>
@@ -6101,7 +6103,7 @@
     <e><p><l>communication<s n="n"/></l><r>सम्प्रेषण<s n="n"/></r></p></e>
     <e><p><l>communism<s n="n"/></l><r>साम्यवाद<s n="n"/></r></p></e>
     <e><p><l>company<s n="n"/></l><r>कम्पनी<s n="n"/></r></p></e>
-    <e><p><l>comparison<s n="n"/></l><r>तुलना<s n="n"/></r></p></e>
+    <e><p><l>comparison<s n="n"/></l><r>तुलना<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>competence<s n="n"/></l><r>सामर्थ्यता<s n="n"/></r></p></e>
     <e><p><l>competition<s n="n"/></l><r>स्पर्धा<s n="n"/></r></p></e>
     <e><p><l>competitor<s n="n"/></l><r>प्रतियोगी<s n="n"/></r></p></e>
@@ -6955,6 +6957,7 @@
     <e><p><l>hype<s n="n"/></l><r>अतिशयता<s n="n"/></r></p></e>
     <e><p><l>hypothesis<s n="n"/></l><r>हाइपोथीसिस<s n="n"/></r></p></e>
     <e><p><l>icing<s n="n"/></l><r>आइसिंग<s n="n"/></r></p></e>
+    <e><p><l>ice<s n="n"/></l><r>बर्फ<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>idealist<s n="n"/></l><r>आदर्शवादी<s n="n"/></r></p></e>
     <e><p><l>identification<s n="n"/></l><r>समीकर<s n="n"/></r></p></e>
     <e><p><l>identity<s n="n"/></l><r>पहचान<s n="n"/></r></p></e>
@@ -7533,6 +7536,7 @@
     <e><p><l>monotony<s n="n"/></l><r>एकरसता<s n="n"/></r></p></e>
     <e><p><l>monsignor<s n="n"/></l><r>महामान्यवर<s n="n"/></r></p></e>
     <e><p><l>moon<s n="n"/></l><r>चन्द्रमा<s n="n"/></r></p></e>
+    <e><p><l>moon<s n="n"/></l><r>चंद्रमा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>moon<b/>beam<s n="n"/></l><r>चन्द्रकिरण<s n="n"/></r></p></e>
     <e><p><l>moondrop<s n="n"/></l><r>चन्द्रकान्तमणि<s n="n"/></r></p></e>
     <e><p><l>moon<b/>flower<s n="n"/></l><r>चन्द्रकान्ति<s n="n"/></r></p></e>
@@ -8276,6 +8280,7 @@
     <e><p><l>roly-poly<s n="n"/></l><r>पुडिंग<s n="n"/></r></p></e>
     <e><p><l>romance<s n="n"/></l><r>प्रेमकहानी<s n="n"/></r></p></e>
     <e><p><l>rookie<s n="n"/></l><r>नया<s n="n"/></r></p></e>
+    <e><p><l>new<s n="n"/></l><r>नए<s n="n"/></r></p></e>
     <e><p><l>roost<s n="n"/></l><r>अड्डा<s n="n"/></r></p></e>
     <e><p><l>rooster<s n="n"/></l><r>मुर्गा<s n="n"/></r></p></e>
     <e><p><l>rosary<s n="n"/></l><r>जपमाला<s n="n"/></r></p></e>
@@ -12809,6 +12814,7 @@
     <e><p><l>unexpectedness<s n="n"/></l><r>अप्रत्याशितता<s n="n"/></r></p></e>
     <e><p><l>unfairness<s n="n"/></l><r>अन्यायपूर्णता<s n="n"/></r></p></e>
     <e><p><l>unfaithfulness<s n="n"/></l><r>बेवफ़ाई<s n="n"/></r></p></e>
+    <e><p><l>university<s n="n"/></l><r>यूनिवर्सीटी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>unfeelingness<s n="n"/></l><r>निष्ठुरता<s n="n"/></r></p></e>
     <e><p><l>unfitness<s n="n"/></l><r>शिथिलता<s n="n"/></r></p></e>
     <e><p><l>unfriendliness<s n="n"/></l><r>अमित्रता<s n="n"/></r></p></e>
@@ -13031,6 +13037,7 @@
     <e><p><l>washbowl<s n="n"/></l><r>चिलमची<s n="n"/></r></p></e>
     <e><p><l>wastefulness<s n="n"/></l><r>बरबादी<s n="n"/></r></p></e>
     <e><p><l>wastrel<s n="n"/></l><r>अपव्ययी<s n="n"/></r></p></e>
+    <e><p><l>water<s n="n"/></l><r>जल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>waterbird<s n="n"/></l><r>जलपाखी<s n="n"/></r></p></e>
     <e><p><l>watercourse<s n="n"/></l><r>नहर<s n="n"/></r></p></e>
     <e><p><l>watercraft<s n="n"/></l><r>नौकौशल<s n="n"/></r></p></e>
@@ -13594,7 +13601,22 @@
     <e><p><l>Zion<s n="n"/></l><r>ज़ायन<s n="n"/></r></p></e>
 
     <!-- SECTION: Proper nouns --> 
-
+	    
+	<e><p><l>Kajol<s n="np"/><s n="ant"/></l><r>काजोल<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Nitrogen<s n="np"/><s n="ant"/></l><r>नाईट्रोजन<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Carbon<s n="np"/><s n="ant"/></l><r>कार्बन<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Sulphur<s n="np"/><s n="ant"/></l><r>सल्फर<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Phosphorus<s n="np"/><s n="ant"/></l><r>फास्फोरस<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Oxygen<s n="np"/><s n="ant"/></l><r>ऑक्सीजन<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Juice<s n="np"/><s n="ant"/></l><r>जूस<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मैरी<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Europa<s n="np"/><s n="ant"/></l><r>यूरोपा<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Ganimad<s n="np"/><s n="ant"/></l><r>गेनीमेड<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Calisto<s n="np"/><s n="ant"/></l><r>कैलिस्टो<s n="np"/><s n="ant"/></r></p></e> 
+    <e><p><l>India<s n="np"/><s n="ant"/></l><r>भारत</r></p></e>
     <e><p><l>Allah<s n="n"/></l><r>अल्लाह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>April<s n="n"/></l><r>अप्रैल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>The<b/>Deity<s n="n"/></l><r>देवता<s n="n"/><s n="f"/></r></p></e>
@@ -13649,13 +13671,14 @@
     <e><p><l>May<s n="n"/></l><r>मई<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Screw_ball<s n="n"/></l><r>सनकी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Sikh<s n="n"/></l><r>सिक्ख<s n="n"/><s n="m"/></r></p></e>
-
+	
 
 
 
     <!-- SECTION: Adjectives -->
 	<e><p><l>medium<s n="adj"/></l><r>माध्यम<s n="adj"/></r></p></e>  
     <e><p><l>big<s n="adj"/><s n="sint"/></l><r>बड़े<s n="adj"/></r></p></e>
+    <e><p><l>new<s n="adj"/><s n="sint"/></l><r>नए<s n="adj"/><s n ="m"/><s n="sg"/><s n="nom"/></r></p></e>	
 <!--<e><p><l>sluggish<s n="adj"/></l><r>धीरे-धीरे<s n="adv"/></r></p></e>-->
     <e><p><l>abashed<s n="adj"/></l><r>लज्जित<s n="adj"/></r></p></e>
     <e><p><l>aberrant<s n="adj"/></l><r>असामान्य<s n="adj"/></r></p></e>
@@ -20010,6 +20033,8 @@
     <e><p><l>ask<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>become<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>write<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>know<s n="vblex"/></l><r>जान<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>send<s n="vblex"/></l><r>भेज<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>do<s n="vblex"/></l><r>कर<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>reach<s n="vblex"/></l><r>पहुँच<s n="vblex"/><s n="tv"/></r></p></e>
