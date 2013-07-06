@@ -110,6 +110,7 @@
 
     <e><p><l>a<s n="det"/><s n="ind"/></l><r>एक<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>such<s n="det"/><s n="ind"/></l><r>ऐस<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>other<s n="det"/><s n="ind"/></l><r>दूसरी<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>many<s n="det"/><s n="qnt"/></l><r>कई<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -133,6 +134,7 @@
     <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>कोई<s n="pr"/></r></p></e>
     <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
     <e><p><l>by<s n="pr"/></l><r>द्वारा<s n="pr"/></r></p></e>	
+	<e><p><l>all<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>सब<s n="prn"/><s n="pers"/><s n="p3"/><s 		n="mf"/><s n="pl"/></r></p></e>
 
 
 
@@ -2588,8 +2590,6 @@
     <e><p><l>ledge<s n="n"/></l><r>कगार<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ledger<s n="n"/></l><r>खाता<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ledger<s n="n"/></l><r>खाता<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lee<s n="n"/></l><r>ओर<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>lee<s n="n"/></l><r>ओर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>legislation<s n="n"/></l><r>विधि<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>legislation<s n="n"/></l><r>विधि<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>legume<s n="n"/></l><r>फली<s n="n"/><s n="f"/></r></p></e>
@@ -4176,6 +4176,7 @@
     <e><p><l>sickle<s n="n"/></l><r>हँसिया<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sickness<s n="n"/></l><r>बीमारी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>side<s n="n"/></l><r>तरफ<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>side<s n="n"/></l><r>ओर<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>side-dish<s n="n"/></l><r>सलाद<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>side-Whiskers<s n="n"/></l><r>गलमुच्छा<s n="n"/><s n="m"/></r></p></e>
@@ -4278,6 +4279,7 @@
     <e><p><l>sofa<s n="n"/></l><r>सोफा<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>soil<s n="n"/></l><r>मिट्टी<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>solar<s n="n"/></l><r>सौर<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>soldier<s n="n"/></l><r>सैनिक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>solecism<s n="n"/></l><r>अनौचित्य<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>solicitude<s n="n"/></l><r>ख्याल<s n="n"/><s n="m"/></r></p></e>
@@ -20186,7 +20188,8 @@
 
     <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>		
 	<e><p><l>can<s n="vaux"/></l><r>सक<s n="vaux"/></r></p></e>
-    <e><p><l>say<s n="vblex"/></l><r>कहा<s n="vblex"/><s n="tv"/></r></p></e>		
+	<e><p><l>be<s n="vaux"/></l><r>चुक<s n="vaux"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>कह<s n="vblex"/><s n="tv"/></r></p></e>		
 	<e><p><l>think<s n="vblex"/></l><r>सोच<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>ask<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>become<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
@@ -20196,7 +20199,7 @@
 	<e><p><l>tell<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>do<s n="vblex"/></l><r>कर<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>reach<s n="vblex"/></l><r>पहुँच<s n="vblex"/><s n="tv"/></r></p></e>
-	<e><p><l><s n="vblex"/></l><r>भर<s n="vblex"/><s n="tv"/></r></p></e>
+	<e><p><l>fill<s n="vblex"/></l><r>भर<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>talk<s n="vblex"/></l><r>बोल<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>meet<s n="vblex"/></l><r>मिल<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>spend<s n="vblex"/></l><r>बिता<s n="vblex"/><s n="tv"/></r></p></e>

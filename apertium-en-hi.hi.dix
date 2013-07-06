@@ -917,6 +917,9 @@
       <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
       <e>       <p><l>े</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
     </pardef>
+    <pardef n="दूसरी__det">
+      <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+    </pardef>
 
     <pardef n="कई__det">
       <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1020,8 +1023,20 @@
 		<e><p><l>को</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
 		<e><p><l>से</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>	
 		<e><p><l>ने</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>			
+		<e><p><l>में</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>			
 
 	</pardef>
+
+    <pardef n="सब__prn">
+      <e>       <p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>के</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>की</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>का</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>को</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ने</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e>       <p><l>में</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e>       <p><l>से</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
 
 	<pardef n="किस/ैं__prn">
 	
@@ -1044,8 +1059,9 @@
 		<e><p><l>नका</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 		<e><p><l>नको</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
 		<e><p><l>नसे</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>	
-		<e><p><l>न्होंने</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>			
-
+		<e><p><l>न्होंने</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+  		<e><p><l>नमें</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>			
+		<e><p><l>न्हें</l><r>न<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
 	</pardef>
 
 	<pardef n="कि/ैं__prn">
@@ -1105,7 +1121,8 @@
 
     <pardef n="आठ__num">
       <e><p><l></l><r><s n="num"/></r></p></e>
-      <e><p><l>वां</l><r><s n="num"/><s n="ord"/></r></p></e>
+      <e><p><l>वां</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+	  <e><p><l>वीं</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
     </pardef>
     <pardef n="पहला__num">
       <e><p><l></l><r><s n="num"/><s n="ord"/></r></p></e>
@@ -1127,7 +1144,6 @@
     <e lm="लिए"><i>लिए</i><par n="ने__post"/></e>
 
     <e lm="से"><i>से</i><par n="ने__post"/></e>
-    <e lm="ओर"><i>ओर</i><par n="ने__post"/></e>
     <e lm="कोई"><i>कोई</i><par n="ने__post"/></e> <!-- FIXME -->
     <e lm="द्वारा"><i>द्वारा</i><par n="ने__post"/></e> <!-- FIXME -->
 
@@ -1143,7 +1159,7 @@
 
 
     <!-- SECTION: Determiners -->
-
+    <e lm="दूसरी"><i>दूसरी</i><par n="दूसरी__det"/></e>
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
 	<e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="मेरी"><i>मेरी</i><par n="मेरी__det"/></e>
@@ -1308,7 +1324,7 @@
 
 
     <!-- SECTION: Pronouns -->               
-
+    <e lm="सब"><i>सब</i><par n="सब__prn"/></e>
     <e lm="मैं"><i>म</i><par n="म/ैं__prn"/></e>
 	<e lm="तुम"><i>त</i><par n="त/ैं__prn"/></e>
 	<e lm="आप"><i>आ</i><par n="आ/ैं__prn"/></e>
@@ -1325,7 +1341,6 @@
 	<e lm="जो"><i>जो</i><par n="int__prn"/></e>
     <e lm="य"><i>य</i><par n="यह__prn"/></e>
     <e lm="व"><i>व</i><par n="यह__prn"/></e>
-    <e lm="ओर"><i>ओर</i><par n="just__prn"/></e>
     <e lm="दूसरे"><i>दूसरे</i><par n="यह__prn"/></e> 
 		
 
@@ -1365,6 +1380,7 @@
 	<e lm="हो"><i></i><par n="/हो__vblex_iv"/></e>	
 	<e lm="रह"><i>रह</i><par n="रह__vaux_iv"/></e>
 	<e lm="सक"><i>सक</i><par n="रह__vaux_iv"/></e>
+    <e lm="चुक"><i>चुक</i><par n="रह__vaux_iv"/></e>
 	<e lm="जा"><i></i><par n="जा__vblex_iv"/></e>
 	<e lm="आ"><i>आ</i><par n="आ__vblex_iv"/></e>
 			
@@ -1415,6 +1431,7 @@
     <e lm="तरह"><i>तरह</i><par n="थ__n_m"/></e>
     <e lm="कर्टूनकार"><i>कर्टूनकार</i><par n="थ__n_m"/></e>
     <e lm="दीपित"><i>दीपित</i><par n="ऊब__n_f"/></e>
+    <e lm="ओर"><i>ओर</i><par n="ऊब__n_f"/></e>
     <e lm="परतंत्र"><i>परतंत्र</i><par n="ऐ__n_m"/></e>
     <e lm="सूर्यरश्मि"><i>सूर्यरश्मि</i><par n="नति__n_f"/></e>
     <e lm="बिक्रीकर"><i>बिक्रीकर</i><par n="ऐ__n_m"/></e>
@@ -21671,7 +21688,7 @@
 	<e lm="बेल्ट"><i>बेल्ट</i><par n="ऊब__n_f"/></e>
     <e lm="सर्वसम्मति"><i>सर्वसम्मति</i><par n="नति__n_f"/></e>
     <e lm="शरीरविज्ञान"><i>शरीरविज्ञान</i><par n="ऐ__n_m"/></e>
-	<e lm="एस्टेरॉयड"><i>एस्टेरॉयड </i><par n="ऐ__n_m"/></e>
+	<e lm="एस्टेरॉयड"><i>एस्टेरॉयड</i><par n="ऐ__n_m"/></e>
     <e lm="कुलिश"><i>कुलिश</i><par n="ऐ__n_m"/></e>
     <e lm="चिकित्साव्यवसाय"><i>चिकित्साव्यवसाय</i><par n="ऐ__n_m"/></e>
     <e lm="पुण्यफल"><i>पुण्यफल</i><par n="ऐ__n_m"/></e>
