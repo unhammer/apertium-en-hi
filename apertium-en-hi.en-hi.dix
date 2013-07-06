@@ -73,6 +73,7 @@
 	<e><p><l>if<s n="cnjadv"/></l><r>अगर<s n="cnjadv"/></r></p></e>
 	<e><p><l>if<s n="cnjadv"/></l><r>यदि<s n="cnjadv"/></r></p></e>
 	<e><p><l>so<s n="cnjadv"/></l><r>ताकि<s n="cnjadv"/></r></p></e>
+	<e><p><l>until<s n="cnjadv"/></l><r>तक<s n="cnjadv"/></r></p></e>
 	<e><p><l>whether<s n="cnjadv"/></l><r>चाहे<s n="cnjadv"/></r></p></e>
     <e><p><l>because<s n="cnjadv"/></l><r>क्योंकि<s n="cnjadv"/></r></p></e>
 	<e><p><l>because<s n="cnjadv"/></l><r>चूंकि<s n="cnjadv"/></r></p></e> 
@@ -82,7 +83,7 @@
 
     <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-
+    <e><p><l>of<s n="pr"/></l><r>का<s n="post"/></r></p></e>
     <e><p><l>@<s n="pr"/></l><r>के<b/>द्वारा<s n="post"/></r></p></e>
     <e><p><l>to<s n="pr"/></l><r>को<s n="post"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>लिए<s n="post"/></r></p></e>
@@ -3385,6 +3386,7 @@
     <e><p><l>plaintiff<s n="n"/></l><r>मुद्दई<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>plait<s n="n"/></l><r>चुनन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plan<s n="n"/></l><r>योजना<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plan<s n="n"/></l><r>परियोजना<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plan<s n="n"/></l><r>योजना<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>planet<s n="n"/></l><r>ग्रह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>plank<s n="n"/></l><r>तख्ता<s n="n"/><s n="m"/></r></p></e>
@@ -4667,6 +4669,7 @@
     <e><p><l>thief<s n="n"/></l><r>चोर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>thigh<s n="n"/></l><r>जाँघ<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>electricity<s n="n"/></l><r>बिजली<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>thing<s n="n"/></l><r>चीज<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thing<s n="n"/></l><r>वस्तु<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thirst<s n="n"/></l><r>प्यास<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thistledown<s n="n"/></l><r>रोम<s n="n"/><s n="m"/></r></p></e>
@@ -14237,6 +14240,7 @@
     <e><p><l>climactic<s n="adj"/></l><r>उत्तेजक<s n="adj"/></r></p></e>
     <e><p><l>cloistered<s n="adj"/></l><r>एकान्तवासी<s n="adj"/></r></p></e>
     <e><p><l>close<s n="adj"/></l><r>पास<s n="adj"/></r></p></e>
+    <e><p><l>close<s n="adj"/></l><r>करीब<s n="adj"/></r></p></e>
     <e><p><l>close-knit<s n="adj"/></l><r>मिलजुलकर<s n="adj"/></r></p></e>
     <e><p><l>closet<s n="adj"/></l><r>गोपनीय<s n="adj"/></r></p></e>
     <e><p><l>clownish<s n="adj"/></l><r>मूर्खतापूर्ण<s n="adj"/></r></p></e>
@@ -15914,6 +15918,7 @@
     <e><p><l>one-time<s n="adj"/></l><r>एक-बार-<s n="adj"/></r></p></e>
     <e><p><l>onerous<s n="adj"/></l><r>भारी<s n="adj"/></r></p></e>
     <e><p><l>only<s n="adj"/></l><r>एकलौता<s n="adj"/></r></p></e>
+    <e><p><l>only<s n="adj"/></l><r>ही<s n="adj"/></r></p></e>
     <e><p><l>opaque<s n="adj"/></l><r>अपारदर्शी<s n="adj"/></r></p></e>
     <e><p><l>open<s n="adj"/></l><r>खुला<s n="adj"/></r></p></e>
     <e><p><l>operatic<s n="adj"/></l><r>सांगीतीय<s n="adj"/></r></p></e>
@@ -20207,6 +20212,7 @@
 	<e><p><l>find<s n="vblex"/></l><r>खोज<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>drink<s n="vblex"/></l><r>पी<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>give<s n="vblex"/></l><r>दे<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>establish<s n="vblex"/></l><r>प्रक्षेपित<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>see<s n="vblex"/></l><r>देख<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>hear<s n="vblex"/></l><r>सुन<s n="vblex"/><s n="tv"/></r></p></e>
 	<e><p><l>walk<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>

@@ -16,6 +16,9 @@
   </rule>
   <rule>
     <match lemma="कुत्ता" tags="n.*"><select lemma="dog" tags="n.*"/></match> 
+  </rule>
+  <rule>
+    <match lemma="निश्चित" tags="adj.*"><select lemma="certain" tags="adj.*"/></match> 
   </rule>	
   <rule>
     <match lemma="के पीछे" tags="post"/>
