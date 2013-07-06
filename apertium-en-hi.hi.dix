@@ -31,7 +31,8 @@
     <sdef n="itg"     c="interrogative"/>     
     <sdef n="nom"     c="Nominative"/>     
     <sdef n="obl"     c="Oblique"/>        
-    <sdef n="pos"     c=""/>     
+    <sdef n="pos"     c=""/> 
+    <sdef n="qnt"     c=""/>            
     <sdef n="ind"     c="Indefinite"/>        
     <sdef n="pr"      c="Preposition"/>      
     <sdef n="p1"      c="First person"/>     
@@ -910,15 +911,26 @@
 
  
     <!-- SECTION: Determiners -->       
-    
+    <pardef n="ऐस__det">
+      <e>       <p><l>ा</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="m"/></r></p></e>
+      <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="f"/></r></p></e>
+      <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
+      <e>       <p><l>े</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="कई__det">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="एक__det">
       <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     </pardef>
          
-    <pardef n="मेरी__det">
+    <pardef n="मेरी__det">	
       <e><p><l></l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
     </pardef>
-        
+   
+            
     <pardef n="उस__det">
       <e><p><l>े</l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
         <e><p><l>के</l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
@@ -1120,7 +1132,7 @@
     <e lm="द्वारा"><i>द्वारा</i><par n="ने__post"/></e> <!-- FIXME -->
 
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
-    <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
+    <e lm="के लिए"><i>के<b/>लिए</i><par n="ने__post"/></e>
     <e lm="के द्वारा"><i>के<b/>द्वारा</i><par n="ने__post"/></e>
     <e lm="के सामने"><i>के<b/>सामने</i><par n="ने__post"/></e>
     <e lm="के नीचे"><i>के<b/>नीचे</i><par n="ने__post"/></e>
@@ -1133,6 +1145,7 @@
     <!-- SECTION: Determiners -->
 
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
+	<e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="मेरी"><i>मेरी</i><par n="मेरी__det"/></e>
     <e lm="मेरा"><i>मेरा</i><par n="मेरी__det"/></e>
     <e lm="मेरे"><i>मेरे</i><par n="मेरी__det"/></e>
@@ -1140,6 +1153,9 @@
     <e lm="उन"><i>उन</i><par n="उस__det"/></e>
     <e lm="आप"><i>आप</i><par n="उस__det"/></e>
     <e lm="अप"><i>अप</i><par n="उस__det"/></e>
+    <e lm="ऐस"><i>ऐस</i><par n="ऐस__det"/></e>
+    <e lm="कई"><i>कई</i><par n="कई__det"/></e>
+
       
    <!-- Conjunctions -->
 
@@ -1156,6 +1172,7 @@
    <!-- Sub-ordinating Conjunctions -->
 
     <e lm="कि"><i>कि</i><par n="अगर__cnjsub"/></e>
+    <e lm="िक"><i>िक</i><par n="अगर__cnjsub"/></e>
 
 
 	<!-- Adverbial Conjunctions -->    

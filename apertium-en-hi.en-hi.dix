@@ -29,6 +29,7 @@
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="sp"      c="Singular / plural"/>
     <sdef n="pos"     c="Possessive"/>
+    <sdef n="qnt"     c=""/>
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
     <sdef n="sint"    c="Synthetic (adjective)"/>
@@ -66,7 +67,7 @@
 	<!-- SECTION: Subordinating conjunctions -->
 
     <e><p><l>that<s n="cnjsub"/></l><r>कि<s n="cnjsub"/></r></p></e>
-
+    <e><p><l>that<s n="cnjsub"/></l><r>िक<s n="cnjsub"/></r></p></e>
 	<!-- Adverbial conjunctions -->
 
 	<e><p><l>if<s n="cnjadv"/></l><r>अगर<s n="cnjadv"/></r></p></e>
@@ -80,7 +81,8 @@
     <!-- SECTION: Postpositions -->
 
     <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>of<s n="pr"/></l><r>की<s n="post"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>का<s n="post"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+
     <e><p><l>@<s n="pr"/></l><r>के<b/>द्वारा<s n="post"/></r></p></e>
     <e><p><l>to<s n="pr"/></l><r>को<s n="post"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>लिए<s n="post"/></r></p></e>
@@ -92,6 +94,7 @@
     <e><p><l>by<s n="pr"/></l><r>से<s n="post"/></r></p></e>
     <e><p><l>towards<s n="pr"/></l><r>ओर<s n="pr"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>के<b/>लिये<s n="post"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>के<b/>लिए<s n="post"/></r></p></e> 
     <e><p><l>about<s n="pr"/></l><r>के<b/>बारे<b/>में<s n="post"/></r></p></e>
     <e><p><l>because<b/>of<s n="pr"/></l><r>की<b/>वजह<b/>से<s n="post"/></r></p></e>
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>के<b/>सामने<s n="post"/></r></p></e>
@@ -106,7 +109,8 @@
     <!-- SECTION: Determiners -->
 
     <e><p><l>a<s n="det"/><s n="ind"/></l><r>एक<s n="det"/><s n="ind"/></r></p></e>
-
+    <e><p><l>such<s n="det"/><s n="ind"/></l><r>ऐस<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>many<s n="det"/><s n="qnt"/></l><r>कई<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
