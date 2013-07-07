@@ -12,12 +12,11 @@ LIST Verb = vblex;
 LIST Stem = stem ; 
 LIST Vaux = vaux ; 
 LIST Vbser = vbser ;
-
+LIST Det = det ;
 
 SECTION
 
-SELECT Obl IF (1C Post) ;
-  ## 
+
 
 SELECT Adj IF
 	(0 Adj)
@@ -48,3 +47,8 @@ SELECT Vbser IF
 	(-1 Verb)
 	(0 Verb OR Vbser)
 
+SELECT Det IF
+	(0 Adv OR N OR Det)
+	(1 Post)
+SELECT Obl IF (1C Post) ;
+  ## 

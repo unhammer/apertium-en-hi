@@ -21,6 +21,9 @@
     <match lemma="निश्चित" tags="adj.*"><select lemma="certain" tags="adj.*"/></match> 
   </rule>	
   <rule>
+    <match lemma="लगभग" tags="adv"><select lemma="almost" tags="adv"/></match> 
+  </rule>	
+  <rule>
     <match lemma="के पीछे" tags="post"/>
     <match lemma="से" tags="post"><select lemma="from" tags="pr"/></match> 
   </rule>

@@ -22,6 +22,7 @@
 
     <def-cat n="raha-perf">
       <cat-item lemma="रह" tags="vaux.perf.*"/>
+      <cat-item lemma="रह" tags="vaux.prs.*"/>
     </def-cat>
 
     <def-cat n="vbser-impf">
