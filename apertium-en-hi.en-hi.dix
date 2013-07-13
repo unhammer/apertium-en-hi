@@ -273,7 +273,266 @@
     <e><p><l>seventy<b/>eighth<s n="num"/><s n="ord"/></l><r>अठहत्तरवां<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>hundredth<s n="num"/><s n="ord"/></l><r>सौवां<s n="num"/><s n="ord"/></r></p></e>
     <!-- SECTION: Nouns -->
-
+	<e><p><l>high_rise<s n="n"/></l><r>अट्टालिका<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>impious<s n="n"/></l><r>अधर्मी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>persevering<s n="n"/></l><r>अध्यवसायी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poach<s n="n"/></l><r>अनधिकार<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>loggerheads<s n="n"/></l><r>अनबन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unwarranted<s n="n"/></l><r>अनुचित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>permissible<s n="n"/></l><r>अनुज्ञेय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unanswered<s n="n"/></l><r>अनुत्तरित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>persuasion<s n="n"/></l><r>अनुनय<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>own<s n="n"/></l><r>अपना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ill_fated<s n="n"/></l><r>अभागा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>acidity<s n="n"/></l><r>अम्लता<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unquiet<s n="n"/></l><r>अशांत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>insecurity<s n="n"/></l><r>असुरक्षा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unsafe<s n="n"/></l><r>असुरक्षित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fig<s n="n"/></l><r>अंजीर<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>Prof<s n="n"/></l><r>आचार्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>submissive<s n="n"/></l><r>आज्ञाकारी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pyrotechnics<s n="n"/></l><r>आतिशबाजी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>panicky<s n="n"/></l><r>आतंकित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>intimate<s n="n"/></l><r>आत्मीय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>reverend<s n="n"/></l><r>आदरणीय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>given<s n="n"/></l><r>आदी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>spiritual<s n="n"/></l><r>आध्यात्मिक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>come<s n="n"/></l><r>आना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>indebted<s n="n"/></l><r>आभारी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>infatuation<s n="n"/></l><r>आसक्ति<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>azure<s n="n"/></l><r>आसमानी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hurt<s n="n"/></l><r>आहत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>aha<s n="n"/></l><r>आहा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Islamic<s n="n"/></l><r>इस्लामी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>upstanding<s n="n"/></l><r>ईमानदार<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>militant<s n="n"/></l><r>उग्रवादी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>boorish<s n="n"/></l><r>उजड्डपन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>heartening<s n="n"/></l><r>उत्साहवर्धक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fervent<s n="n"/></l><r>उत्साही<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lofty<s n="n"/></l><r>उदात्त<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>incurious<s n="n"/></l><r>उदासीन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wool<s n="n"/></l><r>ऊन<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>secluded<s n="n"/></l><r>एकांत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>several<s n="n"/></l><r>कई<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fanatical<s n="n"/></l><r>कट्टरता<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sham<s n="n"/></l><r>कपटी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rascal<s n="n"/></l><r>कमीना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>moan<s n="n"/></l><r>कराह<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tighten<s n="n"/></l><r>कसना<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>quite<s n="n"/></l><r>काफी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prison<s n="n"/></l><r>कारागार<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>procedure<s n="n"/></l><r>कार्यविधि<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>phoney<s n="n"/></l><r>काल्पनिक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hoe<s n="n"/></l><r>कुदाल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>malnutrition<s n="n"/></l><r>कुपोषण<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>skilled<s n="n"/></l><r>कुशल<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>thankful<s n="n"/></l><r>कृतज्ञ<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kindly<s n="n"/></l><r>कृपालु<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>skint<s n="n"/></l><r>कंगाल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>irate<s n="n"/></l><r>क्रुद्ध<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>short_tempered<s n="n"/></l><r>क्रोधी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tubercular<s n="n"/></l><r>क्षयरोगी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>precarious<s n="n"/></l><r>खतरनाक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>astir<s n="n"/></l><r>खलबली<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>measles<s n="n"/></l><r>खसरा<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>smutty<s n="n"/></l><r>गन्दा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wet<s n="n"/></l><r>गीला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rosy<s n="n"/></l><r>गुलाबी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>narked<s n="n"/></l><r>गुस्सा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dome<s n="n"/></l><r>गुंबज<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dumb<s n="n"/></l><r>गूँगा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>till<s n="n"/></l><r>गोलक<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hairless<s n="n"/></l><r>गंजा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>haughty<s n="n"/></l><r>घमंडी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>soluble<s n="n"/></l><r>घुलनशील<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>curly<s n="n"/></l><r>घुँघराला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>environ<s n="n"/></l><r>घेर<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sandal<s n="n"/></l><r>चप्पल<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>spoon<s n="n"/></l><r>चम्मच<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hashish<s n="n"/></l><r>चरस<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>principled<s n="n"/></l><r>चरित्रवान<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tricky<s n="n"/></l><r>चालाक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>touchy<s n="n"/></l><r>चिडचिडा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>shallow<s n="n"/></l><r>छिछला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>teutonic<s n="n"/></l><r>जर्मन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>aquatic<s n="n"/></l><r>जलचर<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stoup<s n="n"/></l><r>जलपात्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>youthful<s n="n"/></l><r>जवान<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>detective<s n="n"/></l><r>जासूसी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>living<s n="n"/></l><r>जीवित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>parious<s n="n"/></l><r>जोखिम<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>magi<s n="n"/></l><r>ज्योतिषी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>puff<s n="n"/></l><r>झकोरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>truck<s n="n"/></l><r>ट्रक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tray<s n="n"/></l><r>ट्रे<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>whereabouts<s n="n"/></l><r>ठिकाना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stopper<s n="n"/></l><r>डाट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>neutral<s n="n"/></l><r>तटस्थ<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>littoral<s n="n"/></l><r>तटीय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pubescent<s n="n"/></l><r>तरुण<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trump<s n="n"/></l><r>तुरुप<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>brilliant<s n="n"/></l><r>तेजोमय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tight<s n="n"/></l><r>तंग<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>adoptive<s n="n"/></l><r>दत्तक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fire_engine<s n="n"/></l><r>दमकल<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>repressive<s n="n"/></l><r>दमनकारी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>incendiary<s n="n"/></l><r>दाहक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>importunate<s n="n"/></l><r>दुराग्रही<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>feeble<s n="n"/></l><r>दुर्बल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>suspense<s n="n"/></l><r>दुविधा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>milky<s n="n"/></l><r>दूधिया<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>remote<s n="n"/></l><r>दूरवर्ती<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>impertinent<s n="n"/></l><r>दृष्ट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pandemic<s n="n"/></l><r>देशव्यापी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>territorial<s n="n"/></l><r>देशीय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dental<s n="n"/></l><r>दंत्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wealthy<s n="n"/></l><r>धनवान<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wily<s n="n"/></l><r>धूर्त<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>polite<s n="n"/></l><r>नम्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>yielding<s n="n"/></l><r>नर्म<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>novel<s n="n"/></l><r>नवीन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>varied<s n="n"/></l><r>नानारूप<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pear<s n="n"/></l><r>नाशपाती<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>finite<s n="n"/></l><r>नियत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>regular<s n="n"/></l><r>नियमित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hopeless<s n="n"/></l><r>निराश<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wayward<s n="n"/></l><r>निरंकुश<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unrelenting<s n="n"/></l><r>निर्दय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>innocent<s n="n"/></l><r>निर्दोष<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>needy<s n="n"/></l><r>निर्धन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>faint<s n="n"/></l><r>निर्बल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>intrepid<s n="n"/></l><r>निर्भय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>refined<s n="n"/></l><r>निर्मल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>impudent<s n="n"/></l><r>निर्लज्ज<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>statuesque<s n="n"/></l><r>निश्चल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>heartless<s n="n"/></l><r>निष्ठुर<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unavailing<s n="n"/></l><r>निष्फल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unselfish<s n="n"/></l><r>निस्स्वार्थ<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>low<s n="n"/></l><r>नीचा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>juridical<s n="n"/></l><r>न्यायिक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trousers<s n="n"/></l><r>पतलून<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>stony<s n="n"/></l><r>पथरीला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>parasitic<s n="n"/></l><r>परजीवी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>altruistic<s n="n"/></l><r>परोपकारी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>solemn<s n="n"/></l><r>पवित्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tame<s n="n"/></l><r>पालतू<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>brass<s n="n"/></l><r>पीतल<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>venerable<s n="n"/></l><r>पूज्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>voracious<s n="n"/></l><r>पेटू<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lovable<s n="n"/></l><r>प्यारा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>thirsty<s n="n"/></l><r>प्यासा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unwelcoming<s n="n"/></l><r>प्रतिकूल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>resistant<s n="n"/></l><r>प्रतिरोधी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vengeance<s n="n"/></l><r>प्रतिहिंसा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>skill<s n="n"/></l><r>प्रवीणता<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>principal<s n="n"/></l><r>प्राचार्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plate<s n="n"/></l><r>प्लेट<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>uprising<s n="n"/></l><r>बगावत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>multi<s n="n"/></l><r>बहु<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>multiple<s n="n"/></l><r>बहुत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mutinous<s n="n"/></l><r>बागी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>obligation<s n="n"/></l><r>बाध्यता<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>twelve<s n="n"/></l><r>बारह<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>over<s n="n"/></l><r>बाह्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>twenty<s n="n"/></l><r>बीस<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>texture<s n="n"/></l><r>बुनावट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>forced_labour<s n="n"/></l><r>बेगार<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cumbersome<s n="n"/></l><r>बेढंगा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>settle<s n="n"/></l><r>बेंच<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>weird<s n="n"/></l><r>भयानक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tongue-lashing<s n="n"/></l><r>भर्त्सना<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lucky<s n="n"/></l><r>भाग्यवान<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>soppy<s n="n"/></l><r>भावुक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>powdery<s n="n"/></l><r>भुरभुरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>peckish<s n="n"/></l><r>भूखा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>landless<s n="n"/></l><r>भूमिहीन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>whirlpool<s n="n"/></l><r>भँवर<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>velvet<s n="n"/></l><r>मखमल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pea<s n="n"/></l><r>मटर<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>jewel<s n="n"/></l><r>मणि<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>calculating<s n="n"/></l><r>मतलबी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>inebriate<s n="n"/></l><r>मतवाला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>helpfully<s n="n"/></l><r>मददगार<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>temper<s n="n"/></l><r>मनोदशा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pretty<s n="n"/></l><r>मनोहर<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bolster<s n="n"/></l><r>मसनद<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>adept<s n="n"/></l><r>माहिर<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>flail<s n="n"/></l><r>मूसल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>winsome<s n="n"/></l><r>मोहक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>unvoiced<s n="n"/></l><r>मौन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sheath<s n="n"/></l><r>म्यान<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>rations<s n="n"/></l><r>रसद<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>demoniac<s n="n"/></l><r>राक्षसी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>riotous<s n="n"/></l><r>राजद्रोही<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stoppage<s n="n"/></l><r>रुकावट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sulky<s n="n"/></l><r>रुष्ट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>terse<s n="n"/></l><r>रूखा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sandy<s n="n"/></l><r>रेतीला<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>curl<s n="n"/></l><r>लट<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>forlorn<s n="n"/></l><r>लाचार<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>covetous<s n="n"/></l><r>लालच<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>greedy<s n="n"/></l><r>लालची<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>folk<s n="n"/></l><r>लोक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>miser<s n="n"/></l><r>लोभी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>classified<s n="n"/></l><r>वर्गीकृत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>descriptive<s n="n"/></l><r>वर्णनात्मक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>alveolar<s n="n"/></l><r>वर्त्स्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Voluble<s n="n"/></l><r>वाचाल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>marketable<s n="n"/></l><r>विक्रय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>victorious<s n="n"/></l><r>विजयी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ingenious<s n="n"/></l><r>विदग्ध<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>valediction<s n="n"/></l><r>विदाई<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>modest<s n="n"/></l><r>विनम्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>world-weary<s n="n"/></l><r>विरक्त<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>infrequent<s n="n"/></l><r>विरल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>grotesque<s n="n"/></l><r>विलक्षण<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sybaritic<s n="n"/></l><r>विलासी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>critical<s n="n"/></l><r>विवेचनात्मक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>untypical<s n="n"/></l><r>विशिष्ट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>thematic<s n="n"/></l><r>विषयक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>spacious<s n="n"/></l><r>विस्तृत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>aged<s n="n"/></l><r>वृद्ध<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>optional<s n="n"/></l><r>वैकल्पिक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>personal<s n="n"/></l><r>वैयक्तिक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fervid<s n="n"/></l><r>व्यग्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>agony<s n="n"/></l><r>व्यथा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>commercial<s n="n"/></l><r>व्यापारिक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>well_wisher<s n="n"/></l><r>शुभचिन्तक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>surpassing<s n="n"/></l><r>श्रेष्ठ<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>respiration<s n="n"/></l><r>श्वास<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>unfeigned<s n="n"/></l><r>सच्चा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>liveliness<s n="n"/></l><r>सजीवता<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>courtly<s n="n"/></l><r>सभ्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>competent<s n="n"/></l><r>समर्थ<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sociological<s n="n"/></l><r>समाजशास्त्रीय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hard_nosed<s n="n"/></l><r>सयाना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>swish<s n="n"/></l><r>सरसराहट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>non-slip<s n="n"/></l><r>सर्पण<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fag<s n="n"/></l><r>सिगरेट<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>save<s n="n"/></l><r>सिवाय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>happy<s n="n"/></l><r>सुखी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>facile<s n="n"/></l><r>सुगम<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>off<s n="n"/></l><r>सुदूर<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>legible<s n="n"/></l><r>सुपाठ्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>well_earned<s n="n"/></l><r>सुयोग्य<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ruddy<s n="n"/></l><r>सुर्ख<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>well_bred<s n="n"/></l><r>सुशील<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>graceful<s n="n"/></l><r>सुशोभित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cultured<s n="n"/></l><r>सुसंस्कृत<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sixteen<s n="n"/></l><r>सोलह<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>maestro<s n="n"/></l><r>संगीतज्ञ<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>suspended<s n="n"/></l><r>स्थगित<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>abiding<s n="n"/></l><r>स्थाई<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>local<s n="n"/></l><r>स्थानीय<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>burly<s n="n"/></l><r>स्थूल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>friendly<s n="n"/></l><r>स्नेहशील<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>independent<s n="n"/></l><r>स्वाधीन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>instinctive<s n="n"/></l><r>स्वाभाविक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>affirmative<s n="n"/></l><r>स्वीकारात्मक<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>acknowledgment<s n="n"/></l><r>स्वीकृति<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stubborn<s n="n"/></l><r>हठीला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hesitation<s n="n"/></l><r>हिचकिचाहट<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wary<s n="n"/></l><r>होशियार<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>space<s n="n"/></l><r>जगह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>way<s n="n"/></l><r>तरह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>inside<s n="n"/></l><r>अंदर<s n="n"/><s n="m"/></r></p></e>  
@@ -19525,7 +19784,61 @@
     <e><p><l>urbane<s n="adj"/></l><r>शिष्ट<s n="adj"/></r></p></e>
     <e><p><l>usual<s n="adj"/></l><r>सामान्य<s n="adj"/></r></p></e>
     <e><p><l>utmost<s n="adj"/></l><r>अधिकतम<s n="adj"/></r></p></e>
-
+	<e><p><l>front_line<s n="adj"/></l><r>अग्रणी<s n="adj"/></r></p></e>
+	<e><p><l>nonconductor<s n="adj"/></l><r>अचालक<s n="adj"/></r></p></e>
+	<e><p><l>ajar<s n="adj"/></l><r>अधखुला<s n="adj"/></r></p></e>
+	<e><p><l>latter<s n="adj"/></l><r>अनुवर्ती<s n="adj"/></r></p></e>
+	<e><p><l>parabola<s n="adj"/></l><r>अनुवृत्त<s n="adj"/></r></p></e>
+	<e><p><l>spender<s n="adj"/></l><r>अपव्ययी<s n="adj"/></r></p></e>
+	<e><p><l>amateur<s n="adj"/></l><r>अव्यवसायी<s n="adj"/></r></p></e>
+	<e><p><l>eighty<s n="adj"/></l><r>अस्सी<s n="adj"/></r></p></e>
+	<e><p><l>input<s n="adj"/></l><r>आगत<s n="adj"/></r></p></e>
+	<e><p><l>originator<s n="adj"/></l><r>आरंभक<s n="adj"/></r></p></e>
+	<e><p><l>tramp<s n="adj"/></l><r>आवारागर्द<s n="adj"/></r></p></e>
+	<e><p><l>boarder<s n="adj"/></l><r>आवासी<s n="adj"/></r></p></e>
+	<e><p><l>this<s n="adj"/></l><r>इतना<s n="adj"/></r></p></e>
+	<e><p><l>ascendant<s n="adj"/></l><r>उदीयमान<s n="adj"/></r></p></e>
+	<e><p><l>sedative<s n="adj"/></l><r>उपशामक<s n="adj"/></r></p></e>
+	<e><p><l>make_shift<s n="adj"/></l><r>कामचलाऊ<s n="adj"/></r></p></e>
+	<e><p><l>evil-doer<s n="adj"/></l><r>कुकर्मी<s n="adj"/></r></p></e>
+	<e><p><l>presto<s n="adj"/></l><r>क्षिप्र<s n="adj"/></r></p></e>
+	<e><p><l>leaven<s n="adj"/></l><r>खमीरा<s n="adj"/></r></p></e>
+	<e><p><l>glutton<s n="adj"/></l><r>खाऊ<s n="adj"/></r></p></e>
+	<e><p><l>forty<s n="adj"/></l><r>चालीस<s n="adj"/></r></p></e>
+	<e><p><l>fortieth<s n="adj"/></l><r>चालीसवाँ<s n="adj"/></r></p></e>
+	<e><p><l>fidget<s n="adj"/></l><r>चुलबुला<s n="adj"/></r></p></e>
+	<e><p><l>fourth<s n="adj"/></l><r>चौथा<s n="adj"/></r></p></e>
+	<e><p><l>fourteenth<s n="adj"/></l><r>चौदहवाँ<s n="adj"/></r></p></e>
+	<e><p><l>public_utility<s n="adj"/></l><r>जनोपयोगी<s n="adj"/></r></p></e>
+	<e><p><l>too_much_for<s n="adj"/></l><r>ज्यादा<s n="adj"/></r></p></e>
+	<e><p><l>destroyer<s n="adj"/></l><r>ध्वंसक<s n="adj"/></r></p></e>
+	<e><p><l>as_follows<s n="adj"/></l><r>निम्नलिखित<s n="adj"/></r></p></e>
+	<e><p><l>scheduled<s n="adj"/></l><r>परिगणित<s n="adj"/></r></p></e>
+	<e><p><l>pre-cursor<s n="adj"/></l><r>पूर्वगामी<s n="adj"/></r></p></e>
+	<e><p><l>manliness<s n="adj"/></l><r>पौरुष<s n="adj"/></r></p></e>
+	<e><p><l>quintuplet<s n="adj"/></l><r>पंचक<s n="adj"/></r></p></e>
+	<e><p><l>eyewitness<s n="adj"/></l><r>प्रत्यक्षदर्शी<s n="adj"/></r></p></e>
+	<e><p><l>orthodoxy<s n="adj"/></l><r>प्रामाणिकता<s n="adj"/></r></p></e>
+	<e><p><l>transmitter<s n="adj"/></l><r>प्रेषक<s n="adj"/></r></p></e>
+	<e><p><l>laggard<s n="adj"/></l><r>फिसड्डी<s n="adj"/></r></p></e>
+	<e><p><l>perennial<s n="adj"/></l><r>बारहमासी<s n="adj"/></r></p></e>
+	<e><p><l>mismatch<s n="adj"/></l><r>बेमेल<s n="adj"/></r></p></e>
+	<e><p><l>gnome<s n="adj"/></l><r>बौना<s n="adj"/></r></p></e>
+	<e><p><l>theologian<s n="adj"/></l><r>ब्रह्मज्ञानी<s n="adj"/></r></p></e>
+	<e><p><l>pantheist<s n="adj"/></l><r>ब्रह्मवादी<s n="adj"/></r></p></e>
+	<e><p><l>filthy<s n="adj"/></l><r>मलिन<s n="adj"/></r></p></e>
+	<e><p><l>struck<s n="adj"/></l><r>मारा<s n="adj"/></r></p></e>
+	<e><p><l>additive<s n="adj"/></l><r>योज्य<s n="adj"/></r></p></e>
+	<e><p><l>protege<s n="adj"/></l><r>रक्षित<s n="adj"/></r></p></e>
+	<e><p><l>cent<s n="adj"/></l><r>शत<s n="adj"/></r></p></e>
+	<e><p><l>relative<s n="adj"/></l><r>सगा<s n="adj"/></r></p></e>
+	<e><p><l>synonym<s n="adj"/></l><r>समानार्थ<s n="adj"/></r></p></e>
+	<e><p><l>parallel<s n="adj"/></l><r>समानांतर<s n="adj"/></r></p></e>
+	<e><p><l>endurance<s n="adj"/></l><r>सहन<s n="adj"/></r></p></e>
+	<e><p><l>coherent<s n="adj"/></l><r>संबद्ध<s n="adj"/></r></p></e>
+	<e><p><l>probable<s n="adj"/></l><r>संभाव्य<s n="adj"/></r></p></e>
+	<e><p><l>discouragement<s n="adj"/></l><r>हतोत्साह<s n="adj"/></r></p></e>
+	<e><p><l>clone<s n="adj"/></l><r>हूबहू<s n="adj"/></r></p></e>
     <!-- SECTION: Adverbs -->
 
 	<e><p><l>certainly<s n="adv"/></l><r>निश्चित<b/>रूप<s n="adv"/></r></p></e>
@@ -20117,6 +20430,7 @@
     <e><p><l>smuttily<s n="adv"/></l><r>अश्लीलतापूर्वक<s n="adv"/></r></p></e>
     <e><p><l>soft<s n="adv"/></l><r>हल्का<s n="adv"/></r></p></e>
     <e><p><l>solo<s n="adv"/></l><r>एकल<s n="adv"/></r></p></e>
+	<e><p><l>breathless<s n="adv"/></l><r>स्तब्ध<s n="adv"/></r></p></e>
     <e><p><l>some<s n="adv"/></l><r>बढिया<s n="adv"/></r></p></e>
     <e><p><l>sore<s n="adv"/></l><r>नासूर<s n="adv"/></r></p></e>
     <e><p><l>sou'-east<s n="adv"/></l><r>दक्षिण-पूर्व<s n="adv"/></r></p></e>
