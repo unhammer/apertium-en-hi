@@ -30243,10 +30243,7 @@
     <e lm="असल"><i>असल</i><par n="गलत__adv"/></e>
 	<e lm="कभी"><i>कभी</i><par n="गलत__adv"/></e>
 
-         <!-- Prepostions -->                
-
-	<e lm="क्योंकि"><p><l>क्योंकि</l><r>क्योंकि<s n="cnjadv"/></r></p></e>
-	<e lm="चूंकि"><p><l>चूंकि</l><r>चूंकि<s n="cnjadv"/></r></p></e>
+       
    </section>
    <section id="final" type="inconditional">
      <e><par n="numeros"/></e>
