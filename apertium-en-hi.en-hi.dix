@@ -53,6 +53,8 @@
   </sdefs>
   <section id="main" type="standard">
 
+	<e><p><l>.<s n="sent"/></l><r>|<s n="sent"/></r></p></e>
+
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>but<s n="cnjcoo"/></l><r>परन्तु<s n="cnjcoo"/></r></p></e> 
@@ -292,6 +294,95 @@
     <e><p><l>hundredth<s n="num"/><s n="ord"/></l><r>सौवां<s n="num"/><s n="ord"/></r></p></e>
    
 	<!-- SECTION: Nouns -->
+	<e><p><l>non<s n="n"/></l><r>अधातु<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>follow<s n="n"/></l><r>अनुवर्तन<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>schedule<s n="n"/></l><r>अनुसूची<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>the<b/>fear<s n="n"/></l><r>अंदेशा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>contract<s n="n"/></l><r>इकरारनामा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>inca<s n="n"/></l><r>इंका<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>subsection<s n="n"/></l><r>उपधारा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>upla<s n="n"/></l><r>उपला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>garbage<s n="n"/></l><r>कचरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fries<s n="n"/></l><r>कचरी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>strand<s n="n"/></l><r>कतरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cuny<s n="n"/></l><r>कनी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>debt<s n="n"/></l><r>कर्जा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ritualistic<s n="n"/></l><r>कर्मकांडी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kalra<s n="n"/></l><r>कालरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lane<s n="n"/></l><r>कूचा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cody<s n="n"/></l><r>कोडी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bitumen<s n="n"/></l><r>कोलतार<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>donkey<s n="n"/></l><r>गदहा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rinse<s n="n"/></l><r>गरारा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gulcrra<s n="n"/></l><r>गुलछर्रा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gotta<s n="n"/></l><r>गोटा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>six<s n="n"/></l><r>छक्का<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sightly<s n="n"/></l><r>छबीला<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>waff<s n="n"/></l><r>छलावा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dash<s n="n"/></l><r>छींटा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>responsibility<s n="n"/></l><r>जिम्मेदारी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>fine<s n="n"/></l><r>जुरमाना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>juda<s n="n"/></l><r>जूडा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jeannie<s n="n"/></l><r>जैनी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>trailer<s n="n"/></l><r>झलकी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>slit<s n="n"/></l><r>झिरी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>delayed<s n="n"/></l><r>टाली<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>clashed<s n="n"/></l><r>टंटा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trustee<s n="n"/></l><r>ट्रस्टी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>decree<s n="n"/></l><r>डिगरी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>duty<s n="n"/></l><r>ड्यूटी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tluwa<s n="n"/></l><r>तलुवा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dari<s n="n"/></l><r>दरी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>status<s n="n"/></l><r>दर्जा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wife<s n="n"/></l><r>धर्मपत्नी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>disarmed<s n="n"/></l><r>निहत्था<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>formula<s n="n"/></l><r>नुसखा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plank<s n="n"/></l><r>पटरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>empress<s n="n"/></l><r>पटरानी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>watermill<s n="n"/></l><r>पनचक्की<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>grandfather<s n="n"/></l><r>परनाना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prmanuwadi<s n="n"/></l><r>परमाणुवादी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pushkrini<s n="n"/></l><r>पुष्करिणी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>paragraph<s n="n"/></l><r>पैरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>panchdashi<s n="n"/></l><r>पंचदशी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pawn<s n="n"/></l><r>प्यादा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>share<s n="n"/></l><r>बटाई<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bookkeeping<s n="n"/></l><r>बहीखाता<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bigha<s n="n"/></l><r>बीघा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>innocence<s n="n"/></l><r>बेगुनाही<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>beda<s n="n"/></l><r>बेडा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mistletoe<s n="n"/></l><r>बंडा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>captive<s n="n"/></l><r>बंदी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sister<s n="n"/></l><r>भगिनी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pack<s n="n"/></l><r>भारवाही<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>interview<s n="n"/></l><r>भेंटवार्ता<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>makrana<s n="n"/></l><r>मकराना<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>net<s n="n"/></l><r>मच्छरदानी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cymbals<s n="n"/></l><r>मजीरा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mnswini<s n="n"/></l><r>मनस्विनी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mahi<s n="n"/></l><r>माही<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ramani<s n="n"/></l><r>रमणी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ragi<s n="n"/></l><r>रागी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ravi<s n="n"/></l><r>रावी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>status<s n="n"/></l><r>रुतबा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stilt<s n="n"/></l><r>लट्ठा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>licensee<s n="n"/></l><r>लाइसेंसधारी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>uniform<s n="n"/></l><r>वरदी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vid<s n="n"/></l><r>विद्<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>descent<s n="n"/></l><r>वंशी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>carpet<s n="n"/></l><r>शतरंजी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>asparagus<s n="n"/></l><r>शतावरी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hrh<b/>prince<s n="n"/></l><r>शहजादा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>princess<s n="n"/></l><r>शहजादी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>shashwati<s n="n"/></l><r>शाश्वती<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bravado<s n="n"/></l><r>शेखी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sherwani<s n="n"/></l><r>शेरवानी<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>seventeen<s n="n"/></l><r>सत्रह<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>eliminated<s n="n"/></l><r>सफाया<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>juggle<s n="n"/></l><r>हथकंडा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>negro<s n="n"/></l><r>हबशी<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>airport<s n="n"/></l><r>हवाईअड्डा<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>joined<s n="n"/></l><r>हेतुवादी<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>hri<s n="n"/></l><r>ह्री<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>hamwati<s n="n"/></l><r>हैमवती<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>indian<s n="n"/></l><r>हिंदुस्तानी<s n="n"/><s n="m"/></r></p></e>
@@ -29157,6 +29248,18 @@
 
 
     <!-- SECTION: Adjectives -->
+	<e><p><l>poison<s n="adj"/></l><r>अज्ञातनामा<s n="adj"/></r></p></e>
+	<e><p><l>beat<s n="adj"/></l><r>अधमरा<s n="adj"/></r></p></e>
+	<e><p><l>objectivism<s n="adj"/></l><r>अनात्म<s n="adj"/></r></p></e>
+	<e><p><l>degenerate<s n="adj"/></l><r>अपभ्रष्ट<s n="adj"/></r></p></e>
+	<e><p><l>discrete<s n="adj"/></l><r>अलहदा<s n="adj"/></r></p></e>
+	<e><p><l>eighty<s n="adj"/></l><r>चौरासी<s n="adj"/></r></p></e>
+	<e><p><l>thirteen<s n="adj"/></l><r>तेरह<s n="adj"/></r></p></e>
+	<e><p><l>working<s n="adj"/></l><r>नौकरीपेशा<s n="adj"/></r></p></e>
+	<e><p><l>pola<s n="adj"/></l><r>पोला<s n="adj"/></r></p></e>
+	<e><p><l>front<s n="adj"/></l><r>बाहरवाला<s n="adj"/></r></p></e>
+	<e><p><l>middle<s n="adj"/></l><r>मझोला<s n="adj"/></r></p></e>
+	<e><p><l>dead<s n="adj"/></l><r>मरा<s n="adj"/></r></p></e>
 <e><p><l>prosper<s n="adj"/></l><r>हृष्टपुष्ट<s n="adj"/></r></p></e>
 	<e><p><l>downgrading<s n="adj"/></l><r>हीनभावना<s n="adj"/></r></p></e>
 	<e><p><l>potential<s n="adj"/></l><r>संभावित<s n="adj"/></r></p></e>
