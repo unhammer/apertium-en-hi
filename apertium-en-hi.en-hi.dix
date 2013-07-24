@@ -7679,12 +7679,12 @@
 	<e><p><l>sirajal<s n="n"/></l><r>शिराजाल<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>fillin<s n="n"/></l><r>खानापूरी<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>leakage<b/>of<b/>opium<s n="n"/></l><r>निःसरण<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>औjasy<s n="n"/></l><r>औजस्य<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>shubhra<s n="n"/></l><r>शुभ्रा<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>qualifying<b/>expenditure<s n="n"/></l><r>अर्हक<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>pavs<s n="n"/></l><r>पावस<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>stabd<s n="n"/></l><r>शताब्द<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>population<s n="n"/></l><r>जनमानस<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>population<s n="n"/></l><r>जनसंख्‍या<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>power<s n="n"/></l><r>पावर<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>solar<b/>eclipse<s n="n"/></l><r>सूर्यग्रहण<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bhagwati<s n="n"/></l><r>भगवती<s n="n"/><s n="f"/></r></p></e>
@@ -14261,7 +14261,7 @@
 	<e><p><l>cave-in<s n="n"/></l><r>धँसान<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>aim<s n="n"/></l><r>ध्येय<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>pole<s n="n"/></l><r>ध्रुव<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>standard<s n="n"/></l><r>ध्वज<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>flag<s n="n"/></l><r>ध्वज<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bunting<s n="n"/></l><r>ध्वजपट<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>in<b/>hand<s n="n"/></l><r>नकद<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>mask<s n="n"/></l><r>नकाब<s n="n"/><s n="m"/></r></p></e>
@@ -15666,7 +15666,7 @@
 	<e><p><l>stony<s n="n"/></l><r>पथरीला<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>parasitic<s n="n"/></l><r>परजीवी<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>altruistic<s n="n"/></l><r>परोपकारी<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>solemn<s n="n"/></l><r>पवित्र<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>holy<s n="n"/></l><r>पवित्र<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>tame<s n="n"/></l><r>पालतू<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>brass<s n="n"/></l><r>पीतल<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>venerable<s n="n"/></l><r>पूज्य<s n="n"/><s n="m"/></r></p></e>
@@ -36146,7 +36146,6 @@
     <e><p><l>hoarse<s n="adj"/></l><r>कर्कश<s n="adj"/></r></p></e>
     <e><p><l>hoary<s n="adj"/></l><r>पुरातन<s n="adj"/></r></p></e>
     <e><p><l>hoity-toity<s n="adj"/></l><r>अभिमानी<s n="adj"/></r></p></e>
-    <e><p><l>holistic<s n="adj"/></l><r>पवित्र<s n="adj"/></r></p></e>
     <e><p><l>hollow<s n="adj"/></l><r>खोखला<s n="adj"/></r></p></e>
     <e><p><l>holy<s n="adj"/></l><r>पवित्र<s n="adj"/></r></p></e>
     <e><p><l>home-made<s n="adj"/></l><r>स्वदेशी<s n="adj"/></r></p></e>
@@ -40687,7 +40686,7 @@
 	<e><p><l>filthy<s n="adj"/></l><r>मलिन<s n="adj"/></r></p></e>
 	<e><p><l>struck<s n="adj"/></l><r>मारा<s n="adj"/></r></p></e>
 	<e><p><l>additive<s n="adj"/></l><r>योज्य<s n="adj"/></r></p></e>
-	<e><p><l>protege<s n="adj"/></l><r>रक्षित<s n="adj"/></r></p></e>
+	<e><p><l>protected<s n="adj"/></l><r>रक्षित<s n="adj"/></r></p></e>
 	<e><p><l>cent<s n="adj"/></l><r>शत<s n="adj"/></r></p></e>
 	<e><p><l>relative<s n="adj"/></l><r>सगा<s n="adj"/></r></p></e>
 	<e><p><l>synonym<s n="adj"/></l><r>समानार्थ<s n="adj"/></r></p></e>
