@@ -117,6 +117,7 @@
     <e><p><l>such<s n="det"/><s n="ind"/></l><r>ऐस<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>other<s n="det"/><s n="ind"/></l><r>दूसरी<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>many<s n="det"/><s n="qnt"/></l><r>कई<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>many<s n="det"/><s n="qnt"/></l><r>अनेक<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>both<s n="det"/><s n="ind"/></l><r>दोनों<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -292,6 +293,10 @@
     <e><p><l>fourteenth<s n="num"/><s n="ord"/></l><r>चौदहवां<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>seventy<b/>eighth<s n="num"/><s n="ord"/></l><r>अठहत्तरवां<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>hundredth<s n="num"/><s n="ord"/></l><r>सौवां<s n="num"/><s n="ord"/></r></p></e>
+    <e><p><l>crore<s n="num"/></l><r>करोड़<s n="num"/></r></p></e>
+    <e><p><l>lakh<s n="num"/></l><r>लाख<s n="num"/></r></p></e>
+    <e><p><l>thousand<s n="num"/></l><r>हजार<s n="num"/></r></p></e>
+    <e><p><l>billion<s n="num"/></l><r>अरब<s n="num"/></r></p></e>
    
 	<!-- SECTION: Nouns -->
 
@@ -14693,6 +14698,7 @@
     <e><p><l>fraudulent<s n="adj"/></l><r>धोखेबाज<s n="adj"/></r></p></e>
     <e><p><l>fraught<s n="adj"/></l><r>परिपूर्ण<s n="adj"/></r></p></e>
     <e><p><l>free<s n="adj"/></l><r>स्वतंत्र<s n="adj"/></r></p></e>
+    <e><p><l>independent<s n="adj"/></l><r>स्वतंत्र<s n="adj"/></r></p></e>
     <e><p><l>free<b/>range<s n="adj"/></l><r>स्वच्छंद<s n="adj"/></r></p></e>
     <e><p><l>free<b/>lance<s n="adj"/></l><r>स्वतंत्र<s n="adj"/></r></p></e>
     <e><p><l>fresh<s n="adj"/></l><r>ताजा<s n="adj"/></r></p></e>
@@ -19283,7 +19289,7 @@
     <e><p><l>hellish<s n="adv"/></l><r>नारकीय<s n="adv"/></r></p></e>
     <e><p><l>helter-skelter<s n="adv"/></l><r>अस्त-व्यस्त<s n="adv"/></r></p></e>
     <e><p><l>here<s n="adv"/></l><r>यहाँ<s n="adv"/></r></p></e>
-    <e><p><l>histrionically<s n="adv"/></l><r>s n="adv"/></r></p></e>
+    <e><p><l>here<s n="adv"/></l><r>यहां<s n="adv"/></r></p></e>
     <e><p><l>hollowly<s n="adv"/></l><r>दिखावटी<s n="adv"/></r></p></e>
     <e><p><l>home<s n="adv"/></l><r>घर<s n="adv"/></r></p></e>
     <e><p><l>honorific<s n="adv"/></l><r>सम्मानप्रद<s n="adv"/></r></p></e>
@@ -19848,12 +19854,15 @@
     <!-- SECTION: Verbs -->
 
 
+
     <e><p><l>be<s n="vbser"/></l><r>हो<s n="vbser"/></r></p></e>		
     <e><p><l>happen<s n="vblex"/></l><r>हो<s n="vblex"/><s n="iv"/></r></p></e>	
 	<e><p><l>can<s n="vaux"/></l><r>सक<s n="vaux"/></r></p></e>	
 	<e><p><l>can<s n="vaux"/></l><r>सक<s n="vaux"/></r></p></e>
 	<e><p><l>be<s n="vaux"/></l><r>चुक<s n="vaux"/></r></p></e> 
-    <e><p><l>cover<s n="vblex"/></l><r>ढक<s n="vblex"/><s n="tv"/></r></p></e>		      
+    <e><p><l>keep<s n="vblex"/></l><r>रख<s n="vblex"/><s n="tv"/></r></p></e>		          
+    <e><p><l>grow<s n="vblex"/></l><r>बढ़<s n="vblex"/><s n="tv"/></r></p></e>		          
+	<e><p><l>cover<s n="vblex"/></l><r>ढक<s n="vblex"/><s n="tv"/></r></p></e>		      
 	<e><p><l>freeze<s n="vblex"/></l><r>जमा<s n="vblex"/><s n="tv"/></r></p></e>		  
     <e><p><l>spend<s n="vblex"/></l><r>गुजार<s n="vblex"/><s n="tv"/></r></p></e>		  
     <e><p><l>search<s n="vblex"/></l><r>तलाश<s n="vblex"/><s n="tv"/></r></p></e>	
@@ -26983,7 +26992,7 @@
 	<e><p><l>world<s n="n"/></l><r>संसार<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>universe<s n="n"/></l><r>संसृति<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>impregnation<s n="n"/></l><r>संसेचन<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>acculturation<s n="n"/></l><r>संस्कृति<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>culture<s n="n"/></l><r>संस्कृति<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>recommendation<s n="n"/></l><r>संस्तुति<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>reminiscence<s n="n"/></l><r>संस्मरण<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>code<s n="n"/></l><r>संहिता<s n="n"/><s n="f"/></r></p></e>

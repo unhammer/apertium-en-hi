@@ -7,15 +7,38 @@
       <cat-item tags="SN.obl"/>  	
       <cat-item tags="SN.obl.*"/>   
     </def-cat>
-	
+	<def-cat n="ADJ-ADV">
+      <cat-item tags="Adj-Adv"/>  	
+    </def-cat>
     <def-cat n="SN-NOM">
       <cat-item tags="SN.nom"/>  	
       <cat-item tags="SN.nom.*"/>   
     </def-cat>
-	
+
+	<def-cat n="ADV-ITG">
+      <cat-item tags="ADV.itg."/>
+      <cat-item tags="ADV.itg.*"/>  	  	
+    </def-cat>
+
+
+
+	<def-cat n="SV">
+      <cat-item tags="SV"/>  	
+      <cat-item tags="SV.*"/>  	
+    </def-cat>
+
 	<def-cat n="SV-PRI">
       <cat-item tags="SV.pri"/>  	
       <cat-item tags="SV.pri.*"/>   
+    </def-cat>
+	<def-cat n="SV-INF">
+      <cat-item tags="SV.inf"/>  	
+      <cat-item tags="SV.inf.*"/>   
+    </def-cat>
+
+	<def-cat n="SV-IMPF">
+      <cat-item tags="SV.impf"/>  	
+      <cat-item tags="SV.impf.*"/>   
     </def-cat>
 
     <def-cat n="POST">
@@ -112,7 +135,35 @@
         </out>
       </action>
     </rule>
-
+	    <rule comment="REGLA: SN ADV-ITG SV-PRI ">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADV-ITG"/>
+        <pattern-item n="SV-PRI"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+	
     <rule comment="REGLA: ADJ VERB">
       <pattern>
         <pattern-item n="ADJ"/>
@@ -292,6 +343,34 @@
         </out>
       </action>
     </rule>
+    <rule comment="REGLA: SV-INF POST SV-PRI">
+      <pattern>
+        <pattern-item n="SV-INF"/>
+        <pattern-item n="POST"/>
+		<pattern-item n="SV-PRI"/>
+      </pattern>
+      <action>
+        <out>
+		 <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: SN-OBL POST POST ">
       <pattern>
@@ -321,8 +400,84 @@
         </out>
       </action>
     </rule>
-	
 
+    <rule comment="REGLA: SN-OBL POST SV-PRI ">
+      <pattern>
+        <pattern-item n="SN-OBL"/>
+        <pattern-item n="POST"/>
+        <pattern-item n="SV-PRI"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: SN-NOM ADJ SV-PRI ">
+      <pattern>
+        <pattern-item n="SN-NOM"/>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="SV-PRI"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA:  ADJ-ADV SV ">
+      <pattern>
+        <pattern-item n="ADJ-ADV"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </interchunk>
 

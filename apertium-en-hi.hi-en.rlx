@@ -16,6 +16,18 @@ LIST Det = det ;
 
 SECTION
 
+
+SELECT Adv IF
+	(0 Adj)
+	(0 Adv)
+	(1 Adj);
+
+SELECT Det IF
+	(0 Adj)
+	(0 N)
+	(0 Det)	
+	(1 N);
+
 SELECT Adj IF
 	(0 Adj)
 	(0 N)
@@ -32,6 +44,8 @@ SELECT Adv IF
 	(0 Adj)
 	(0 Adv)
 	(1 Verb);
+
+
 
 SELECT Stem IF
 	(0 Stem)

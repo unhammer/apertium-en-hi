@@ -11,7 +11,9 @@
     <def-cat n="vblex-impf">
       <cat-item tags="vblex.*.impf.*"/>
     </def-cat>
-
+    <def-cat n="vblex-inf">
+      <cat-item tags="vblex.*.inf.*"/>
+    </def-cat>
     <def-cat n="vblex-fut">
       <cat-item tags="vblex.*.fut.*"/>
     </def-cat>
@@ -50,6 +52,10 @@
     <def-cat n="pron-pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+    </def-cat>
 
     <def-cat n="nmod">
       <cat-item tags="num"/>
@@ -84,10 +90,7 @@
 	  <cat-item tags="adj.*"/>
 	</def-cat>
 
-	<def-cat n="adv">
-	  <cat-item tags="adv"/>
-	  <cat-item tags="adv.*"/>
-	</def-cat>
+
 
   </section-def-cats>
 
@@ -150,6 +153,9 @@
       <attr-item tags="erg"/>
       <attr-item tags="obl"/>
     </def-attr>
+    <def-attr n="a_type">
+      <attr-item tags="itg"/>
+    </def-attr>
 
   </section-def-attrs>
   <section-def-vars>
@@ -178,7 +184,7 @@
            <when>
              <test><and>
                <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="impf"/></equal>
-               <not><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="vbser"/></equal></not>
+               <not><equal><clip pos="1" side="sl" part="a_verb"/><lit-tag v="vbser"/></equal></not>
              </and></test>
              <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pres"/></let>
            </when>
@@ -186,7 +192,7 @@
            <when>
              <test><and>
                <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="impf"/></equal>
-               <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="vbser"/></equal>
+               <equal><clip pos="1" side="sl" part="a_verb"/><lit-tag v="vbser"/></equal>
              </and></test>
              <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
            </when>
@@ -230,6 +236,72 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: adv">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_type"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: vblex-inf">
+      <pattern>
+        <pattern-item n="vblex-inf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vblex_inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tense"/>
+              <clip pos="1"  side="tl"  part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: vblex-impf">
+      <pattern>
+        <pattern-item n="vblex-impf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vblex_impf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tense"/>
+              <clip pos="1"  side="tl"  part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -419,9 +491,9 @@
       </pattern>
       <action>
         <out>
-          <chunk name="aa" case="caseFirstWord">
+          <chunk name="adj-adv" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="AA"/></tag>
+              <tag><lit-tag v="Adj-Adv"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -448,6 +520,35 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="sl" part="a_tense"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>	
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tense"/>
+              <clip pos="1" side="tl" part="a_pers"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: vbser-impf">
+      <pattern>
+        <pattern-item n="vbser-impf"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_tense"/></tag>
               <tag><clip pos="1" side="sl" part="a_pers"/></tag>
               <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
             </tags>
@@ -463,6 +564,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: vblex-perf">
       <pattern>
@@ -630,8 +732,6 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="2" side="tl" part="a_tense"/>
-              <clip pos="2" side="tl" part="a_pers"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
 		
