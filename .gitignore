@@ -1,0 +1,17 @@
+*.log
+*.bin
+Makefile
+Makefile.in
+COPYING
+INSTALL
+aclocal.m4
+autom4te.cache/
+config
+config.in
+config.status
+configure
+hi-en.mode
+install-sh
+missing
+stamp-h1
+
