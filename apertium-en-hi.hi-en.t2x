@@ -429,6 +429,7 @@
         </out>
       </action>
     </rule>
+
     <rule comment="REGLA: SN-NOM ADJ SV-PRI ">
       <pattern>
         <pattern-item n="SN-NOM"/>
