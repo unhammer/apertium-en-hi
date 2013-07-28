@@ -1,3 +1,0 @@
-    
-    lt-proc /home/nikant/Repository/git/apertium-en-hi/en-hi.automorf.bin |apertium-tagger -g /home/nikant/Repository/git/apertium-en-hi/en-hi.prob |apertium-pretransfer|apertium-transfer /home/nikant/Repository/git/apertium-en-hi/apertium-en-hi.en-hi.t1x  /home/nikant/Repository/git/apertium-en-hi/en-hi.t1x.bin  /home/nikant/Repository/git/apertium-en-hi/en-hi.autobil.bin |apertium-interchunk /home/nikant/Repository/git/apertium-en-hi/apertium-en-hi.en-hi.t2x  /home/nikant/Repository/git/apertium-en-hi/en-hi.t2x.bin 
-  

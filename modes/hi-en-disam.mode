@@ -1,3 +1,0 @@
-    
-    lt-proc /home/nikant/Repository/git/apertium-en-hi/hi-en.automorf.bin |cg-conv -a|vislcg3 --trace -g /home/nikant/Repository/git/apertium-en-hi/hi-en.rlx.bin 
-  
