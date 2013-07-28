@@ -1,5 +1,7 @@
 *.log
 *.bin
+modes/
+
 Makefile
 Makefile.in
 COPYING
