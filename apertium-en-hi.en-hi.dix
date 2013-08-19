@@ -84,9 +84,13 @@
 	<e><p><l>therefore<s n="cnjadv"/></l><r>इसलिए<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Postpositions -->
+
+   
+	<e><p><l>by<s n="pr"/></l><r>ने<s n="post"/></r></p></e>
 	<e><p><l>of<s n="pr"/></l><r>का<s n="post"/></r></p></e>
-	<e><p><l>by<s n="post"/></l><r>द्वारा<s n="post"/></r></p></e>
-	<e><p><l>in<s n="post"/></l><r>का<s n="post"/></r></p></e>
+	<e><p><l>by<s n="pr"/></l><r>द्वारा<s n="post"/></r></p></e>
+	<e><p><l>in<s n="pr"/></l><r>का<s n="post"/></r></p></e>
+    <e><p><l>near<s n="pr"/></l><r>के<b/>पास<s n="post"/></r></p></e>
     <e><p><l>@<s n="pr"/></l><r>के<b/>द्वारा<s n="post"/></r></p></e>
     <e><p><l>to<s n="pr"/></l><r>को<s n="post"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>लिए<s n="post"/></r></p></e>
@@ -979,7 +983,7 @@
 	<e><p><l>content<s n="n"/></l><r>परितृप्ति<s n="n"/></r></p></e>
 	<e><p><l>expiration<s n="n"/></l><r>निःश्वसन<s n="n"/></r></p></e>
 	<e><p><l>concentrated<s n="n"/></l><r>दत्तचित्त<s n="n"/></r></p></e>
-	<e><p><l>tree<s n="n"/></l><r>तरुवर<s n="n"/></r></p></e>
+	<e><p><l>tree<s n="n"/></l><r>पेड़<s n="n"/></r></p></e>
 	<e><p><l>jealousy<s n="n"/></l><r>डाह<s n="n"/></r></p></e>
 	<e><p><l>sag<s n="n"/></l><r>झोल<s n="n"/></r></p></e>
 	<e><p><l>advisedly<s n="n"/></l><r>जानबूझकर<s n="n"/></r></p></e>
@@ -4834,7 +4838,8 @@
     <e><p><l>malaria<s n="n"/></l><r>मलेरिया<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hate<s n="n"/></l><r>द्वेष<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>malpractice<s n="n"/></l><r>अनाचार<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mama<s n="n"/></l><r>माँ<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cloth<s n="n"/></l><r>कपड़ा<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mother<s n="n"/></l><r>माँ<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>violin<s n="n"/></l><r>सारंगी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mane<s n="n"/></l><r>अयाल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>manganese<s n="n"/></l><r>मैंगनीज<s n="n"/><s n="m"/></r></p></e>
@@ -5892,7 +5897,7 @@
     <e><p><l>thaw<s n="n"/></l><r>गलन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>philosophy<s n="n"/></l><r>सिद्धांत<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>therapy<s n="n"/></l><r>रोगोपचार<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>vocabulary<s n="n"/></l><r>शब्दकोश<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dictionary<s n="n"/></l><r>शब्दकोश<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>thickness<s n="n"/></l><r>मोटाई<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thicket<s n="n"/></l><r>झाडी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thigh<s n="n"/></l><r>जाँघ<s n="n"/><s n="f"/></r></p></e>
@@ -10250,7 +10255,7 @@
     <e><p><l>face<s n="n"/></l><r>चेहरा<s n="n"/></r></p></e>
     <e><p><l>kwacha<s n="n"/></l><r>क्वाचा<s n="n"/></r></p></e>
     <e><p><l>effort<s n="n"/></l><r>मेहनत<s n="n"/></r></p></e>
-    <e><p><l>laddie<s n="n"/></l><r>लड़का<s n="n"/></r></p></e>
+    <e><p><l>boy<s n="n"/></l><r>लड़का<s n="n"/></r></p></e>
     <e><p><l>waybill<s n="n"/></l><r>बिल्टी<s n="n"/></r></p></e>
     <e><p><l>laird<s n="n"/></l><r>ज़मींदार<s n="n"/></r></p></e>
     <e><p><l>lameness<s n="n"/></l><r>लँगड़ापन<s n="n"/></r></p></e>
@@ -10258,7 +10263,7 @@
     <e><p><l>landownership<s n="n"/></l><r>ज़मींदारी<s n="n"/></r></p></e>
     <e><p><l>landowning<s n="n"/></l><r>ज़मींदार<s n="n"/></r></p></e>
     <e><p><l>lappet<s n="n"/></l><r>गलचर्म<s n="n"/></r></p></e>
-    <e><p><l>bird<s n="n"/></l><r>लड़की<s n="n"/></r></p></e>
+    <e><p><l>girl<s n="n"/></l><r>लड़की<s n="n"/></r></p></e>
     <e><p><l>lasting<s n="n"/></l><r>मजबूत<s n="n"/></r></p></e>
     <e><p><l>latex<s n="n"/></l><r>लेटेक्स<s n="n"/></r></p></e>
     <e><p><l>laundrywoman<s n="n"/></l><r>धोबिन<s n="n"/></r></p></e>
@@ -11711,6 +11716,9 @@
     <e><p><l>Zion<s n="n"/></l><r>ज़ायन<s n="n"/></r></p></e>
 
     <!-- SECTION: Proper nouns --> 
+
+	<e><p><l>Britain<s n="np"/><s n="top"/></l><r>ब्रिटेन<s n="np"/><s n="top"/></r></p></e>	    
+	<e><p><l>India<s n="np"/><s n="top"/></l><r>भारत<s n="np"/><s n="top"/></r></p></e>	    
 	<e><p><l>Lo<s n="np"/><s n="top"/></l><r>लो<s n="np"/><s n="top"/></r></p></e>	    
 	<e><p><l>Moons<s n="np"/><s n="top"/></l><r>मून्स<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>IC<s n="np"/><s n="top"/></l><r>आइसी<s n="np"/><s n="top"/></r></p></e> 
@@ -11728,7 +11736,8 @@
     <e><p><l>Rahul<s n="np"/><s n="ant"/></l><r>राहुल<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>James<s n="np"/><s n="ant"/></l><r>जेम्स<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मरियम<s n="np"/><s n="ant"/></r></p></e>
-	<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मैरी<s n="np"/><s n="ant"/></r></p></e>
+	<e><p><l>Mary<s n="np"/><s n="ant"/></l><r>मैरी<s n="np"/><s n="ant"/></r></p></e> 
+	<e><p><l>Aamil<s n="np"/><s n="ant"/></l><r>आमिल<s n="np"/><s n="ant"/></r></p></e>
 	<e><p><l>Europa<s n="np"/><s n="top"/></l><r>यूरोपा<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Ganimad<s n="np"/><s n="top"/></l><r>गेनीमेड<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Calisto<s n="np"/><s n="top"/></l><r>कैलिस्टो<s n="np"/><s n="top"/></r></p></e> 
@@ -16847,6 +16856,7 @@
     <e><p><l>happen<s n="vblex"/></l><r>हो<s n="vblex"/><s n="iv"/></r></p></e>	
 	<e><p><l>can<s n="vaux"/></l><r>सक<s n="vaux"/></r></p></e>	
 	<e><p><l>be<s n="vaux"/></l><r>चुक<s n="vaux"/></r></p></e> 
+    <e><p><l>study<s n="vblex"/></l><r>पढ़<s n="vblex"/><s n="tv"/></r></p></e>		          
     <e><p><l>keep<s n="vblex"/></l><r>रख<s n="vblex"/><s n="tv"/></r></p></e>		          
     <e><p><l>grow<s n="vblex"/></l><r>बढ़<s n="vblex"/><s n="tv"/></r></p></e>		          
 	<e><p><l>cover<s n="vblex"/></l><r>ढक<s n="vblex"/><s n="tv"/></r></p></e>		      
@@ -17647,6 +17657,7 @@
 	<e><p><l>dor<s n="n"/></l><r>डोर<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>exchange<s n="n"/></l><r>आदान<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>table<s n="n"/></l><r>टेबल<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>table<s n="n"/></l><r>मेज़<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>sound<b/>wave<s n="n"/></l><r>ध्वनितरंग<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>sliding<s n="n"/></l><r>रपट<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>inner<b/>fire<b/>which<b/>bestows<s n="n"/></l><r>अग्निविद्या<s n="n"/><s n="f"/></r></p></e>

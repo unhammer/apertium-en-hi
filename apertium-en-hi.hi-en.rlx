@@ -13,9 +13,13 @@ LIST Stem = stem ;
 LIST Vaux = vaux ; 
 LIST Vbser = vbser ;
 LIST Det = det ;
+LIST Conj = cnjcoo;
 
 SECTION
 
+SELECT Post IF
+	(-1 N)
+	(0 Post or Conj)
 
 SELECT Adv IF
 	(0 Adj)
