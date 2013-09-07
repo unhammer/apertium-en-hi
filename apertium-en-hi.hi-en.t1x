@@ -58,8 +58,7 @@
     </def-cat>
 
     <def-cat n="nmod">
-      <cat-item tags="adj"/>
-      <cat-item tags="adj.*"/>
+
 	  <cat-item tags="det"/>
       <cat-item tags="det.*"/>
     </def-cat>
@@ -132,7 +131,9 @@
       <attr-item tags="vbhaver"/>
       <attr-item tags="vaux"/>
     </def-attr>
-
+    <def-attr n="a_deg">
+      <attr-item tags="sint"/>
+    </def-attr>
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
@@ -146,7 +147,16 @@
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+    <def-attr n="a_pos">
+      <attr-item tags="adj"/>
+      <attr-item tags="n"/>
+      <attr-item tags="adv"/>
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="num"/>
+      <attr-item tags="post"/>
 
+    </def-attr>
 
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -201,7 +211,49 @@
 
          </choose>
     </def-macro>
+    <def-macro n="vbser_1" npar="1">
+         <choose>
+           <when>
 
+             <test><and>
+               <equal><clip pos="1" side="sl" part="a_verb"/><lit-tag v="vbser"/></equal>
+               <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+             </and></test>
+             <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v=""/></let>
+			 <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v=""/></let>	          
+		 </when>
+
+         </choose>
+    </def-macro>
+    <def-macro n="vblex_1" npar="1">
+         <choose>
+           <when>
+
+             <test><and>
+               <equal><clip pos="1" side="sl" part="a_verb"/><lit-tag v="vblex"/></equal>
+               <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal> 
+              <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+             </and></test>
+             <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v=""/></let>
+			 <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v=""/></let>	          
+		 </when>
+
+         </choose>
+    </def-macro>
+    <def-macro n="adj_1" npar="1">
+         <choose>
+           <when>
+
+             <test>
+               <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="adj"/></equal>
+             </test>
+			 <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v=""/></let>
+             <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v=""/></let>
+			 <let><clip pos="1" side="tl" part="a_gender"/><lit-tag v=""/></let>	          
+		 </when>
+
+         </choose>
+    </def-macro>
     <def-macro n="set_func1" npar="1">
          <choose>
            <when>
@@ -356,6 +408,7 @@
         </out>
       </action>
     </rule>
+
    <rule comment="REGLA: num nom">
       <pattern>
         <pattern-item n="num"/>
@@ -387,7 +440,8 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <let><clip pos="2" side="tl" part="a_cas"/><lit v=""/></let>
+        <let><clip pos="3" side="tl" part="a_cas"/><lit v=""/></let>
+
         <out>
           <chunk name="x_n" case="caseFirstWord">
             <tags>
@@ -431,6 +485,7 @@
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
+            <b/>
 			<lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
@@ -445,13 +500,20 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let><clip pos="2" side="tl" part="a_cas"/><lit v=""/></let>
+        <call-macro n="adj_1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="adj_n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AN"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_pos"/>
+              <clip pos="1" side="tl" part="a_deg"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/>
             <lu>
@@ -468,6 +530,9 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="adj_1">
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="adj-adv" case="caseFirstWord">
             <tags>
@@ -478,7 +543,10 @@
             </lu>
             <b/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_pos"/>
+              <clip pos="1" side="tl" part="a_deg"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -491,6 +559,9 @@
       </pattern>
       <action>
         <call-macro n="conv_tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="vbser_1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -520,6 +591,9 @@
       </pattern>
       <action>
         <call-macro n="conv_tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="vbser_1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1012,13 +1086,19 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="adj_1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="ADJ"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_pos"/>
+              <clip pos="1" side="tl" part="a_deg"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

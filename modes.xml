@@ -96,7 +96,7 @@
       <program name="lrx-proc">
         <file name="hi-en.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -t -b">
         <file name="apertium-en-hi.hi-en.t1x"/>
         <file name="hi-en.t1x.bin"/>
       </program>
@@ -104,7 +104,7 @@
   </mode>
 
 
-  <mode name="hi-en-interchunk" install="no">
+  <mode name="hi-en-interchunk1" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="hi-en.automorf.bin"/>
@@ -133,7 +133,38 @@
     </pipeline>
   </mode>
 
-
+  <mode name="hi-en-interchunk2" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="hi-en.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="hi-en.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="hi-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="hi-en.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-en-hi.hi-en.t1x"/>
+        <file name="hi-en.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-hi.hi-en.t2x"/>
+        <file name="hi-en.t2x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-hi.hi-en.t3x"/>
+        <file name="hi-en.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
   <mode name="hi-en-postchunk" install="no">
     <pipeline>
@@ -161,13 +192,16 @@
         <file name="apertium-en-hi.hi-en.t2x"/>
         <file name="hi-en.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-en-hi.hi-en.t3x"/>
         <file name="hi-en.t3x.bin"/>
       </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-hi.hi-en.t4x"/>
+        <file name="hi-en.t4x.bin"/>
+      </program>
     </pipeline>
   </mode>
-
 
 
   <mode name="hi-en" install="yes">
@@ -196,11 +230,57 @@
         <file name="apertium-en-hi.hi-en.t2x"/>
         <file name="hi-en.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-en-hi.hi-en.t3x"/>
         <file name="hi-en.t3x.bin"/>
       </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-hi.hi-en.t4x"/>
+        <file name="hi-en.t4x.bin"/>
+      </program>
       <program name="lt-proc $1">
+        <file name="hi-en.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+  <mode name="hi-en-debug" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="hi-en.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="hi-en.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="hi-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hi-en.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="hi-en.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-en-hi.hi-en.t1x"/>
+        <file name="hi-en.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-hi.hi-en.t2x"/>
+        <file name="hi-en.t2x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-hi.hi-en.t3x"/>
+        <file name="hi-en.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-hi.hi-en.t4x"/>
+        <file name="hi-en.t4x.bin"/>
+      </program>
+      <program name="lt-proc -d">
         <file name="hi-en.autogen.bin"/>
       </program>
     </pipeline>

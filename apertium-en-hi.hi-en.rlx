@@ -11,9 +11,11 @@ LIST Adv = adv;
 LIST Verb = vblex;
 LIST Stem = stem ; 
 LIST Vaux = vaux ; 
+LIST Vblex = vblex ; 
 LIST Vbser = vbser ;
 LIST Det = det ;
 LIST Conj = cnjcoo;
+LIST ConjAdv = cnjadv;
 
 SECTION
 
@@ -25,6 +27,17 @@ SELECT Adv IF
 	(0 Adj)
 	(0 Adv)
 	(1 Adj);
+
+SELECT Adv IF
+	(0 ConjAdv)
+	(0 Adv)
+	(1 Vblex);
+
+SELECT ConjAdv IF
+	(0 ConjAdv)
+	(0 Adv)
+
+
 
 SELECT Det IF
 	(0 Adj)
