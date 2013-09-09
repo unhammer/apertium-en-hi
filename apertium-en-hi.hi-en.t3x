@@ -19,8 +19,19 @@
       <cat-item tags="ADV.itg."/>
       <cat-item tags="ADV.itg.*"/>  	  	
     </def-cat>
+	<def-cat n="ADVL">
+      <cat-item tags="ADVL"/>
+      <cat-item tags="ADVL.*"/>  	  	
+    </def-cat>
+	<def-cat n="SN-SUBJ">
 
+      <cat-item tags="SN.subj.p3.*.*.GD"/>  	  	
+    </def-cat>
 
+	<def-cat n="SN-OBJ">
+      <cat-item tags="SN.obj"/> 
+      <cat-item tags="SN.obj.*"/>  	  	 	  	
+    </def-cat>
 
 	<def-cat n="SV">
       <cat-item tags="SV"/>  	
@@ -69,22 +80,81 @@
     </def-cat>
 
   </section-def-cats>
-  <section-def-attrs>
+ <section-def-attrs>
+  <def-attr n="a_nom">
+      <attr-item tags="n"/>
+    </def-attr>
+
+    <def-attr n="a_func">
+      <attr-item tags="subj"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="FD"/>
+    </def-attr>
+
+    <def-attr n="a_gender">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+	  <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+
+    <def-attr n="a_tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="impf"/>
+      <attr-item tags="perf"/>
+      <attr-item tags="past"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="inf"/>
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+    <def-attr n="a_deg">
+      <attr-item tags="sint"/>
+    </def-attr>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+    <def-attr n="a_pos">
+      <attr-item tags="adj"/>
+      <attr-item tags="n"/>
+      <attr-item tags="adv"/>
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="num"/>
+      <attr-item tags="post"/>
+      <attr-item tags="prn"/>
+
+    </def-attr>
+
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
       <attr-item tags="gen"/>
-      <attr-item tags="ins"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="abl"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="erg"/>
+      <attr-item tags="obl"/>
     </def-attr>
+    <def-attr n="a_type">
+      <attr-item tags="itg"/>
+    </def-attr>
+
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
@@ -168,6 +238,7 @@
 
 
 
+
     <rule comment="REGLA: SN-OBL SV-PRI">
       <pattern>
         <pattern-item n="SN-OBL"/>
@@ -185,6 +256,61 @@
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN-SUBJ SV-PRI">
+      <pattern>
+        <pattern-item n="SN-SUBJ"/>
+        <pattern-item n="SV-PRI"/>
+      </pattern>
+
+      <action>
+        <let><clip pos="1" part="a_gender"/><clip pos="2" part="a_gender"/></let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: SN-SUBJ ADVL SV-PRI">
+      <pattern>
+        <pattern-item n="SN-SUBJ"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV-PRI"/>
+      </pattern>
+
+      <action>
+        <let><clip pos="1" part="a_gender"/><clip pos="3" part="a_gender"/></let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
       </action>
@@ -438,6 +564,34 @@
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: SN-OBJ SN SV-PRI ">
+      <pattern>
+        <pattern-item n="SN-OBJ"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV-PRI"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="2"/>
           <chunk>

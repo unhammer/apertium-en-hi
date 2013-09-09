@@ -12,6 +12,9 @@
     <match lemma="लोग" tags="n.*"><select lemma="people" tags="n.*"/></match> 
   </rule>
   <rule>
+    <match lemma="से" tags="post"><select lemma="with" tags="pr"/></match> 
+  </rule>
+  <rule>
     <match lemma="खेल" tags="n.*"><select lemma="game" tags="n.*"/></match> 
   </rule>
   <rule>

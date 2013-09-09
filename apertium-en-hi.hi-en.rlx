@@ -27,6 +27,10 @@ SELECT Adv IF
 	(0 Adj)
 	(0 Adv)
 	(1 Adj);
+SELECT Adj IF
+	(0 Adj)
+	(0 Adv)
+	(1 N);
 
 SELECT Adv IF
 	(0 ConjAdv)

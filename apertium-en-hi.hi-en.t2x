@@ -4,8 +4,8 @@
   <section-def-cats>
 
     <def-cat n="SN-OBL">
-      <cat-item tags="SN.obl"/>  	
-      <cat-item tags="SN.obl.*"/>   
+      <cat-item tags="SN.obl.kdk"/>  	
+      <cat-item tags="SN.obl.kkd.*"/>   
     </def-cat>
 
     <def-cat n="POST">
@@ -70,17 +70,14 @@
       </pattern>
       <action>
         <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
+		<chunk >
+			
+			<lit-tag v="ADVL"/>
             <clip pos="2" part="chcontent"/>
-          </chunk>
-          <b pos="1"/>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
+         	 <b pos="1"/>
             <clip pos="1" part="chcontent"/>
-          </chunk>
+
+		</chunk>
         </out>
       </action>
     </rule>
