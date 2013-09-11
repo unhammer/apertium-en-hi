@@ -12,10 +12,22 @@
     <match lemma="लोग" tags="n.*"><select lemma="people" tags="n.*"/></match> 
   </rule>
   <rule>
+    <match lemma="से" tags="post"><select lemma="with" tags="pr"/></match> 
+  </rule>
+  <rule>
     <match lemma="खेल" tags="n.*"><select lemma="game" tags="n.*"/></match> 
   </rule>
   <rule>
     <match lemma="कुत्ता" tags="n.*"><select lemma="dog" tags="n.*"/></match> 
+  </rule>
+  <rule>
+    <match lemma="स्वतंत्र" tags="adj.*"><select lemma="independent" tags="adj.*"/></match> 
+  </rule>
+  <rule>
+    <match lemma="निश्चित" tags="adj.*"><select lemma="certain" tags="adj.*"/></match> 
+  </rule>	
+  <rule>
+    <match lemma="लगभग" tags="adv"><select lemma="almost" tags="adv"/></match> 
   </rule>	
   <rule>
     <match lemma="के पीछे" tags="post"/>
